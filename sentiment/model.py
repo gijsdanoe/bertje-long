@@ -24,6 +24,28 @@ except ImportError:
 # `BertSelfAttention` with `BertLongSelfAttention`, which is a thin wrapper
 # around `LongformerSelfAttention`.
 
+class BertLongSelfAttention(LongformerSelfAttention):
+    def forward(
+        self,
+        hidden_states,
+        attention_mask=None,
+        head_mask=None,
+        encoder_hidden_states=None,
+        encoder_attention_mask=None,
+        past_key_value=None,
+        output_attentions=False,
+    ):
+        return super().forward(hidden_states, attention_mask=attention_mask,
+                output_attentions=output_attentions)
+
+
+class BertLong(BertForMaskedLM):
+    def __init__(self, config):
+        super().__init__(config)
+        for i, layer in enumerate(self.bert.encoder.layer):
+            # replace the `modeling_bert.BertSelfAttention` object with
+            # `LongformerSelfAttention`
+            layer.attention.self = BertLongSelfAttention(config, layer_id=i)
 
             
             
