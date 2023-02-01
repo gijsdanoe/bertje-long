@@ -1,0 +1,2 @@
+model_checkpoint_path: "pronounmodel.pt"
+all_model_checkpoint_paths: "pronounmodel.pt"

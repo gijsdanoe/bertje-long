@@ -1,0 +1,1 @@
+pronounresolution.py ../riddlecoref/split/riddle/train/*.conll ../riddlecoref/split/riddle/dev/*.conll ../riddlecoref/parses/ bertje sent

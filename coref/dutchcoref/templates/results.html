@@ -1,0 +1,109 @@
+<!DOCTYPE html><html>
+<head><meta charset=utf-8>
+<title>{{ docname }} coref</title>
+<style>
+body { margin: 3em; }
+div.main { max-width: 50em; }
+span { font-weight: bold; }
+span.n { font-weight: normal; }
+span.q { color: green; font-weight: normal; }
+pre {
+    font-family:
+        "Liberation Mono",
+        "Ubuntu Monospace",
+        "Andale Mono",
+        "Lucida Console",
+        "Droid Sans Mono",
+        "DejaVu Sans Mono",
+        monospace;
+    font-size: 10pt;
+}
+pre { line-height: 11pt; }
+.ansi2html-content {
+    display: inline; white-space: pre-wrap; word-wrap: break-word;
+    background: black; }
+.div_foreground { color: #AAAAAA; padding: .5em; }
+.div_background { background-color: #000000; }
+.div_foreground > .bold,.bold > .div_foreground, div.div_foreground
+    > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+.ansi31 { color: #cd0000; }
+.ansi32 { color: #00cd00; }
+.ansi33 { color: #cdcd00; }
+</style>
+<script>
+function highlight(ev) {
+    var cls = ev.currentTarget.className;
+    var elems = document.getElementsByClassName(cls)
+    for (var n = 0; n < elems.length; n++)
+        elems[n].style.background = 'yellow';
+}
+function unhighlight(ev) {
+    var cls = ev.currentTarget.className;
+    var elems = document.getElementsByClassName(cls)
+    for (var n = 0; n < elems.length; n++)
+        elems[n].style.background = '';
+}
+function addhighlighting() {
+    var elems = document.getElementsByTagName('span');
+    for (var n = 0; n < elems.length; n++) {
+        if (typeof elems[n].className !== 'undefined'
+                && elems[n].className.charAt(0) == 'c') {
+            elems[n].style = '';
+            elems[n].onmouseover = highlight;
+            elems[n].onmouseout = unhighlight;
+        }
+    }
+}
+function hlcolor(id, color) {
+    var elem = document.getElementById(id);
+    if (typeof elem.style !== 'undefined') {
+        elem.style.borderColor = color;
+        elem.style.borderStyle = 'dotted';
+    } else {
+        elem.style = 'border-style: dotted; border-color: ' + color + ';';
+    }
+}
+function hl1(id) { hlcolor(id, 'blue'); }
+function hl2(id) { hlcolor(id, 'coral'); }
+function nohl(id) {
+    var elem = document.getElementById(id);
+    elem.style.borderColor = '';
+    elem.style.borderStyle = '';
+}
+function toggle(id) {
+        /* toggle element with id to be hidden or not. */
+        var el = document.getElementById(id);
+        if(el.style.display == 'none')
+                el.style.display = 'block';
+        else
+                el.style.display = 'none';
+}
+</script>
+</head>
+<body onLoad="addhighlighting()">
+<div class=main style="background: lightgray; border-style: dotted; padding: 8px; ">
+Move mouse over bracketed text to highlight coreference.
+Move mouse over direct speech to highlight speaker and addressee.
+{% if parses %}Click on a sentence to toggle the display of its parse tree.{% endif %}<br>
+Legend:
+<span class="n">[ Singleton ]</span>
+<span style="background: yellow">[ Coreference ]</span>
+<span style="border-style: dotted; border-color: blue">[ Speaker ]</span>
+<span style="border-style: dotted; border-color: coral">[ Addressee ]</span>
+<span class="q">' Direct speech '</span>
+</div>
+
+{{ corefhtml }}
+
+{% if coreftabular %}
+<div>
+<pre>{{ coreftabular }}</pre></div>
+{% endif %}
+
+{% if debugoutput %}
+<div class="div_foreground div_background main">
+<pre class="ansi2html-content">{{ debugoutput }}</pre></div>
+{% endif %}
+</body></html>
