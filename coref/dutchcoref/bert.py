@@ -36,14 +36,14 @@ def parsesentid(path):
 def loadmodel(name):
 	"""Load BERT model."""
 	if name == 'bertje-long':
-		tokenizer = AutoTokenizer.from_pretrained('/net/shared/andreas/bertje/longformer/bert-base-dutch-4096')
-		bertmodel = AutoModel.from_pretrained('/net/shared/andreas/bertje/longformer/bert-base-dutch-4096')
+		tokenizer = AutoTokenizer.from_pretrained('gijsdanoe/bertje-long')
+		bertmodel = AutoModel.from_pretrained('gijsdanoe/bertje-long')
 	if name == 'robbert-long':
 		tokenizer = AutoTokenizer.from_pretrained('pdelobelle/robbert-v2-dutch-base')
-		bertmodel = AutoModel.from_pretrained('/net/shared/andreas/bertje/robbert-long/robbert-v2-dutch-base-4096')
+		bertmodel = AutoModel.from_pretrained('gijsdanoe/robbert-long')
 	if name == 'bertje':
-		tokenizer = AutoTokenizer.from_pretrained('wietsedv/bert-base-dutch-cased')
-		bertmodel = AutoModel.from_pretrained('wietsedv/bert-base-dutch-cased')
+		tokenizer = AutoTokenizer.from_pretrained('GroNLP/bert-base-dutch-cased')
+		bertmodel = AutoModel.from_pretrained('GroNLP/bert-base-dutch-cased')
 	if name == 'robbert':
 		tokenizer = AutoTokenizer.from_pretrained('pdelobelle/robbert-v2-dutch-base')
 		bertmodel = AutoModel.from_pretrained('pdelobelle/robbert-v2-dutch-base')

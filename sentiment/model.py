@@ -72,14 +72,14 @@ class Dataset(torch.utils.data.Dataset):
 def loadmodel(name):
 	"""Load BERT model."""
 	if name == 'bertje-long':
-		tokenizer = AutoTokenizer.from_pretrained('/net/shared/andreas/bertje/longformer/bert-base-dutch-4096')
-		bertmodel = AutoModelForSequenceClassification.from_pretrained('/net/shared/andreas/bertje/longformer/bert-base-dutch-4096', num_labels=2)
+		tokenizer = AutoTokenizer.from_pretrained('gijsdanoe/bertje-long')
+		bertmodel = AutoModelForSequenceClassification.from_pretrained('gijsdanoe/bertje-long', num_labels=2)
 	if name == 'robbert-long':
 		tokenizer = AutoTokenizer.from_pretrained('pdelobelle/robbert-v2-dutch-base')
-		bertmodel = AutoModelForSequenceClassification.from_pretrained('/net/shared/andreas/bertje/robbert-long/robbert-v2-dutch-base-4096', num_labels=2)
+		bertmodel = AutoModelForSequenceClassification.from_pretrained('gijsdanoe/bertje-long', num_labels=2)
 	if name == 'bertje':
-		tokenizer = AutoTokenizer.from_pretrained('wietsedv/bert-base-dutch-cased')
-		bertmodel = AutoModelForSequenceClassification.from_pretrained('wietsedv/bert-base-dutch-cased', num_labels=2)
+		tokenizer = AutoTokenizer.from_pretrained('GroNLP/bert-base-dutch-cased')
+		bertmodel = AutoModelForSequenceClassification.from_pretrained('GroNLP/bert-base-dutch-cased', num_labels=2)
 	if name == 'robbert':
 		tokenizer = AutoTokenizer.from_pretrained('pdelobelle/robbert-v2-dutch-base')
 		bertmodel = AutoModelForSequenceClassification.from_pretrained('pdelobelle/robbert-v2-dutch-base', num_labels=2)
@@ -94,7 +94,7 @@ def train_test():
     X_train = []
     Y_train = []
     
-    with open('/home/s3494888/longformer/train.csv', encoding='utf-8') as train:
+    with open('data/train.csv', encoding='utf-8') as train:
         data = csv.reader(train)
         for line in data:
             X_train.append(line[0])
@@ -107,7 +107,7 @@ def train_test():
     X_test = []
     Y_test = []
     
-    with open('/home/s3494888/longformer/test.csv', encoding='utf-8') as test:
+    with open('data/test.csv', encoding='utf-8') as test:
         data = csv.reader(test)
         for line in data:
             X_test.append(line[0])

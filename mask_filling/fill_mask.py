@@ -13,13 +13,13 @@ except ImportError:
 
 
 
-models = ['../models/bert-base-dutch-4096','../models/robbert-v2-dutch-base-4096','GroNLP/bert-base-dutch-cased','pdelobelle/robbert-v2-dutch-base','markussagen/xlm-roberta-longformer-base-4096','flax-community/pino-bigbird-roberta-base']
+models = ['gijsdanoe/bertje-long','gijsdanoe/robbert-long','GroNLP/bert-base-dutch-cased','pdelobelle/robbert-v2-dutch-base','markussagen/xlm-roberta-longformer-base-4096','flax-community/pino-bigbird-roberta-base']
 
 dic = {}
 
 for model_path in models:
 
-    if model_path == '../models/robbert-v2-dutch-base-4096/':
+    if model_path == 'gijsdanoe/robbert-long':
     	tokenizer_path = 'pdelobelle/robbert-v2-dutch-base'
     else:
     	tokenizer_path = model_path
@@ -30,7 +30,7 @@ for model_path in models:
     model = AutoModelForMaskedLM.from_pretrained(model_path)
 
     # open text with <mask> for roberta models and [MASK] for BERT
-    if model_path == './models/bert-base-dutch-4096' or model_path == 'GroNLP/bert-base-dutch-cased':  
+    if model_path == '.gijsdanoe/bertje-long' or model_path == 'GroNLP/bert-base-dutch-cased':  
         f = open("text_long_bert.txt", "r")
         text_long = f.read()
 
