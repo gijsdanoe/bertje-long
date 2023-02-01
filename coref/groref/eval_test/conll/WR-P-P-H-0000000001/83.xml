@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="3" end="4" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="14" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" id="3" lcat="du" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" sc="root" sense="en" word="En"/>
+      <node begin="1" cat="smain" end="14" id="4" rel="nucl">
+        <node begin="1" cat="pp" end="6" id="5" rel="mod">
+          <node begin="1" end="2" frame="preposition(over,[heen])" id="6" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+          <node begin="2" cat="np" end="6" id="7" rel="obj1">
+            <node begin="2" cat="conj" end="5" id="8" rel="det">
+              <node begin="2" end="3" frame="number(hoofd(pl_num))" id="9" infl="pl_num" lcat="detp" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="cnj" root="twee" sense="twee" special="hoofd" word="twee"/>
+              <node begin="4" end="5" frame="number(hoofd(pl_num))" id="10" infl="pl_num" lcat="detp" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="cnj" root="drie" sense="drie" special="hoofd" word="drie"/>
+            </node>
+            <node begin="5" end="6" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" id="11" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+          </node>
+        </node>
+        <node begin="6" end="7" frame="verb(hebben,pl,transitive_ndev)" id="12" infl="pl" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" sc="transitive_ndev" sense="heb" stype="declarative" tense="present" word="hebben" wvorm="pv"/>
+        <node begin="7" case="nom" def="def" end="8" frame="pronoun(nwh,fir,pl,de,nom,def,wkpro)" gen="de" getal="mv" id="13" lcat="np" lemma="we" naamval="nomin" num="pl" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" rnum="pl" root="we" sense="we" special="wkpro" status="red" vwtype="pers" wh="nwh" word="we"/>
+        <node begin="8" cat="np" end="14" id="14" rel="obj1">
+          <node begin="8" end="9" frame="determiner(een)" id="15" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="16" lcat="np" lemma="crisis" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="crisis" sense="crisis" word="crisis"/>
+          <node begin="9" cat="ap" end="14" id="17" rel="mod">
+            <node begin="9" end="10" frame="adverb" id="18" lcat="advp" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" sense="nog" word="nog"/>
+            <node aform="compar" begin="10" buiging="met-e" end="11" frame="adjective(ere)" graad="comp" id="19" infl="e" lcat="ap" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="hd" root="groot" sense="groot" vform="adj" word="grotere"/>
+            <node begin="12" cat="cp" end="14" id="20" rel="obcomp">
+              <node begin="12" conjtype="onder" end="13" frame="comparative(dan)" id="21" lcat="comparative" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" sense="dan" word="dan"/>
+              <node begin="13" end="14" frame="tmp_adverb" id="22" lcat="advp" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="body" root="nu" sense="nu" special="tmp" word="nu"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" id="23" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+    <node begin="15" end="16" frame="punct(aanhaal_both)" id="24" lcat="--" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" sense="&quot;" special="aanhaal_both" word="&quot;"/>
+  </node>
+  <sentence>En over twee , drie jaar hebben we een nog grotere crisis dan nu . &quot;</sentence>
+  <comments>
+    <comment>Q#83|En over twee , drie jaar hebben we een nog grotere crisis dan nu . &quot;|1|1|-3.06679502334</comment>
+  </comments>
+</alpino_ds>

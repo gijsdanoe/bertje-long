@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="33" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="10" end="11" frame="punct(aanhaal_both)" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="15" end="16" frame="punct(aanhaal_both)" id="3" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="16" end="17" frame="punct(komma)" id="4" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="32" id="5" rel="--">
+      <node begin="0" cat="smain" end="15" id="6" rel="nucl">
+        <node begin="0" cat="cp" end="6" id="7" rel="mod">
+          <node begin="0" conjtype="onder" end="1" frame="complementizer" id="8" lcat="cp" lemma="zolang" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zolang" sense="zolang" word="Zolang"/>
+          <node begin="1" cat="ssub" end="6" id="9" rel="body">
+            <node begin="1" cat="np" end="3" id="10" rel="su">
+              <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="kroon_prins" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kroon_prins" sense="kroon_prins" word="kroonprins"/>
+              <node begin="2" end="3" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="Willem-Alexander" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Willem-Alexander" sense="Willem-Alexander" word="Willem-Alexander"/>
+            </node>
+            <node begin="3" cat="np" end="5" id="13" rel="predc">
+              <node begin="3" buiging="zonder" end="4" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" id="14" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="geen"/>
+              <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="15" lcat="np" lemma="koning" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="koning" sense="koning" word="koning"/>
+            </node>
+            <node begin="5" end="6" frame="verb(unacc,sg_heeft,copula)" id="16" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="is" wvorm="pv"/>
+          </node>
+        </node>
+        <node begin="7" end="8" frame="verb(unacc,sg_heeft,intransitive)" id="17" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="intransitive" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+        <node begin="8" cat="np" end="10" id="18" rel="su">
+          <node begin="8" end="9" frame="determiner(de)" id="19" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="20" lcat="np" lemma="vraag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vraag" sense="vraag" word="vraag"/>
+        </node>
+        <node begin="11" end="12" frame="adverb" id="21" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+        <node begin="12" cat="pp" end="15" id="22" rel="mod">
+          <node begin="12" end="13" frame="preposition(aan,[vooraf])" id="23" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+          <node begin="13" cat="np" end="15" id="24" rel="obj1">
+            <node begin="13" end="14" frame="determiner(de)" id="25" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="26" lcat="np" lemma="orde" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="orde" sense="orde" word="orde"/>
+          </node>
+        </node>
+      </node>
+      <node begin="17" cat="pp" end="32" id="27" rel="tag">
+        <node begin="17" end="18" frame="preposition(aldus,[])" id="28" lcat="pp" lemma="aldus" pos="prep" postag="BW()" pt="bw" rel="hd" root="aldus" sense="aldus" word="aldus"/>
+        <node begin="18" cat="np" end="32" id="29" rel="obj1">
+          <node begin="18" end="19" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="30" lcat="np" lemma="Kok" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Kok" sense="Kok" word="Kok"/>
+          <node begin="19" cat="pp" end="26" id="31" rel="mod">
+            <node begin="19" end="20" frame="preposition(in,[])" id="32" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="20" cat="np" end="26" id="33" rel="obj1">
+              <node begin="20" end="21" frame="determiner(de)" id="34" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="21" end="22" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="35" lcat="np" lemma="memorie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="memorie" sense="memorie" word="memorie"/>
+              <node begin="22" cat="pp" end="26" id="36" rel="mod">
+                <node begin="22" end="23" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="37" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="23" cat="np" end="26" id="38" rel="obj1">
+                  <node begin="23" end="24" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="39" lcat="np" lemma="antwoord" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="antwoord" sense="antwoord" word="antwoord"/>
+                  <node begin="24" cat="pp" end="26" id="40" rel="mod">
+                    <node begin="24" end="25" frame="preposition(op,[af,na])" id="41" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                    <node begin="25" end="26" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="42" lcat="np" lemma="vraag" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="vraag" sense="vraag" word="vragen"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="26" cat="pp" end="32" id="43" rel="mod">
+            <node begin="26" end="27" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="44" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="27" cat="conj" end="32" id="45" rel="obj1">
+              <node begin="27" end="28" frame="proper_name(sg,'ORG')" genus="onz" getal="ev" graad="basis" id="46" lcat="np" lemma="CDA" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="CDA" sense="CDA" word="CDA"/>
+              <node begin="28" conjtype="neven" end="29" frame="conj(en)" id="47" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="29" end="30" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="48" lcat="np" lemma="ChristenUnie" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="ChristenUnie" sense="ChristenUnie" word="ChristenUnie"/>
+              <node begin="30" conjtype="neven" end="31" frame="conj(en)" id="49" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="31" end="32" frame="proper_name(sg,'ORG')" genus="onz" getal="ev" graad="basis" id="50" lcat="np" lemma="GroenLinks" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="GroenLinks" sense="GroenLinks" word="GroenLinks"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="32" end="33" frame="punct(punt)" id="51" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Zolang kroonprins Willem-Alexander geen koning is , is de vraag &apos; niet aan de orde &apos; , aldus Kok in de memorie van antwoord op vragen van CDA en ChristenUnie en GroenLinks .</sentence>
+  <comments>
+    <comment>Q#16|Zolang kroonprins Willem-Alexander geen koning is , is de vraag &apos; niet aan de orde &apos; , aldus Kok in de memorie van antwoord op vragen van CDA en ChristenUnie en GroenLinks .|1|1|-0.19459931596001567</comment>
+  </comments>
+</alpino_ds>

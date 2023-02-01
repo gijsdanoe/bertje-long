@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="47" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="12" end="13" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="16" end="17" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="22" end="23" frame="punct(komma)" id="4" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="39" end="40" frame="punct(komma)" id="5" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="40" end="41" frame="punct(ligg_streep)" id="6" lcat="--" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="0" cat="conj" end="44" id="7" rel="--">
+      <node begin="0" cat="smain" end="19" id="8" rel="cnj">
+        <node begin="0" cat="np" end="3" id="9" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" id="10" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="iPod" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="iPod" sense="iPod" word="iPod"/>
+          <node begin="2" end="3" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="Nano" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Nano" sense="Nano" word="Nano"/>
+        </node>
+        <node begin="3" end="4" frame="verb(unacc,sg_heeft,copula)" id="13" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+        <node begin="4" cat="conj" end="19" id="14" rel="predc">
+          <node begin="4" cat="ap" end="8" id="15" rel="cnj">
+            <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(postn_no_e(nonadv))" graad="basis" id="16" infl="no_e" lcat="ap" lemma="verkrijgbaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="verkrijgbaar" sense="verkrijgbaar" vform="adj" word="verkrijgbaar"/>
+            <node begin="5" cat="pp" end="8" id="17" rel="mod">
+              <node begin="5" end="6" frame="preposition(in,[])" id="18" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="6" cat="np" end="8" id="19" rel="obj1">
+                <node begin="6" end="7" frame="number(hoofd(pl_num))" id="20" infl="pl_num" lcat="detp" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" sense="twee" special="hoofd" word="twee"/>
+                <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="21" lcat="np" lemma="kleur" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="kleur" sense="kleur" word="kleuren"/>
+              </node>
+            </node>
+          </node>
+          <node aform="base" begin="9" buiging="zonder" end="10" frame="adjective(no_e(adv))" graad="basis" id="22" infl="no_e" lcat="ap" lemma="wit" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="wit" sense="wit" vform="adj" word="wit"/>
+          <node begin="10" conjtype="neven" end="11" frame="conj(en)" id="23" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node aform="base" begin="11" buiging="zonder" end="12" frame="adjective(no_e(adv))" graad="basis" id="24" infl="no_e" lcat="ap" lemma="zwart" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="zwart" sense="zwart" vform="adj" word="zwart"/>
+          <node begin="13" conjtype="neven" end="14" frame="conj(en)" id="25" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="14" cat="np" end="19" id="26" rel="cnj">
+            <node begin="14" end="15" frame="number(hoofd(pl_num))" id="27" infl="pl_num" lcat="detp" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" sense="twee" special="hoofd" word="twee"/>
+            <node begin="15" end="16" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="28" lcat="np" lemma="maat" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="maat" sense="maat" word="maten"/>
+            <node begin="17" cat="np" end="19" id="29" rel="app">
+              <node begin="17" end="18" frame="number(hoofd(pl_num))" id="30" infl="pl_num" lcat="detp" lemma="2" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="2" sense="2" special="hoofd" word="2"/>
+              <node begin="18" end="19" frame="meas_mod_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" id="31" lcat="np" lemma="giga_byte" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="giga_byte" sense="giga_byte" special="meas_mod" word="GB"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="19" conjtype="neven" end="20" frame="conj(en)" id="32" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="20" cat="pp" end="44" id="33" rel="cnj">
+        <node begin="20" cat="np" end="32" id="34" rel="mod">
+          <node begin="20" end="21" frame="number(hoofd(pl_num))" id="35" infl="pl_num" lcat="detp" lemma="4" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="4" sense="4" special="hoofd" word="4"/>
+          <node begin="21" end="22" frame="meas_mod_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" id="36" lcat="np" lemma="giga_byte" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="giga_byte" sense="giga_byte" special="meas_mod" word="GB"/>
+          <node begin="23" cat="rel" end="32" id="37" rel="mod">
+            <node begin="23" end="24" frame="waar_adverb(op)" id="38" index="1" lcat="pp" lemma="waarop" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarop" sense="waarop" special="waar" word="waarop"/>
+            <node begin="23" cat="ssub" end="32" id="39" rel="body">
+              <node begin="24" cat="conj" end="29" id="40" index="2" rel="su">
+                <node begin="24" conjtype="neven" end="25" frame="left_conj(en)" id="41" lcat="vg" lemma="respectievelijk" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="respectievelijk" sense="respectievelijk" special="left" word="respectievelijk"/>
+                <node begin="25" end="26" frame="number(hoofd(pl_num))" id="42" infl="pl_num" lcat="np" lemma="500" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" rnum="pl" root="500" sense="500" special="hoofd" word="500"/>
+                <node begin="26" conjtype="neven" end="27" frame="conj(en)" id="43" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="27" cat="np" end="29" id="44" rel="cnj">
+                  <node begin="27" end="28" frame="number(hoofd(pl_num))" id="45" infl="pl_num" lcat="detp" lemma="1.000" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="1.000" sense="1.000" special="hoofd" word="1.000"/>
+                  <node begin="28" end="29" frame="meas_mod_noun(both,count,pl)" gen="both" getal="mv" graad="basis" id="46" lcat="np" lemma="nummer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="nummer" sense="nummer" special="meas_mod" word="nummers"/>
+                </node>
+              </node>
+              <node begin="29" end="30" frame="verb('hebben/zijn',pl,aux(inf))" id="47" infl="pl" lcat="ssub" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present" word="kunnen" wvorm="pv"/>
+              <node begin="23" cat="inf" end="32" id="48" rel="vc">
+                <node begin="24" end="29" id="49" index="2" rel="su"/>
+                <node begin="30" buiging="zonder" end="31" frame="verb(unacc,inf,passive)" id="50" infl="inf" lcat="inf" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" sc="passive" sense="word" word="worden" wvorm="inf"/>
+                <node begin="23" cat="ppart" end="32" id="51" rel="vc">
+                  <node begin="23" end="24" id="52" index="1" rel="ld"/>
+                  <node begin="24" end="29" id="53" index="2" rel="obj1"/>
+                  <node begin="31" buiging="zonder" end="32" frame="verb(hebben,psp,ninv(np_ld_pp,part_np_ld_pp(op)))" id="54" infl="psp" lcat="ppart" lemma="op_slaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="sla_op" sc="part_np_ld_pp(op)" sense="sla_op" word="opgeslagen" wvorm="vd"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="32" end="33" frame="preposition(tegen,[aan,in,op])" id="55" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+        <node begin="33" cat="np" end="44" id="56" rel="obj1">
+          <node begin="33" end="34" frame="determiner(een)" id="57" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="34" end="35" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="58" lcat="np" lemma="prijs" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="prijs" sense="prijs" word="prijs"/>
+          <node begin="35" cat="pp" end="44" id="59" rel="mod">
+            <node begin="35" end="36" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="60" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="36" cat="conj" end="44" id="61" rel="obj1">
+              <node begin="36" conjtype="neven" end="37" frame="left_conj(en)" id="62" lcat="vg" lemma="respectievelijk" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="respectievelijk" sense="respectievelijk" special="left" word="respectievelijk"/>
+              <node begin="37" cat="mwu" end="39" id="63" mwu_root="USD 199" mwu_sense="USD 199" rel="cnj">
+                <node begin="37" end="38" frame="amount_meas_mod_noun(both,count,bare_meas)" gen="both" genus="zijd" getal="ev" graad="basis" id="64" lcat="np" lemma="USD" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="USD" sense="USD" special="amount_meas_mod" word="USD"/>
+                <node begin="38" end="39" frame="amount_meas_mod_noun(both,count,bare_meas)" gen="both" genus="zijd" getal="ev" graad="basis" id="65" lcat="np" lemma="199" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="199" sense="199" special="amount_meas_mod" word="199"/>
+              </node>
+              <node begin="41" conjtype="neven" end="42" frame="conj(en)" id="66" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="42" cat="mwu" end="44" id="67" mwu_root="USD 249" mwu_sense="USD 249" rel="cnj">
+                <node begin="42" end="43" frame="amount_meas_mod_noun(both,count,bare_meas)" gen="both" genus="zijd" getal="ev" graad="basis" id="68" lcat="np" lemma="USD" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="USD" sense="USD" special="amount_meas_mod" word="USD"/>
+                <node begin="43" end="44" frame="amount_meas_mod_noun(both,count,bare_meas)" gen="both" genus="zijd" getal="ev" graad="basis" id="69" lcat="np" lemma="249" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="249" sense="249" special="amount_meas_mod" word="249"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="44" end="45" frame="punct(komma)" id="70" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="45" end="46" frame="punct(ligg_streep)" id="71" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="46" end="47" frame="punct(punt)" id="72" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De iPod Nano is verkrijgbaar in twee kleuren , wit en zwart , en twee maten , 2 GB en 4 GB , waarop respectievelijk 500 en 1.000 nummers kunnen worden opgeslagen tegen een prijs van respectievelijk USD 199 , - en USD 249 , - .</sentence>
+  <comments>
+    <comment>Q#5|De iPod Nano is verkrijgbaar in twee kleuren , wit en zwart , en twee maten , 2 GB en 4 GB , waarop respectievelijk 500 en 1.000 nummers kunnen worden opgeslagen tegen een prijs van respectievelijk USD 199 , - en USD 249 , - .|1|1|-11.443455252300012</comment>
+  </comments>
+</alpino_ds>

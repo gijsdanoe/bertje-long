@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" cat="pp" end="6" id="2" rel="mod">
+        <node begin="0" cat="mwu" end="4" id="3" mwu_root="in de loop van" mwu_sense="in de loop van" rel="hd">
+          <node begin="0" end="1" frame="preposition([in,de,loop,van],[])" id="4" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="in" sense="in" vztype="init" word="In"/>
+          <node begin="1" end="2" frame="preposition([in,de,loop,van],[])" id="5" lcat="pp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="prep" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" sense="de" word="de"/>
+          <node begin="2" end="3" frame="preposition([in,de,loop,van],[])" genus="zijd" getal="ev" graad="basis" id="6" lcat="pp" lemma="loop" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="loop" sense="loop" word="loop"/>
+          <node begin="3" end="4" frame="preposition([in,de,loop,van],[])" id="7" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" sense="van" vztype="init" word="van"/>
+        </node>
+        <node begin="4" cat="np" end="6" id="8" rel="obj1">
+          <node begin="4" end="5" frame="determiner(de)" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="recht_zaak" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="recht_zaak" sense="recht_zaak" word="rechtszaak"/>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(hebben,past(sg),sbar)" id="11" infl="sg" lcat="smain" lemma="tonen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="toon" sc="sbar" sense="toon" stype="declarative" tense="past" word="toonde" wvorm="pv"/>
+      <node begin="7" cat="mwu" end="9" id="12" mwu_root="Apple Corps" mwu_sense="Apple Corps" rel="su">
+        <node begin="7" end="8" frame="proper_name(both,'ORG')" id="13" lcat="np" lemma="Apple" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Apple" sense="Apple" spectype="deeleigen" word="Apple"/>
+        <node begin="8" end="9" frame="proper_name(both,'ORG')" id="14" lcat="np" lemma="Corps" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Corps" sense="Corps" spectype="deeleigen" word="Corps"/>
+      </node>
+      <node begin="9" cat="whsub" end="15" id="15" rel="vc">
+        <node begin="9" cat="ap" end="11" id="16" index="1" rel="whd">
+          <node begin="9" end="10" frame="wh_adjective" id="17" lcat="ap" lemma="hoe" pos="adj" postag="BW()" pt="bw" rel="mod" root="hoe" sense="hoe" wh="ywh" word="hoe"/>
+          <node aform="base" begin="10" buiging="zonder" end="11" frame="adjective(no_e(adv))" graad="basis" id="18" infl="no_e" lcat="ap" lemma="vaak" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="vaak" sense="vaak" vform="adj" word="vaak"/>
+        </node>
+        <node begin="9" cat="ssub" end="15" id="19" rel="body">
+          <node begin="9" end="11" id="20" index="1" rel="mod"/>
+          <node begin="11" cat="np" end="14" id="21" rel="su">
+            <node begin="11" end="12" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="22" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="12" cat="mwu" end="14" id="23" mwu_root="Apple Computer_logo" mwu_sense="Apple Computer_logo" rel="hd">
+              <node begin="12" end="13" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="24" lcat="np" lemma="Apple" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+              <node begin="13" end="14" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="25" lcat="np" lemma="Computer_logo" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" rnum="sg" root="Computer_logo" sense="Computer_logo" word="Computer-logo"/>
+            </node>
+          </node>
+          <node begin="14" end="15" frame="verb(unacc,sg3,intransitive)" id="26" infl="sg3" lcat="ssub" lemma="verschijnen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verschijn" sc="intransitive" sense="verschijn" tense="present" word="verschijnt" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="15" cat="pp" end="19" id="27" rel="mod">
+        <node begin="15" end="16" frame="preposition(tijdens,[])" id="28" lcat="pp" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" sense="tijdens" vztype="init" word="tijdens"/>
+        <node begin="16" cat="np" end="19" id="29" rel="obj1">
+          <node begin="16" end="17" frame="determiner(een)" id="30" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="17" buiging="met-e" end="18" frame="adjective(e)" graad="basis" id="31" infl="e" lcat="ap" lemma="normaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="normaal" sense="normaal" vform="adj" word="normale"/>
+          <node begin="18" end="19" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="32" lcat="np" lemma="download" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="download" sense="download" word="download"/>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" id="33" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>In de loop van de rechtszaak toonde Apple Corps hoe vaak het Apple Computer-logo verschijnt tijdens een normale download .</sentence>
+  <comments>
+    <comment>Q#7|In de loop van de rechtszaak toonde Apple Corps hoe vaak het Apple Computer-logo verschijnt tijdens een normale download .|1|1|-3.0672330538600003</comment>
+  </comments>
+</alpino_ds>

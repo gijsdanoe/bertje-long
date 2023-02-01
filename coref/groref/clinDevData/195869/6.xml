@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="18" end="19" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="29" id="2" rel="--">
+      <node begin="0" cat="pp" end="3" id="3" rel="mod">
+        <node begin="0" end="1" frame="preposition(tijdens,[])" id="4" lcat="pp" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" sense="tijdens" vztype="init" word="Tijdens"/>
+        <node begin="1" cat="np" end="3" id="5" rel="obj1">
+          <node begin="1" end="2" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="6" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="7" lcat="np" lemma="evenement" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="evenement" sense="evenement" word="evenement"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,past(sg),intransitive)" id="8" infl="sg" lcat="smain" lemma="reageren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="reageer" sc="intransitive" sense="reageer" stype="declarative" tense="past" word="reageerde" wvorm="pv"/>
+      <node begin="4" cat="conj" end="29" id="9" rel="su">
+        <node begin="4" cat="np" end="11" id="10" rel="cnj">
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="CEO" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="CEO" sense="CEO" word="CEO"/>
+          <node begin="5" cat="mwu" end="7" id="12" mwu_root="Steve Jobs" mwu_sense="Steve Jobs" rel="app">
+            <node begin="5" end="6" frame="proper_name(sg,'PER')" id="13" lcat="np" lemma="Steve" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Steve" sense="Steve" spectype="deeleigen" word="Steve"/>
+            <node begin="6" end="7" frame="proper_name(sg,'PER')" id="14" lcat="np" lemma="Jobs" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Jobs" sense="Jobs" spectype="deeleigen" word="Jobs"/>
+          </node>
+          <node begin="7" cat="pp" end="11" id="15" rel="mod">
+            <node begin="7" end="8" frame="preposition(op,[af,na])" id="16" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+            <node begin="8" cat="np" end="11" id="17" rel="obj1">
+              <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="18" lcat="np" lemma="melding" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="melding" sense="melding" word="meldingen"/>
+              <node begin="9" cat="pp" end="11" id="19" rel="mod">
+                <node begin="9" end="10" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="20" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="21" lcat="np" lemma="consument" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="consument" sense="consument" word="consumenten"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="11" conjtype="neven" end="12" frame="conj(en)" id="22" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="12" cat="np" end="29" id="23" rel="cnj">
+          <node begin="12" end="13" frame="determiner(de)" id="24" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="13" end="14" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="25" lcat="np" lemma="medium" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="medium" sense="medium" word="media"/>
+          <node begin="14" cat="pp" end="18" id="26" rel="mod">
+            <node begin="14" end="15" frame="preposition(over,[heen])" id="27" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+            <node begin="15" cat="np" end="18" id="28" rel="obj1">
+              <node begin="15" end="16" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="29" lcat="np" lemma="probleem" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="probleem" sense="probleem" word="problemen"/>
+              <node begin="16" cat="pp" end="18" id="30" rel="mod">
+                <node begin="16" end="17" frame="preposition(met,[mee,[en,al]])" id="31" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                <node begin="17" end="18" frame="noun(both,count,sg)" gen="both" genus="zijd" getal="ev" graad="basis" id="32" lcat="np" lemma="signaal_ontvangst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="signaal_ontvangst" sense="signaal_ontvangst" word="signaalontvangst"/>
+              </node>
+            </node>
+          </node>
+          <node begin="19" cat="rel" end="29" id="33" rel="mod">
+            <node begin="19" case="no_obl" end="20" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="34" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+            <node begin="19" cat="ssub" end="29" id="35" rel="body">
+              <node begin="19" end="20" id="36" index="1" rel="su"/>
+              <node begin="20" cat="ti" end="22" id="37" rel="svp">
+                <node begin="20" end="21" frame="complementizer(te)" id="38" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                <node begin="21" buiging="zonder" end="22" frame="verb(hebben,inf,fixed_dep(intransitive))" id="39" infl="inf" lcat="inf" lemma="maken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="body" root="maak" sc="fixed_dep(intransitive)" sense="maak" word="maken" wvorm="inf"/>
+              </node>
+              <node begin="22" end="23" frame="verb(hebben,pl,fixed([vc(maak,pass_te,intransitive),pc(met)],no_passive))" id="40" infl="pl" lcat="ssub" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" sc="fixed([vc(maak,pass_te,intransitive),pc(met)],no_passive)" sense="heb-met-maak" tense="present" word="hebben" wvorm="pv"/>
+              <node begin="23" cat="pp" end="29" id="41" rel="pc">
+                <node begin="23" end="24" frame="preposition(met,[mee,[en,al]])" id="42" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                <node begin="24" cat="np" end="29" id="43" rel="obj1">
+                  <node begin="24" end="25" frame="determiner(de)" id="44" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="25" end="26" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="45" lcat="np" lemma="positie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="positie" sense="positie" word="positie"/>
+                  <node begin="26" cat="pp" end="29" id="46" rel="mod">
+                    <node begin="26" end="27" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="47" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                    <node begin="27" cat="np" end="29" id="48" rel="obj1">
+                      <node begin="27" end="28" frame="determiner(de)" id="49" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="28" end="29" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="50" lcat="np" lemma="antenne" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="antenne" sense="antenne" word="antenne"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="29" end="30" frame="punct(punt)" id="51" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Tijdens het evenement reageerde CEO Steve Jobs op meldingen van consumenten en de media over problemen met signaalontvangst , die te maken hebben met de positie van de antenne .</sentence>
+  <comments>
+    <comment>Q#6|Tijdens het evenement reageerde CEO Steve Jobs op meldingen van consumenten en de media over problemen met signaalontvangst , die te maken hebben met de positie van de antenne .|1|1|-0.12312582754002199</comment>
+  </comments>
+</alpino_ds>

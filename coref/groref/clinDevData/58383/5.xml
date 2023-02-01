@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="0" cat="conj" end="25" id="1" rel="--">
+      <node begin="0" cat="smain" end="11" id="2" rel="cnj">
+        <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+          <node begin="0" buiging="met-e" end="1" frame="determiner(de,nwh,nmod,pro,nparg)" id="4" infl="de" lcat="detp" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" sense="deze" vwtype="aanw" wh="nwh" word="Deze"/>
+          <node aform="super" begin="1" buiging="met-e" end="2" frame="adjective(ste)" getal-n="zonder-n" graad="sup" id="5" infl="e" lcat="np" lemma="laat" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,sup,met-e,zonder-n,stan)" pt="adj" rel="hd" rnum="sg" root="laat" sense="laat" vform="adj" word="laatste"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg3,vp)" id="6" infl="sg3" lcat="smain" lemma="claimen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="claim" sc="vp" sense="claim" tense="present" word="claimt" wvorm="pv"/>
+        <node begin="0" cat="ti" end="11" id="7" rel="vc">
+          <node begin="4" end="5" frame="complementizer(te)" id="8" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="0" cat="inf" end="11" id="9" rel="body">
+            <node begin="0" end="2" id="10" index="1" rel="su"/>
+            <node begin="5" buiging="zonder" end="6" frame="verb(unacc,inf,copula)" id="11" infl="inf" lcat="inf" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" sc="copula" sense="ben" word="zijn" wvorm="inf"/>
+            <node begin="3" cat="np" end="11" id="12" rel="predc">
+              <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="13" lcat="np" lemma="eigenaar" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="eigenaar" sense="eigenaar" word="eigenaar"/>
+              <node begin="6" cat="pp" end="11" id="14" rel="mod">
+                <node begin="6" end="7" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="15" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="7" cat="np" end="11" id="16" rel="obj1">
+                  <node begin="7" end="8" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="17" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                  <node begin="8" end="9" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="18" lcat="np" lemma="handelsmerk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="handelsmerk" sense="handelsmerk" word="handelsmerk"/>
+                  <node begin="9" cat="pp" end="11" id="19" rel="mod">
+                    <node begin="9" end="10" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="20" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+                    <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="21" lcat="np" lemma="iPhone" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="iPhone" sense="iPhone" word="iPhone"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" conjtype="neven" end="12" frame="conj(en)" id="22" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="25" id="23" rel="cnj">
+        <node begin="0" end="2" id="24" index="1" rel="su"/>
+        <node begin="12" end="13" frame="verb(hebben,sg3,vp)" id="25" infl="sg3" lcat="smain" lemma="zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg" sc="vp" sense="zeg" tense="present" word="zegt" wvorm="pv"/>
+        <node begin="0" cat="ti" end="25" id="26" rel="vc">
+          <node begin="23" end="24" frame="complementizer(te)" id="27" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="0" cat="inf" end="25" id="28" rel="body">
+            <node begin="0" end="2" id="29" index="1" rel="su"/>
+            <node begin="13" end="14" frame="sentence_adverb" id="30" lcat="advp" lemma="bovendien" pos="adv" postag="BW()" pt="bw" rel="mod" root="bovendien" sense="bovendien" special="sentence" word="bovendien"/>
+            <node begin="14" cat="np" end="23" id="31" rel="obj1">
+              <node begin="14" end="15" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="32" lcat="np" lemma="apparaat" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="apparaat" sense="apparaat" word="apparaten"/>
+              <node begin="15" cat="pp" end="23" id="33" rel="mod">
+                <node begin="15" end="16" frame="preposition(onder,[door,vandaan])" id="34" lcat="pp" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" sense="onder" vztype="init" word="onder"/>
+                <node begin="16" cat="np" end="23" id="35" rel="obj1">
+                  <node begin="16" buiging="zonder" end="17" frame="determiner(de,nwh,mod,pro,yparg)" graad="basis" id="36" infl="de" lcat="detp" lemma="dezelfde" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="det" root="dezelfde" sense="dezelfde" wh="nwh" word="dezelfde"/>
+                  <node begin="17" end="18" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="37" lcat="np" lemma="naam" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="naam" sense="naam" word="naam"/>
+                  <node begin="18" cat="pp" end="20" id="38" rel="mod">
+                    <node begin="18" end="19" frame="preposition(via,[])" id="39" lcat="pp" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" sense="via" vztype="init" word="via"/>
+                    <node begin="19" case="both" def="indef" end="20" frame="pronoun(nwh,thi,sg,both,both,indef,strpro)" gen="both" id="40" lcat="np" lemma="één" num="sg" numtype="hoofd" per="thi" pos="pron" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" rnum="sg" root="één" sense="één" special="strpro" wh="nwh" word="een"/>
+                  </node>
+                  <node begin="20" cat="pp" end="23" id="41" rel="mod">
+                    <node begin="20" end="21" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="42" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                    <node begin="21" cat="np" end="23" id="43" rel="obj1">
+                      <node begin="21" buiging="zonder" end="22" frame="determiner(pron)" getal="ev" id="44" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+                      <node begin="22" end="23" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="45" lcat="np" lemma="divisie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="divisie" sense="divisie" word="divisies"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="24" buiging="zonder" end="25" frame="verb(hebben,inf,transitive)" id="46" infl="inf" lcat="inf" lemma="verkopen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verkoop" sc="transitive" sense="verkoop" word="verkopen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" frame="punct(punt)" id="47" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Deze laatste claimt eigenaar te zijn van het handelsmerk voor iPhone en zegt bovendien apparaten onder dezelfde naam via een van zijn divisies te verkopen .</sentence>
+  <comments>
+    <comment>Q#5|Deze laatste claimt eigenaar te zijn van het handelsmerk voor iPhone en zegt bovendien apparaten onder dezelfde naam via een van zijn divisies te verkopen .|1|1|11.882010264079996</comment>
+  </comments>
+</alpino_ds>

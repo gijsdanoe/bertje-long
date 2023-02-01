@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="ap" end="5" id="2" rel="mod">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(adv),pp(van))" graad="basis" id="3" infl="no_e" lcat="ap" lemma="los" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="los" sc="pp(van)" sense="los-van" vform="adj" word="Los"/>
+        <node begin="1" cat="pp" end="5" id="4" rel="pc">
+          <node begin="1" end="2" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="5" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="2" cat="np" end="5" id="6" rel="obj1">
+            <node begin="2" buiging="zonder" end="3" frame="determiner(de,nwh,nmod,pro,nparg)" id="7" infl="de" lcat="detp" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" sense="die" vwtype="aanw" wh="nwh" word="die"/>
+            <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" id="8" infl="e" lcat="ap" lemma="politiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="politiek" sense="politiek" vform="adj" word="politieke"/>
+            <node begin="4" end="5" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="9" lcat="np" lemma="verwijt" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="verwijt" sense="verwijt" word="verwijten"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(hebben,past(pl),subj_control(te))" id="10" infl="pl" lcat="smain" lemma="proberen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="probeer" sc="subj_control(te)" sense="probeer" stype="declarative" tense="past" word="probeerden" wvorm="pv"/>
+      <node begin="6" cat="np" end="9" id="11" index="1" rel="su">
+        <node begin="6" end="7" frame="determiner(de)" id="12" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node aform="compar" begin="7" buiging="met-e" end="8" frame="adjective(ere)" graad="basis" id="13" infl="e" lcat="ap" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" sense="ander" vform="adj" word="andere"/>
+        <node begin="8" end="9" frame="tmp_noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="14" lcat="np" lemma="fractie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="fractie" sense="fractie" special="tmp" word="fracties"/>
+      </node>
+      <node begin="6" cat="ti" end="15" id="15" rel="vc">
+        <node begin="10" end="11" frame="complementizer(te)" id="16" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+        <node begin="6" cat="inf" end="15" id="17" rel="body">
+          <node begin="6" end="9" id="18" index="1" rel="su"/>
+          <node begin="9" end="10" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="19" lcat="np" lemma="Kant" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Kant" sense="Kant" word="Kant"/>
+          <node begin="11" buiging="zonder" end="12" frame="verb(hebben,inf,np_pc_pp(op))" id="20" infl="inf" lcat="inf" lemma="pakken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="pak" sc="np_pc_pp(op)" sense="pak-op" word="pakken" wvorm="inf"/>
+          <node begin="12" cat="pp" end="15" id="21" rel="pc">
+            <node begin="12" end="13" frame="preposition(op,[af,na])" id="22" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+            <node begin="13" cat="np" end="15" id="23" rel="obj1">
+              <node begin="13" end="14" frame="determiner(de)" id="24" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="25" lcat="np" lemma="procedure" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="procedure" sense="procedure" word="procedures"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" id="26" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Los van die politieke verwijten probeerden de andere fracties Kant te pakken op de procedures .</sentence>
+  <comments>
+    <comment>Q#10|Los van die politieke verwijten probeerden de andere fracties Kant te pakken op de procedures .|1|1|4.886847373540005</comment>
+  </comments>
+</alpino_ds>

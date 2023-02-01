@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="zonder" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" id="3" infl="het" lcat="detp" lemma="dat" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dat" sense="dat" vwtype="aanw" wh="nwh" word="Dat"/>
+        <node begin="1" end="2" frame="noun(het,both,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="4" lcat="np" lemma="water" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="water" sense="water" word="water"/>
+      </node>
+      <node begin="2" end="3" frame="verb(unacc,past(sg),copula)" id="5" infl="sg" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="past" word="was" wvorm="pv"/>
+      <node aform="base" begin="3" end="4" frame="adjective(pred(both))" id="6" infl="pred" lcat="ap" lemma="alleen" pos="adj" postag="BW()" pt="bw" rel="mod" root="alleen" sense="alleen" vform="adj" word="alleen"/>
+      <node begin="4" cat="ap" end="12" id="7" rel="predc">
+        <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(adv),pp(voor))" graad="basis" id="8" infl="no_e" lcat="ap" lemma="goed" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="goed" sc="pp(voor)" sense="goed-voor" vform="adj" word="goed"/>
+        <node begin="5" cat="pp" end="12" id="9" rel="pc">
+          <node begin="5" end="6" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="10" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="6" cat="np" end="12" id="11" rel="obj1">
+            <node begin="6" end="7" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="12" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="7" buiging="zonder" end="8" frame="v_noun(aci_no_obj)" getal-n="zonder-n" id="13" lcat="np" lemma="laten" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" rnum="sg" root="laat" sc="aci_no_obj" sense="laat" special="v_noun" word="laten" wvorm="inf"/>
+            <node begin="8" buiging="zonder" end="9" frame="verb(unacc,inf,intransitive)" id="14" infl="inf" lcat="inf" lemma="verrotten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="vc" root="verrot" sc="intransitive" sense="verrot" word="verrotten" wvorm="inf"/>
+            <node begin="9" cat="pp" end="12" id="15" rel="mod">
+              <node begin="9" end="10" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="16" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="10" cat="np" end="12" id="17" rel="obj1">
+                <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="18" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="11" end="12" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="19" lcat="np" lemma="graan" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="graan" sense="graan" word="graan"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" frame="punct(punt)" id="20" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+    <node begin="13" end="14" frame="punct(aanhaal_both)" id="21" lcat="--" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" sense="&quot;" special="aanhaal_both" word="&quot;"/>
+  </node>
+  <sentence>Dat water was alleen goed voor het laten verrotten van het graan . &quot;</sentence>
+  <comments>
+    <comment>Q#31|Dat water was alleen goed voor het laten verrotten van het graan . &quot;|1|1|-0.5237996952800015</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="38" id="0" rel="top">
+    <node begin="1" end="2" frame="verb(hebben,past(sg),part_sbar(aan))" id="1" infl="sg" lcat="--" lemma="aan_kondigen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="--" root="kondig_aan" sc="part_sbar(aan)" sense="kondig_aan" tense="past" word="kondigde" wvorm="pv"/>
+    <node begin="3" end="4" frame="particle(aan)" id="2" lcat="--" lemma="aan" pos="part" postag="VZ(init)" pt="vz" rel="--" root="aan" sense="aan" vztype="init" word="aan"/>
+    <node begin="4" conjtype="onder" end="5" frame="complementizer(dat)" id="3" lcat="--" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="--" root="dat" sc="dat" sense="dat" word="dat"/>
+    <node begin="7" end="8" frame="punct(aanhaal_both)" id="4" lcat="--" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="8" end="9" frame="punct(aanhaal_both)" id="5" lcat="--" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="13" end="14" frame="punct(komma)" id="6" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="20" end="21" frame="punct(komma)" id="7" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="35" id="8" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="9" lcat="np" lemma="job" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="dp" rnum="pl" root="job" sense="job" word="Jobs"/>
+      <node begin="2" end="3" frame="tmp_adverb" id="10" lcat="advp" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="dp" root="vandaag" sense="vandaag" special="tmp" word="vandaag"/>
+      <node begin="5" cat="np" end="7" id="11" rel="dp">
+        <node begin="5" end="6" frame="determiner(de)" id="12" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="6" end="7" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="13" lcat="np" lemma="``Lion" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="``Lion" sense="``Lion" word="``Lion"/>
+      </node>
+      <node begin="9" cat="smain" end="35" id="14" rel="dp">
+        <node begin="9" cat="np" end="23" id="15" index="1" rel="su">
+          <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="16" lcat="np" lemma="release" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="release" sense="release" word="release"/>
+          <node begin="10" cat="pp" end="13" id="17" rel="mod">
+            <node begin="10" end="11" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="18" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="11" cat="mwu" end="13" id="19" mwu_root="OS X" mwu_sense="OS X" rel="obj1">
+              <node begin="11" end="12" frame="proper_name(both,'ORG')" id="20" lcat="np" lemma="OS" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="OS" sense="OS" spectype="deeleigen" word="OS"/>
+              <node begin="12" end="13" frame="proper_name(both,'ORG')" id="21" lcat="np" lemma="X" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="X" sense="X" spectype="deeleigen" word="X"/>
+            </node>
+          </node>
+          <node begin="14" cat="rel" end="23" id="22" rel="mod">
+            <node begin="14" case="no_obl" end="15" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="23" index="2" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+            <node begin="14" cat="ssub" end="23" id="24" rel="body">
+              <node begin="14" end="15" id="25" index="2" rel="su"/>
+              <node begin="15" end="16" frame="verb(hebben,sg3,norm_passive)" id="26" infl="sg3" lcat="ssub" lemma="staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta" sc="norm_passive" sense="sta" tense="present" word="staat" wvorm="pv"/>
+              <node begin="14" cat="ppart" end="23" id="27" rel="vc">
+                <node begin="14" end="15" id="28" index="2" rel="obj1"/>
+                <node begin="16" buiging="zonder" end="17" frame="verb(hebben,psp,transitive)" id="29" infl="psp" lcat="ppart" lemma="plannen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="plan" sc="transitive" sense="plan" word="gepland" wvorm="vd"/>
+                <node begin="17" cat="pp" end="23" id="30" rel="mod">
+                  <node begin="17" end="18" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="31" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+                  <node begin="18" cat="np" end="23" id="32" rel="obj1">
+                    <node aform="base" begin="18" buiging="met-e" end="19" frame="adjective(ende(padv))" id="33" infl="e" lcat="ppres" lemma="volgen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="volg" sense="volg" vform="gerund" word="volgende" wvorm="od"/>
+                    <node begin="19" end="20" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="34" lcat="np" lemma="zomer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="zomer" sense="zomer" special="tmp" word="zomer"/>
+                    <node begin="21" cat="np" end="23" id="35" rel="app">
+                      <node aform="compar" begin="21" buiging="zonder" end="22" frame="adjective(meer)" graad="comp" id="36" infl="meer" lcat="ap" lemma="meer" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="det" root="meer" sense="meer" vform="adj" vwtype="onbep" word="meer"/>
+                      <node begin="22" end="23" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="37" lcat="np" lemma="ondersteuning" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="ondersteuning" sense="ondersteuning" word="ondersteuning"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="23" end="24" frame="verb(hebben,modal_not_u,aux(inf))" id="38" infl="modal_not_u" lcat="smain" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" sc="aux(inf)" sense="zal" stype="declarative" tense="present" word="zal" wvorm="pv"/>
+        <node begin="9" cat="inf" end="35" id="39" rel="vc">
+          <node begin="9" end="23" id="40" index="1" rel="su"/>
+          <node begin="24" buiging="zonder" end="25" frame="verb(hebben,inf,intransitive)" id="41" infl="inf" lcat="inf" lemma="bieden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bied" sc="intransitive" sense="bied" word="bieden" wvorm="inf"/>
+          <node begin="25" cat="pp" end="35" id="42" rel="mod">
+            <node begin="25" end="26" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="43" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+            <node begin="26" cat="conj" end="35" id="44" rel="obj1">
+              <node begin="26" end="27" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="45" lcat="np" lemma="multitouch" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="multitouch" sense="multitouch" word="multitouch"/>
+              <node begin="27" conjtype="neven" end="28" frame="conj(en)" id="46" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="28" cat="np" end="35" id="47" rel="cnj">
+                <node begin="28" end="29" frame="modal_adverb" id="48" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sc="modal" sense="ook" word="ook"/>
+                <node begin="29" end="30" frame="determiner(een)" id="49" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                <node begin="30" end="31" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="50" lcat="np" lemma="desktopversie" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="desktopversie" sense="desktopversie" word="desktopversie"/>
+                <node begin="31" cat="pp" end="35" id="51" rel="mod">
+                  <node begin="31" end="32" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="52" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                  <node begin="32" cat="np" end="35" id="53" rel="obj1">
+                    <node begin="32" end="33" frame="determiner(de)" id="54" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                    <node begin="33" cat="mwu" end="35" id="55" mwu_root="App Store" mwu_sense="App Store" rel="hd">
+                      <node begin="33" end="34" frame="proper_name(sg,'PER')" id="56" lcat="np" lemma="App" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="App" sense="App" spectype="deeleigen" word="App"/>
+                      <node begin="34" end="35" frame="proper_name(sg,'PER')" id="57" lcat="np" lemma="Store" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Store" sense="Store" spectype="deeleigen" word="Store"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="35" end="36" frame="verb(hebben,modal_not_u,aux(inf))" id="58" infl="modal_not_u" lcat="--" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="--" root="zal" sc="aux(inf)" sense="zal" tense="present" word="zal" wvorm="pv"/>
+    <node begin="36" buiging="zonder" end="37" frame="verb(hebben,inf,sbar)" id="59" infl="inf" lcat="--" lemma="omvatten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="--" root="omvat" sc="sbar" sense="omvat" word="omvatten" wvorm="inf"/>
+    <node begin="37" end="38" frame="punct(punt)" id="60" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Jobs kondigde vandaag aan dat de ``Lion &apos; &apos; release van OS X , die staat gepland voor volgende zomer , meer ondersteuning zal bieden voor multitouch en ook een desktopversie van de App Store zal omvatten .</sentence>
+  <comments>
+    <comment>Q#7|Jobs kondigde vandaag aan dat de ``Lion &apos; &apos; release van OS X , die staat gepland voor volgende zomer , meer ondersteuning zal bieden voor multitouch en ook een desktopversie van de App Store zal omvatten .|1|9|14.557226823760024</comment>
+  </comments>
+</alpino_ds>

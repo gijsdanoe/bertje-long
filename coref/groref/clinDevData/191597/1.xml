@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="du" end="6" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="2" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="dp" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+      <node begin="1" cat="np" end="6" id="3" rel="dp">
+        <node begin="1" cat="detp" end="5" id="4" rel="det">
+          <node begin="1" cat="ppart" end="4" id="5" rel="mod">
+            <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(ge_no_e(adv))" id="6" infl="no_e" lcat="ppart" lemma="overweldigd" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="overweldigd" sense="overweldigd" vform="psp" word="overweldigd" wvorm="vd"/>
+            <node begin="2" cat="pp" end="4" id="7" rel="mod">
+              <node begin="2" end="3" frame="preposition(door,[heen])" id="8" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+              <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="iPhone" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="iPhone" sense="iPhone" word="iPhone"/>
+            </node>
+          </node>
+          <node begin="4" end="5" frame="number(hoofd(pl_num))" id="10" infl="pl_num" lcat="detp" lemma="4" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="4" sense="4" special="hoofd" word="4"/>
+        </node>
+        <node begin="5" end="6" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" id="11" lcat="np" lemma="pre_order" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="pre_order" sense="pre_order" word="pre-orders"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Apple overweldigd door iPhone 4 pre-orders</sentence>
+  <comments>
+    <comment>Q#1|Apple overweldigd door iPhone 4 pre-orders|1|1|2.9778986713600006</comment>
+  </comments>
+</alpino_ds>

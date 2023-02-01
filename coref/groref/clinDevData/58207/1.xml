@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="2" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,transitive)" id="3" infl="sg3" lcat="smain" lemma="introduceren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="introduceer" sc="transitive" sense="introduceer" stype="declarative" tense="present" word="introduceert" wvorm="pv"/>
+      <node begin="2" cat="conj" end="6" id="4" rel="obj1">
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="5" lcat="np" lemma="iPhone" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="iPhone" sense="iPhone" word="iPhone"/>
+        <node begin="3" conjtype="neven" end="4" frame="conj(en)" id="6" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="4" cat="np" end="6" id="7" rel="cnj">
+          <node begin="4" end="5" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="8" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+          <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="tv" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="tv" sense="tv" word="TV"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Apple introduceert iPhone en Apple TV</sentence>
+  <comments>
+    <comment>Q#1|Apple introduceert iPhone en Apple TV|1|1|2.047000686700001</comment>
+  </comments>
+</alpino_ds>

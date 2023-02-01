@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(aanhaal_both)" id="1" lcat="--" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="du" end="11" id="2" rel="--">
+      <node begin="0" cat="smain" end="9" id="3" rel="dp">
+        <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="4" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+        <node begin="1" end="2" frame="verb(hebben,sg3,transitive)" id="5" infl="sg3" lcat="smain" lemma="onthullen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="onthul" sc="transitive" sense="onthul" stype="declarative" tense="present" word="onthult" wvorm="pv"/>
+        <node begin="2" cat="np" end="9" id="6" rel="obj1">
+          <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" id="7" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+          <node begin="3" cat="mwu" end="7" id="8" mwu_root="MacBook Air-laptops , iLife" mwu_sense="MacBook Air-laptops , iLife" rel="hd">
+            <node begin="3" end="4" frame="proper_name(both,'ORG')" id="9" lcat="np" lemma="MacBook" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="MacBook" sense="MacBook" spectype="deeleigen" word="MacBook"/>
+            <node begin="4" end="5" frame="proper_name(both,'ORG')" id="10" lcat="np" lemma="Air-laptops" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Air-laptops" sense="Air-laptops" spectype="deeleigen" word="Air-laptops"/>
+            <node begin="5" end="6" frame="proper_name(both,'ORG')" id="11" lcat="np" lemma="," neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="," sense="," spectype="deeleigen" word=","/>
+            <node begin="6" end="7" frame="proper_name(both,'ORG')" id="12" lcat="np" lemma="iLife" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="iLife" sense="iLife" spectype="deeleigen" word="iLife"/>
+          </node>
+          <node begin="8" end="9" frame="number(hoofd(pl_num))" id="13" infl="pl_num" lcat="detp" lemma="11" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="11" sense="11" special="hoofd" word="11"/>
+        </node>
+      </node>
+      <node begin="9" cat="du" end="11" id="14" rel="dp">
+        <node begin="9" end="10" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="15" lcat="np" lemma="software" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="dp" rnum="sg" root="software" sense="software" word="software"/>
+        <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="16" lcat="np" lemma="suite" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="dp" rnum="sg" root="suite" sense="suite" word="suite"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Apple onthult nieuwe MacBook Air-laptops , iLife &apos; 11 software suite</sentence>
+  <comments>
+    <comment>Q#1|Apple onthult nieuwe MacBook Air-laptops , iLife &apos; 11 software suite|1|2|5.59843933776</comment>
+  </comments>
+</alpino_ds>

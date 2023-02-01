@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="3" end="4" frame="verb(hebben,past(sg),aux(inf))" id="2" infl="sg" lcat="smain" lemma="zullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zal" sc="aux(inf)" sense="zal" stype="declarative" tense="past" word="zou" wvorm="pv"/>
+      <node begin="4" cat="mwu" end="6" id="3" index="1" mwu_root="Apple Computer" mwu_sense="Apple Computer" rel="su">
+        <node begin="4" end="5" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="Apple" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Apple" sense="Apple" spectype="deeleigen" word="Apple"/>
+        <node begin="5" end="6" frame="proper_name(sg,'PER')" id="5" lcat="np" lemma="Computer" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Computer" sense="Computer" spectype="deeleigen" word="Computer"/>
+      </node>
+      <node begin="0" cat="inf" end="15" id="6" rel="vc">
+        <node begin="0" cat="pp" end="3" id="7" rel="mod">
+          <node begin="0" end="1" frame="preposition(volgens,[])" id="8" lcat="pp" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" sense="volgens" vztype="init" word="Volgens"/>
+          <node begin="1" cat="np" end="3" id="9" rel="obj1">
+            <node begin="1" end="2" frame="determiner(de)" id="10" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="overeenkomst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="overeenkomst" sense="overeenkomst" word="overeenkomst"/>
+          </node>
+        </node>
+        <node begin="4" end="6" id="12" index="1" rel="su"/>
+        <node begin="6" cat="np" end="8" id="13" rel="obj1">
+          <node begin="6" buiging="zonder" end="7" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" id="14" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="geen"/>
+          <node begin="7" end="8" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="15" lcat="np" lemma="muziek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="muziek" sense="muziek" word="muziek"/>
+        </node>
+        <node begin="8" buiging="zonder" end="9" frame="verb(hebben,inf,transitive)" id="16" infl="inf" lcat="inf" lemma="verkopen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verkoop" sc="transitive" sense="verkoop" word="verkopen" wvorm="inf"/>
+        <node begin="9" cat="pp" end="15" id="17" rel="mod">
+          <node begin="9" end="10" frame="preposition(met,[mee,[en,al]])" id="18" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="10" cat="np" end="15" id="19" rel="obj1">
+            <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="20" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="11" end="12" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="21" lcat="np" lemma="handelsmerk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="handelsmerk" sense="handelsmerk" word="handelsmerk"/>
+            <node begin="12" cat="pp" end="15" id="22" rel="mod">
+              <node begin="12" end="13" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="23" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="13" cat="np" end="15" id="24" rel="obj1">
+                <node begin="13" end="14" frame="determiner(een)" id="25" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                <node begin="14" end="15" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="26" lcat="np" lemma="appel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="appel" sense="appel" word="appel"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" id="27" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Volgens de overeenkomst zou Apple Computer geen muziek verkopen met het handelsmerk van een appel .</sentence>
+  <comments>
+    <comment>Q#5|Volgens de overeenkomst zou Apple Computer geen muziek verkopen met het handelsmerk van een appel .|1|1|-2.590270045919999</comment>
+  </comments>
+</alpino_ds>

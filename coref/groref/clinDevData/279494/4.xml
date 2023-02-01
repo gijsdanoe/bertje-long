@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="8" end="9" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="14" id="3" rel="--">
+      <node begin="0" cat="np" end="8" id="4" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(both(nonadv))" graad="basis" id="6" infl="both" lcat="ap" lemma="voormalig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="voormalig" sense="voormalig" vform="adj" word="voormalig"/>
+        <node begin="2" cat="mwu" end="5" id="7" mwu_root="Chief Operating Officer" mwu_sense="Chief Operating Officer" rel="hd">
+          <node begin="2" end="3" frame="proper_name(both)" id="8" lcat="np" lemma="Chief" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Chief" sense="Chief" spectype="deeleigen" word="Chief"/>
+          <node begin="3" end="4" frame="proper_name(both)" id="9" lcat="np" lemma="Operating" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Operating" sense="Operating" spectype="deeleigen" word="Operating"/>
+          <node begin="4" end="5" frame="proper_name(both)" id="10" lcat="np" lemma="Officer" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Officer" sense="Officer" spectype="deeleigen" word="Officer"/>
+        </node>
+        <node begin="6" cat="mwu" end="8" id="11" mwu_root="Tim Cook" mwu_sense="Tim Cook" rel="mod">
+          <node begin="6" end="7" frame="proper_name(sg,'PER')" id="12" lcat="np" lemma="Tim" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Tim" sense="Tim" spectype="deeleigen" word="Tim"/>
+          <node begin="7" end="8" frame="proper_name(sg,'PER')" id="13" lcat="np" lemma="Cook" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Cook" sense="Cook" spectype="deeleigen" word="Cook"/>
+        </node>
+      </node>
+      <node begin="9" end="10" frame="verb('hebben/zijn',sg3,part_als_pred_np(op))" id="14" infl="sg3" lcat="smain" lemma="op_volgen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="volg_op" sc="part_als_pred_np(op)" sense="volg_op" stype="declarative" tense="present" word="volgt" wvorm="pv"/>
+      <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="15" lcat="np" lemma="job" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="job" sense="job" word="Jobs"/>
+      <node begin="11" end="12" frame="particle(op)" id="16" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+      <node begin="12" cat="cp" end="14" id="17" rel="predc">
+        <node begin="12" end="13" frame="complementizer(als)" id="18" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+        <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="19" lcat="np" lemma="CEO" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="body" rnum="sg" root="CEO" sense="CEO" word="CEO"/>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" id="20" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De voormalig Chief Operating Officer , Tim Cook , volgt Jobs op als CEO .</sentence>
+  <comments>
+    <comment>Q#4|De voormalig Chief Operating Officer , Tim Cook , volgt Jobs op als CEO .|1|1|3.4169987308200005</comment>
+  </comments>
+</alpino_ds>

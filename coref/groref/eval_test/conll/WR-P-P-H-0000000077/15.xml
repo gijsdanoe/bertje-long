@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="5" end="6" frame="preposition(met,[mee,[en,al]])" id="1" lcat="--" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="--" root="met" sense="met" vztype="init" word="met"/>
+    <node begin="6" end="7" frame="determiner(de)" id="2" infl="de" lcat="--" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="--" root="de" sense="de" word="de"/>
+    <node begin="7" end="8" frame="noun(de,count,sg,sbar)" gen="de" genus="zijd" getal="ev" graad="basis" id="3" lcat="--" lemma="opmerking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="--" root="opmerking" sc="sbar" sense="opmerking" word="opmerking"/>
+    <node begin="8" conjtype="onder" end="9" frame="complementizer(dat)" id="4" lcat="--" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="--" root="dat" sc="dat" sense="dat" word="dat"/>
+    <node begin="0" cat="du" end="16" id="5" rel="--">
+      <node begin="0" cat="smain" end="5" id="6" rel="dp">
+        <node begin="0" cat="np" end="2" id="7" rel="su">
+          <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="8" lcat="np" lemma="premier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="premier" sense="premier" word="Premier"/>
+          <node begin="1" end="2" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="9" lcat="np" lemma="Kok" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Kok" sense="Kok" word="Kok"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,past(sg),transitive)" id="10" infl="sg" lcat="smain" lemma="sussen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="sus" sc="transitive" sense="sus" stype="declarative" tense="past" word="suste" wvorm="pv"/>
+        <node begin="3" cat="np" end="5" id="11" rel="obj1">
+          <node begin="3" end="4" frame="determiner(de)" id="12" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="4" end="5" frame="noun(de,both,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="13" lcat="np" lemma="opwinding" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="opwinding" sense="opwinding" word="opwinding"/>
+        </node>
+      </node>
+      <node begin="9" cat="np" end="16" id="14" rel="dp">
+        <node begin="9" end="10" frame="determiner(een)" id="15" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node aform="base" begin="10" buiging="zonder" end="11" frame="adjective(end(both))" id="16" infl="no_e" lcat="ppres" lemma="volgen" pos="adj" positie="prenom" postag="WW(od,prenom,zonder)" pt="ww" rel="mod" root="volg" sense="volg" vform="gerund" word="volgend" wvorm="od"/>
+        <node begin="11" end="12" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="17" lcat="np" lemma="kabinet" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="kabinet" sense="kabinet" word="kabinet"/>
+        <node begin="12" cat="rel" end="16" id="18" rel="mod">
+          <node begin="12" case="no_obl" end="13" frame="rel_pronoun(het,no_obl)" gen="het" getal="ev" id="19" index="1" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" rnum="sg" root="dat" sense="dat" status="vol" vwtype="betr" wh="rel" word="dat"/>
+          <node begin="12" cat="ssub" end="16" id="20" rel="body">
+            <node begin="12" end="13" id="21" index="1" rel="su"/>
+            <node begin="14" end="15" frame="verb('hebben/zijn',sg,modifier(aux(inf)))" id="22" infl="sg" lcat="ssub" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" tense="present" word="moet" wvorm="pv"/>
+            <node begin="12" cat="inf" end="16" id="23" rel="vc">
+              <node begin="12" end="13" id="24" index="1" rel="su"/>
+              <node begin="13" end="14" frame="adverb" id="25" lcat="advp" lemma="maar" pos="adv" postag="BW()" pt="bw" rel="mod" root="maar" sense="maar" word="maar"/>
+              <node begin="15" buiging="zonder" end="16" frame="verb(hebben,inf,intransitive)" id="26" infl="inf" lcat="inf" lemma="beslissen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="beslis" sc="intransitive" sense="beslis" word="beslissen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" frame="punct(punt)" id="27" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Premier Kok suste de opwinding met de opmerking dat een volgend kabinet dat maar moet beslissen .</sentence>
+  <comments>
+    <comment>Q#15|Premier Kok suste de opwinding met de opmerking dat een volgend kabinet dat maar moet beslissen .|1|6|-0.3623423289399996</comment>
+  </comments>
+</alpino_ds>

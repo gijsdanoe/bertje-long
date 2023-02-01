@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="3" end="4" frame="verb(hebben,sg_heeft,aux_psp_hebben)" id="1" infl="sg_heeft" lcat="--" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="--" root="heb" sc="aux_psp_hebben" sense="heb" tense="present" word="heeft" wvorm="pv"/>
+    <node begin="4" buiging="zonder" end="5" frame="verb(hebben,psp,ninv(np_np,part_np_np(aan)))" id="2" infl="psp" lcat="--" lemma="aan_geven" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="--" root="geef_aan" sc="part_np_np(aan)" sense="geef_aan" word="aangegeven" wvorm="vd"/>
+    <node begin="5" conjtype="onder" end="6" frame="complementizer(dat)" id="3" lcat="--" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="--" root="dat" sc="dat" sense="dat" word="dat"/>
+    <node begin="11" end="12" frame="verb(hebben,sg_heeft,aux_psp_hebben)" id="4" infl="sg_heeft" lcat="--" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="--" root="heb" sc="aux_psp_hebben" sense="heb" tense="present" word="heeft" wvorm="pv"/>
+    <node begin="12" end="13" frame="punct(komma)" id="5" lcat="--" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="28" id="6" rel="--">
+      <node begin="0" cat="du" end="3" id="7" rel="dp">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="8" lcat="np" lemma="rechter" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="dp" rnum="sg" root="rechter" sense="rechter" word="Rechter"/>
+        <node begin="1" cat="mwu" end="3" id="9" mwu_root="Martin Mann" mwu_sense="Martin Mann" rel="dp">
+          <node begin="1" end="2" frame="proper_name(sg,'PER')" id="10" lcat="np" lemma="Martin" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Martin" sense="Martin" spectype="deeleigen" word="Martin"/>
+          <node begin="2" end="3" frame="proper_name(sg,'PER')" id="11" lcat="np" lemma="Mann" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Mann" sense="Mann" spectype="deeleigen" word="Mann"/>
+        </node>
+      </node>
+      <node begin="6" cat="du" end="9" id="12" rel="dp">
+        <node begin="6" case="nom" def="def" end="7" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="13" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="dp" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+        <node begin="7" cat="np" end="9" id="14" rel="dp">
+          <node begin="7" end="8" frame="determiner(een)" id="15" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="16" lcat="np" lemma="iPod" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="iPod" sense="iPod" word="iPod"/>
+        </node>
+      </node>
+      <node begin="9" cat="np" end="11" id="17" rel="dp">
+        <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" id="18" infl="e" lcat="ap" lemma="draagbaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="draagbaar" sense="draagbaar" vform="adj" word="draagbare"/>
+        <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="19" lcat="np" lemma="muziek_speler" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="muziek_speler" sense="muziek_speler" word="muziekspeler"/>
+      </node>
+      <node begin="13" cat="rel" end="28" id="20" rel="dp">
+        <node begin="13" case="no_obl" end="14" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="21" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+        <node begin="13" cat="ssub" end="28" id="22" rel="body">
+          <node begin="13" end="14" id="23" index="1" rel="su"/>
+          <node begin="17" end="18" frame="verb(unacc,sg3,passive)" id="24" infl="sg3" lcat="ssub" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" tense="present" word="wordt" wvorm="pv"/>
+          <node begin="13" cat="conj" end="28" id="25" rel="vc">
+            <node begin="19" conjtype="neven" end="20" frame="conj(en)" id="26" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="13" cat="ppart" end="28" id="27" rel="cnj">
+              <node begin="13" end="14" id="28" index="1" rel="obj1"/>
+              <node begin="14" cat="pp" end="17" id="29" index="2" rel="mod">
+                <node begin="14" end="15" frame="preposition(door,[heen])" id="30" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+                <node begin="15" cat="mwu" end="17" id="31" mwu_root="Apple Computer" mwu_sense="Apple Computer" rel="obj1">
+                  <node begin="15" end="16" frame="proper_name(sg,'PER')" id="32" lcat="np" lemma="Apple" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Apple" sense="Apple" spectype="deeleigen" word="Apple"/>
+                  <node begin="16" end="17" frame="proper_name(sg,'PER')" id="33" lcat="np" lemma="Computer" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Computer" sense="Computer" spectype="deeleigen" word="Computer"/>
+                </node>
+              </node>
+              <node begin="18" buiging="zonder" end="19" frame="verb(hebben,psp,transitive)" id="34" infl="psp" lcat="ppart" lemma="maken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="maak" sc="transitive" sense="maak" word="gemaakt" wvorm="vd"/>
+              <node begin="21" cat="pp" end="28" id="35" index="3" rel="mod">
+                <node begin="21" end="22" frame="preposition(in,[])" id="36" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="22" cat="np" end="28" id="37" rel="obj1">
+                  <node begin="22" end="23" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="38" lcat="np" lemma="associatie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="associatie" sense="associatie" word="associatie"/>
+                  <node begin="23" cat="pp" end="28" id="39" rel="mod">
+                    <node begin="23" end="24" frame="preposition(met,[mee,[en,al]])" id="40" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                    <node begin="24" cat="np" end="28" id="41" rel="obj1">
+                      <node begin="24" end="25" frame="determiner(de)" id="42" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="25" cat="mwu" end="28" id="43" mwu_root="iTunes Music Store" mwu_sense="iTunes Music Store" rel="hd">
+                        <node begin="25" end="26" frame="proper_name(both)" id="44" lcat="np" lemma="iTunes" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="iTunes" sense="iTunes" spectype="deeleigen" word="iTunes"/>
+                        <node begin="26" end="27" frame="proper_name(both)" id="45" lcat="np" lemma="Music" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Music" sense="Music" spectype="deeleigen" word="Music"/>
+                        <node begin="27" end="28" frame="proper_name(both)" id="46" lcat="np" lemma="Store" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Store" sense="Store" spectype="deeleigen" word="Store"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="13" cat="ppart" end="28" id="47" rel="cnj">
+              <node begin="13" end="14" id="48" index="1" rel="obj1"/>
+              <node begin="14" end="17" id="49" index="2" rel="mod"/>
+              <node begin="20" buiging="zonder" end="21" frame="verb(hebben,psp,transitive)" id="50" infl="psp" lcat="ppart" lemma="verkopen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verkoop" sc="transitive" sense="verkoop" word="verkocht" wvorm="vd"/>
+              <node begin="21" end="28" id="51" index="3" rel="mod"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" frame="punct(punt)" id="52" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Rechter Martin Mann heeft aangegeven dat hij een iPod draagbare muziekspeler heeft , die door Apple Computer wordt gemaakt en verkocht in associatie met de iTunes Music Store .</sentence>
+  <comments>
+    <comment>Q#6|Rechter Martin Mann heeft aangegeven dat hij een iPod draagbare muziekspeler heeft , die door Apple Computer wordt gemaakt en verkocht in associatie met de iTunes Music Store .|1|8|2.8733977632999936</comment>
+  </comments>
+</alpino_ds>

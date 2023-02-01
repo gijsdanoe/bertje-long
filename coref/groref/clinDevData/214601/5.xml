@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="41" id="0" rel="top">
+    <node begin="13" end="14" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="38" id="2" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="3" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="dp" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+      <node begin="1" cat="conj" end="38" id="4" rel="dp">
+        <node begin="1" cat="smain" end="15" id="5" rel="cnj">
+          <node begin="1" cat="np" end="4" id="6" index="1" rel="su">
+            <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="7" lcat="np" lemma="CEO" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="CEO" sense="CEO" word="CEO"/>
+            <node begin="2" cat="mwu" end="4" id="8" mwu_root="Steve Jobs" mwu_sense="Steve Jobs" rel="app">
+              <node begin="2" end="3" frame="proper_name(sg,'PER')" id="9" lcat="np" lemma="Steve" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Steve" sense="Steve" spectype="deeleigen" word="Steve"/>
+              <node begin="3" end="4" frame="proper_name(sg,'PER')" id="10" lcat="np" lemma="Jobs" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Jobs" sense="Jobs" spectype="deeleigen" word="Jobs"/>
+            </node>
+          </node>
+          <node begin="4" end="5" frame="verb(hebben,past(sg),transitive)" id="11" infl="sg" lcat="smain" lemma="onthullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="onthul" sc="transitive" sense="onthul" tense="past" word="onthulde" wvorm="pv"/>
+          <node begin="5" cat="np" end="8" id="12" rel="obj1">
+            <node begin="5" end="6" frame="determiner(de)" id="13" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" id="14" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+            <node begin="7" end="8" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="15" lcat="np" lemma="product" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="product" sense="product" word="producten"/>
+          </node>
+          <node begin="8" cat="pp" end="15" id="16" rel="mod">
+            <node begin="8" end="9" frame="preposition(tijdens,[])" id="17" lcat="pp" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" sense="tijdens" vztype="init" word="tijdens"/>
+            <node begin="9" cat="np" end="15" id="18" rel="obj1">
+              <node begin="9" end="10" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="19" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node begin="10" end="11" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="20" lcat="np" lemma="evenement" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="evenement" sense="evenement" word="evenement"/>
+              <node begin="11" cat="pp" end="15" id="21" rel="mod">
+                <node begin="11" end="12" frame="preposition(in,[])" id="22" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="12" cat="np" end="15" id="23" rel="obj1">
+                  <node begin="12" end="13" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" id="24" lcat="np" lemma="Cupertino" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Cupertino" sense="Cupertino" word="Cupertino"/>
+                  <node begin="14" end="15" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="25" lcat="np" lemma="Californië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" rnum="sg" root="Californië" sense="Californië" word="Californië"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="15" conjtype="neven" end="16" frame="conj(en)" id="26" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="1" cat="smain" end="38" id="27" rel="cnj">
+          <node begin="1" end="4" id="28" index="1" rel="su"/>
+          <node begin="16" end="17" frame="verb(hebben,past(sg),tr_sbar)" id="29" infl="sg" lcat="smain" lemma="zeggen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" tense="past" word="zei" wvorm="pv"/>
+          <node begin="17" cat="cp" end="38" id="30" rel="vc">
+            <node begin="17" conjtype="onder" end="18" frame="complementizer(dat)" id="31" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+            <node begin="18" cat="ssub" end="38" id="32" rel="body">
+              <node begin="18" cat="np" end="20" id="33" index="2" rel="su">
+                <node begin="18" end="19" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="34" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="19" end="20" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="35" lcat="np" lemma="bedrijf" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bedrijf" sense="bedrijf" word="bedrijf"/>
+              </node>
+              <node begin="33" end="34" frame="verb(hebben,modal_not_u,modifier(aux(inf)))" id="36" infl="modal_not_u" lcat="ssub" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="present" word="wil" wvorm="pv"/>
+              <node begin="18" cat="inf" end="38" id="37" rel="vc">
+                <node begin="18" end="20" id="38" index="2" rel="su"/>
+                <node begin="20" cat="conj" end="33" id="39" rel="obj1">
+                  <node begin="20" cat="np" end="31" id="40" rel="cnj">
+                    <node begin="20" end="21" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="41" lcat="np" lemma="``is" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="``is" sense="``is" word="``is"/>
+                    <node begin="21" cat="ppart" end="31" id="42" rel="mod">
+                      <node aform="base" begin="21" buiging="zonder" end="22" frame="adjective(ge_no_e(adv))" id="43" infl="no_e" lcat="ppart" lemma="geïnspireerd" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="geïnspireerd" sense="geïnspireerd" vform="psp" word="geïnspireerd" wvorm="vd"/>
+                      <node begin="22" cat="pp" end="31" id="44" rel="mod">
+                        <node begin="22" end="23" frame="preposition(door,[heen])" id="45" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+                        <node begin="23" cat="np" end="31" id="46" rel="obj1">
+                          <node begin="23" end="24" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="47" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                          <node begin="24" end="25" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="48" lcat="np" lemma="werk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="werk" sense="werk" word="werk"/>
+                          <node begin="25" cat="rel" end="31" id="49" rel="mod">
+                            <node begin="25" case="no_obl" end="26" frame="rel_pronoun(het,no_obl)" gen="het" getal="ev" id="50" index="3" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" rnum="sg" root="dat" sense="dat" status="vol" vwtype="betr" wh="rel" word="dat"/>
+                            <node begin="25" cat="ssub" end="31" id="51" rel="body">
+                              <node begin="25" end="26" id="52" index="3" rel="su"/>
+                              <node begin="29" end="30" frame="verb(unacc,sg_heeft,passive)" id="53" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="passive" sense="ben" tense="present" word="is" wvorm="pv"/>
+                              <node begin="25" cat="ppart" end="31" id="54" rel="vc">
+                                <node begin="25" end="26" id="55" index="3" rel="obj1"/>
+                                <node begin="26" cat="pp" end="29" id="56" rel="mod">
+                                  <node begin="26" end="27" frame="preposition(met,[mee,[en,al]])" id="57" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                                  <node begin="27" cat="np" end="29" id="58" rel="obj1">
+                                    <node begin="27" end="28" frame="determiner(de)" id="59" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                                    <node begin="28" end="29" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="60" lcat="np" lemma="iPad" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="iPad" sense="iPad" word="iPad"/>
+                                  </node>
+                                </node>
+                                <node begin="30" buiging="zonder" end="31" frame="verb(hebben,psp,transitive_ndev)" id="61" infl="psp" lcat="ppart" lemma="doen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="doe" sc="transitive_ndev" sense="doe" word="gedaan" wvorm="vd"/>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node begin="31" conjtype="neven" end="32" frame="conj(en)" id="62" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                  <node begin="32" end="33" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" id="63" infl="het" lcat="np" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="cnj" rnum="sg" root="dit" sense="dit" status="vol" vwtype="aanw" wh="nwh" word="dit"/>
+                </node>
+                <node begin="34" buiging="zonder" end="35" frame="verb(hebben,inf,transitive)" id="64" infl="inf" lcat="inf" lemma="implementeren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="implementeer" sc="transitive" sense="implementeer" word="implementeren" wvorm="inf"/>
+                <node begin="35" cat="pp" end="38" id="65" rel="mod">
+                  <node begin="35" end="36" frame="preposition(in,[])" id="66" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                  <node begin="36" cat="np" end="38" id="67" rel="obj1">
+                    <node begin="36" end="37" frame="determiner(de)" id="68" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                    <node begin="37" end="38" frame="proper_name(sg)" genus="zijd" getal="ev" graad="basis" id="69" lcat="np" lemma="Mac" naamval="stan" neclass="MISC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Mac" sense="Mac" word="Mac"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="38" end="39" frame="punct(punt)" id="70" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+    <node begin="39" end="40" frame="punct(aanhaal_both)" id="71" lcat="--" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="40" end="41" frame="punct(aanhaal_both)" id="72" lcat="--" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+  </node>
+  <sentence>Apple CEO Steve Jobs onthulde de nieuwe producten tijdens het evenement in Cupertino , Californië en zei dat het bedrijf ``is geïnspireerd door het werk dat met de iPad is gedaan en dit wil implementeren in de Mac . &apos; &apos;</sentence>
+  <comments>
+    <comment>Q#5|Apple CEO Steve Jobs onthulde de nieuwe producten tijdens het evenement in Cupertino , Californië en zei dat het bedrijf ``is geïnspireerd door het werk dat met de iPad is gedaan en dit wil implementeren in de Mac . &apos; &apos;|1|2|9.946053514660004</comment>
+  </comments>
+</alpino_ds>

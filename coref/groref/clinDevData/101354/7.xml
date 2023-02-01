@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" buiging="met-e" end="1" frame="determiner(alle,nwh,mod,pro,nparg)" id="3" infl="alle" lcat="detp" lemma="alle" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" sense="alle" vwtype="onbep" wh="nwh" word="Alle"/>
+        <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="4" lcat="np" lemma="app" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="app" sense="app" word="apps"/>
+      </node>
+      <node begin="2" end="3" frame="verb('hebben/zijn',pl,modifier(aux(inf)))" id="5" infl="pl" lcat="smain" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" stype="declarative" tense="present" word="moeten" wvorm="pv"/>
+      <node begin="0" cat="inf" end="14" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="su"/>
+        <node begin="5" buiging="zonder" end="6" frame="verb(unacc,inf,passive)" id="8" infl="inf" lcat="inf" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" sc="passive" sense="word" word="worden" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="14" id="9" rel="vc">
+          <node begin="0" end="2" id="10" index="1" rel="obj1"/>
+          <node begin="3" cat="pp" end="5" id="11" rel="mod">
+            <node begin="3" end="4" frame="preposition(door,[heen])" id="12" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+            <node begin="4" end="5" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="13" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+          </node>
+          <node begin="6" buiging="zonder" end="7" frame="verb(hebben,psp,ninv(transitive,part_transitive(goed)))" id="14" infl="psp" lcat="ppart" lemma="goed_keuren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="keur_goed" sc="part_transitive(goed)" sense="keur_goed" word="goedgekeurd" wvorm="vd"/>
+          <node begin="7" cat="cp" end="14" id="15" rel="mod">
+            <node begin="7" conjtype="onder" end="8" frame="complementizer" id="16" lcat="cp" lemma="voordat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="voordat" sense="voordat" word="voordat"/>
+            <node begin="8" cat="ssub" end="14" id="17" rel="body">
+              <node begin="8" case="both" def="def" end="9" frame="pronoun(nwh,thi,both,de,both,def,wkpro)" gen="de" getal="mv" id="18" index="2" lcat="np" lemma="ze" naamval="stan" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" rnum="pl" root="ze" sense="ze" special="wkpro" status="red" vwtype="pers" wh="nwh" word="ze"/>
+              <node begin="12" end="13" frame="verb(unacc,pl,passive)" id="19" infl="pl" lcat="ssub" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" tense="present" word="worden" wvorm="pv"/>
+              <node begin="8" cat="ppart" end="14" id="20" rel="vc">
+                <node begin="8" end="9" id="21" index="2" rel="obj1"/>
+                <node begin="9" cat="pp" end="12" id="22" rel="ld">
+                  <node begin="9" end="10" frame="preposition(in,[])" id="23" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                  <node begin="10" cat="np" end="12" id="24" rel="obj1">
+                    <node begin="10" end="11" frame="determiner(de)" id="25" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                    <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="26" lcat="np" lemma="store" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="store" sense="store" word="store"/>
+                  </node>
+                </node>
+                <node begin="13" buiging="zonder" end="14" frame="verb(hebben,psp,ninv(np_ld_pp,part_np_ld_pp(toe)))" id="27" infl="psp" lcat="ppart" lemma="toe_laten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="laat_toe" sc="part_np_ld_pp(toe)" sense="laat_toe" word="toegelaten" wvorm="vd"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" id="28" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Alle apps moeten door Apple worden goedgekeurd voordat ze in de store worden toegelaten .</sentence>
+  <comments>
+    <comment>Q#7|Alle apps moeten door Apple worden goedgekeurd voordat ze in de store worden toegelaten .|1|1|-10.884305409460005</comment>
+  </comments>
+</alpino_ds>

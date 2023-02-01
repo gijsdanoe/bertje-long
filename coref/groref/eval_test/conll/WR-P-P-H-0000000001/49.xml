@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="du" end="15" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" id="2" lcat="du" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" sc="root" sense="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="15" id="3" rel="nucl">
+        <node begin="1" cat="np" end="4" id="4" index="1" rel="su">
+          <node begin="1" end="2" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="5" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" id="6" infl="e" lcat="ap" lemma="Turks" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Turks" sense="Turks" vform="adj" word="Turkse"/>
+          <node begin="3" end="4" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="7" lcat="np" lemma="landbouw_beleid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="landbouw_beleid" sense="landbouw_beleid" word="landbouwbeleid"/>
+        </node>
+        <node begin="4" end="5" frame="verb(unacc,sg_heeft,te_passive)" id="8" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="te_passive" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+        <node begin="1" cat="ti" end="15" id="9" rel="vc">
+          <node begin="13" end="14" frame="complementizer(te)" id="10" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="1" cat="inf" end="15" id="11" rel="body">
+            <node begin="1" end="4" id="12" index="1" rel="obj1"/>
+            <node begin="5" end="6" frame="adverb" id="13" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+            <node begin="6" cat="pp" end="13" id="14" rel="mod">
+              <node begin="6" end="7" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="15" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="7" cat="np" end="13" id="16" rel="obj1">
+                <node begin="7" end="8" frame="determiner(de)" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node aform="base" begin="8" buiging="met-e" end="9" frame="adjective(e)" getal-n="zonder-n" id="18" infl="e" lcat="np" lemma="ene" naamval="stan" pdtype="det" pos="adj" positie="nom" postag="VNW(onbep,det,stan,nom,met-e,zonder-n)" pt="vnw" rel="hd" rnum="sg" root="ene" sense="ene" vform="adj" vwtype="onbep" word="ene"/>
+                <node begin="9" cat="pp" end="13" id="19" rel="mod">
+                  <node begin="9" end="10" frame="preposition(op,[af,na])" id="20" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                  <node begin="10" cat="np" end="13" id="21" rel="obj1">
+                    <node begin="10" end="11" frame="determiner(de)" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                    <node aform="compar" begin="11" buiging="met-e" end="12" frame="adjective(ere)" graad="basis" id="23" infl="e" lcat="ap" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" sense="ander" vform="adj" word="andere"/>
+                    <node begin="12" end="13" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="24" lcat="np" lemma="dag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="dag" sense="dag" special="tmp" word="dag"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="14" buiging="zonder" end="15" frame="verb(hebben,inf,transitive)" id="25" infl="inf" lcat="inf" lemma="veranderen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verander" sc="transitive" sense="verander" word="veranderen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" id="26" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Maar het Turkse landbouwbeleid is niet van de ene op de andere dag te veranderen .</sentence>
+  <comments>
+    <comment>Q#49|Maar het Turkse landbouwbeleid is niet van de ene op de andere dag te veranderen .|1|1|2.810067914719996</comment>
+  </comments>
+</alpino_ds>

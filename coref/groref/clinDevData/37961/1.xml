@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="2" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,transitive)" id="3" infl="sg3" lcat="smain" lemma="introduceren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="introduceer" sc="transitive" sense="introduceer" stype="declarative" tense="present" word="introduceert" wvorm="pv"/>
+      <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="4" lcat="np" lemma="programma" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="programma" sense="programma" word="programma"/>
+      <node begin="3" cat="oti" end="7" id="5" rel="mod">
+        <node begin="3" end="4" frame="complementizer(om)" id="6" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+        <node begin="4" cat="ti" end="7" id="7" rel="body">
+          <node begin="5" end="6" frame="complementizer(te)" id="8" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="4" cat="inf" end="7" id="9" rel="body">
+            <node begin="4" end="5" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="10" lcat="np" lemma="iPod_volume" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="iPod_volume" sense="iPod_volume" word="iPod-volume"/>
+            <node begin="6" buiging="zonder" end="7" frame="verb(hebben,inf,transitive)" id="11" infl="inf" lcat="inf" lemma="begrenzen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="begrens" sc="transitive" sense="begrens" word="begrenzen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Apple introduceert programma om iPod-volume te begrenzen</sentence>
+  <comments>
+    <comment>Q#1|Apple introduceert programma om iPod-volume te begrenzen|1|1|-1.7988398312000002</comment>
+  </comments>
+</alpino_ds>

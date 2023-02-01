@@ -1,0 +1,50 @@
+version: 8.01 /project/rvdgoot/groref/clin26-eval-master/coref_scorer/coref-scorer-v8.01/lib/CorScorer.pm
+====> (107785_Apple_launches_3G.xml.coref_ne);:
+File (107785_Apple_launches_3G.xml.coref_ne);:
+Entity 0: (0,0) (5,5) (5,6) (22,22) (42,42) (70,70) (126,126)
+Entity 1: (2,3) (9,13) (34,35) (50,53) (57,57) (75,77) (90,91) (135,137)
+Entity 2: (13,13) (47,48)
+Entity 3: (15,16) (15,22) (33,33)
+Entity 4: (73,73)
+Entity 5: (84,85)
+Entity 6: (101,103) (121,122) (120,122)
+Entity 7: (106,110)
+Entity 8: (124,126)
+====> (107785_Apple_launches_3G.xml.coref_ne);:
+File (107785_Apple_launches_3G.xml.coref_ne);:
+Entity 0: (0,0) (22,22) (70,70)
+Entity 1: (5,6)
+Entity 2: (9,13)
+Entity 3: (12,13) (34,35) (47,48) (75,77) (90,91)
+Entity 4: (15,16) (33,33) (57,57)
+Entity 5: (18,20)
+Entity 6: (18,22)
+Entity 7: (25,26)
+Entity 8: (42,42)
+Entity 9: (53,53) (77,77)
+Entity 10: (73,77)
+Entity 11: (84,85)
+Entity 12: (87,91)
+Entity 13: (102,103) (101,103)
+Entity 14: (106,110)
+Entity 15: (109,110)
+Entity 16: (121,123) (120,123)
+:
+Total key mentions: 27
+Total response mentions: 28
+Strictly correct identified mentions: 16
+Partially correct identified mentions: 0
+No identified: 11
+Invented: 12
+
+====== TOTALS =======
+Identification of Mentions: Recall: (16 / 27) 59.25%	Precision: (16 / 28) 57.14%	F1: 58.18%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (7 / 56) 12.5%	Precision: (7 / 19) 36.84%	F1: 18.66%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (94 / 295) 31.86%	Precision: (94 / 359) 26.18%	F1: 28.74%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.221822033898305 / 1) 22.18%	Precision: (0.3151297463715 / 1) 31.51%	F1: 23.7%
+--------------------------------------------------------------------------

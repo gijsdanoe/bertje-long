@@ -1,0 +1,49 @@
+version: 8.01 /project/rvdgoot/groref/clin26-eval-master/coref_scorer/coref-scorer-v8.01/lib/CorScorer.pm
+====> (60083_Apple_Corps_resolve.xml.coref_ne);:
+File (60083_Apple_Corps_resolve.xml.coref_ne);:
+Entity 0: (0,1) (9,10) (15,15) (16,16) (37,38) (39,44) (60,61) (99,99) (127,128)
+Entity 1: (3,4) (20,21) (23,27) (53,54) (80,82)
+Entity 2: (26,27) (103,104) (111,111)
+Entity 3: (42,44) (62,63) (65,66) (117,118)
+Entity 4: (69,71)
+Entity 5: (121,122) (121,128)
+====> (60083_Apple_Corps_resolve.xml.coref_ne);:
+File (60083_Apple_Corps_resolve.xml.coref_ne);:
+Entity 0: (0,1) (9,10) (16,16) (37,38) (60,61)
+Entity 1: (3,4) (20,21) (23,27) (53,54)
+Entity 2: (6,6)
+Entity 3: (15,15) (106,106)
+Entity 4: (27,27) (26,27) (104,104) (103,104)
+Entity 5: (33,35) (73,75)
+Entity 6: (43,43) (94,94)
+Entity 7: (48,49)
+Entity 8: (51,51)
+Entity 9: (62,63)
+Entity 10: (65,66)
+Entity 11: (70,71) (69,71) (111,111)
+Entity 12: (77,78) (79,79)
+Entity 13: (91,95)
+Entity 14: (93,95)
+Entity 15: (99,99)
+Entity 16: (117,118)
+Entity 17: (121,122) (124,128)
+Entity 18: (127,128)
+:
+Total key mentions: 24
+Total response mentions: 36
+Strictly correct identified mentions: 20
+Partially correct identified mentions: 0
+No identified: 4
+Invented: 16
+
+====== TOTALS =======
+Identification of Mentions: Recall: (20 / 24) 83.33%	Precision: (20 / 36) 55.55%	F1: 66.66%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (17 / 56) 30.35%	Precision: (17 / 30) 56.66%	F1: 39.53%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (149 / 220) 67.72%	Precision: (149 / 600) 24.83%	F1: 36.34%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.490422077922078 / 1) 49.04%	Precision: (0.4075 / 1) 40.74%	F1: 37.93%
+--------------------------------------------------------------------------

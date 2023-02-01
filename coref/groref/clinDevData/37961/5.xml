@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="0" cat="smain" end="24" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="2" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+      <node begin="1" end="2" frame="verb(hebben,past(sg),part_transitive(uit))" id="3" infl="sg" lcat="smain" lemma="uit_brengen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="breng_uit" sc="part_transitive(uit)" sense="breng_uit" stype="declarative" tense="past" word="bracht" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" rel="obj1">
+        <node begin="2" end="3" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="5" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+        <node begin="3" end="4" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="6" lcat="np" lemma="programma" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="programma" sense="programma" word="programma"/>
+      </node>
+      <node begin="4" end="5" frame="particle(uit)" id="7" lcat="part" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" sense="uit" vztype="fin" word="uit"/>
+      <node begin="5" cat="cp" end="24" id="8" rel="predm">
+        <node begin="5" end="6" frame="complementizer(als)" id="9" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+        <node begin="6" cat="np" end="24" id="10" rel="body">
+          <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="reactie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="reactie" sense="reactie" word="reactie"/>
+          <node begin="7" cat="pp" end="24" id="12" rel="mod">
+            <node begin="7" end="8" frame="preposition(op,[af,na])" id="13" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+            <node begin="8" cat="np" end="24" id="14" rel="obj1">
+              <node begin="8" end="9" frame="noun(de,count,pl,sbar)" gen="de" getal="mv" graad="basis" id="15" lcat="np" lemma="klacht" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="klacht" sc="sbar" sense="klacht" word="klachten"/>
+              <node begin="9" cat="cp" end="24" id="16" rel="vc">
+                <node begin="9" conjtype="onder" end="10" frame="complementizer(dat)" id="17" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+                <node begin="10" cat="ssub" end="24" id="18" rel="body">
+                  <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" id="19" index="1" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+                  <node begin="15" end="16" frame="verb(hebben,past(sg),aux_psp_hebben)" id="20" infl="sg" lcat="ssub" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="past" word="had" wvorm="pv"/>
+                  <node begin="10" cat="ppart" end="24" id="21" rel="vc">
+                    <node begin="10" end="11" id="22" index="1" rel="su"/>
+                    <node begin="11" end="12" frame="adverb" id="23" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+                    <node begin="12" cat="np" end="15" id="24" rel="obj1">
+                      <node begin="12" end="13" frame="determiner(de)" id="25" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node aform="base" begin="13" buiging="met-e" end="14" frame="adjective(e)" graad="basis" id="26" infl="e" lcat="ap" lemma="nodig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nodig" sense="nodig" vform="adj" word="nodige"/>
+                      <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="27" lcat="np" lemma="maatregel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="maatregel" sense="maatregel" word="maatregelen"/>
+                    </node>
+                    <node begin="16" buiging="zonder" end="17" frame="verb(hebben,psp,transitive)" id="28" infl="psp" lcat="ppart" lemma="nemen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="neem" sc="transitive" sense="neem" word="genomen" wvorm="vd"/>
+                    <node begin="17" cat="oti" end="24" id="29" rel="mod">
+                      <node begin="17" end="18" frame="complementizer(om)" id="30" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+                      <node begin="18" cat="ti" end="24" id="31" rel="body">
+                        <node begin="22" end="23" frame="complementizer(te)" id="32" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                        <node begin="18" cat="inf" end="24" id="33" rel="body">
+                          <node begin="18" end="19" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="34" lcat="np" lemma="gehoor_verlies" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="gehoor_verlies" sense="gehoor_verlies" word="gehoorverlies"/>
+                          <node begin="19" cat="pp" end="21" id="35" rel="mod">
+                            <node begin="19" end="20" frame="preposition(bij,[vandaan])" id="36" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+                            <node begin="20" end="21" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="37" lcat="np" lemma="iPod_gebruiker" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="iPod_gebruiker" sense="iPod_gebruiker" word="iPod-gebruikers"/>
+                          </node>
+                          <node begin="21" end="22" frame="particle(tegen)" id="38" lcat="part" lemma="tegen" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="tegen" sense="tegen" vztype="fin" word="tegen"/>
+                          <node begin="23" buiging="zonder" end="24" frame="verb(zijn,inf(no_e),part_transitive(tegen))" id="39" infl="inf(no_e)" lcat="inf" lemma="tegen_gaan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ga_tegen" sc="part_transitive(tegen)" sense="ga_tegen" word="gaan" wvorm="inf"/>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" frame="punct(punt)" id="40" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Apple bracht het programma uit als reactie op klachten dat het niet de nodige maatregelen had genomen om gehoorverlies bij iPod-gebruikers tegen te gaan .</sentence>
+  <comments>
+    <comment>Q#5|Apple bracht het programma uit als reactie op klachten dat het niet de nodige maatregelen had genomen om gehoorverlies bij iPod-gebruikers tegen te gaan .|1|1|-9.222865752520008</comment>
+  </comments>
+</alpino_ds>

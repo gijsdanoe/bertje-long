@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" rel="su">
+        <node begin="0" cat="mwu" end="2" id="3" mwu_root="Apple Computer" mwu_sense="Apple Computer" rel="mod">
+          <node begin="0" end="1" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="Apple" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Apple" sense="Apple" spectype="deeleigen" word="Apple"/>
+          <node begin="1" end="2" frame="proper_name(sg,'PER')" id="5" lcat="np" lemma="Computer" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Computer" sense="Computer" spectype="deeleigen" word="Computer"/>
+        </node>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="CEO" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="CEO" sense="CEO" word="CEO"/>
+        <node begin="3" cat="mwu" end="5" id="7" mwu_root="Steve Jobs" mwu_sense="Steve Jobs" rel="app">
+          <node begin="3" end="4" frame="proper_name(sg,'PER')" id="8" lcat="np" lemma="Steve" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Steve" sense="Steve" spectype="deeleigen" word="Steve"/>
+          <node begin="4" end="5" frame="proper_name(sg,'PER')" id="9" lcat="np" lemma="Jobs" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Jobs" sense="Jobs" spectype="deeleigen" word="Jobs"/>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(hebben,sg3,np_np)" id="10" infl="sg3" lcat="smain" lemma="geven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="geef" sc="np_np" sense="geef" stype="declarative" tense="present" word="geeft" wvorm="pv"/>
+      <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="opening" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj2" rnum="sg" root="opening" sense="opening" word="opening"/>
+      <node begin="7" cat="np" end="11" id="12" rel="obj1">
+        <node begin="7" end="8" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="13" lcat="np" lemma="keynote" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="keynote" sense="keynote" word="keynote"/>
+        <node begin="8" cat="pp" end="11" id="14" rel="mod">
+          <node begin="8" end="9" frame="preposition(op,[af,na])" id="15" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="9" cat="mwu" end="11" id="16" mwu_root="WWDC 2005" mwu_sense="WWDC 2005" rel="obj1">
+            <node begin="9" end="10" frame="proper_name(both)" id="17" lcat="np" lemma="WWDC" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="WWDC" sense="WWDC" spectype="deeleigen" word="WWDC"/>
+            <node begin="10" end="11" frame="proper_name(both)" id="18" lcat="np" lemma="2005" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="2005" sense="2005" spectype="deeleigen" word="2005"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Apple Computer CEO Steve Jobs geeft opening keynote op WWDC 2005</sentence>
+  <comments>
+    <comment>Q#1|Apple Computer CEO Steve Jobs geeft opening keynote op WWDC 2005|1|1|8.614369829280001</comment>
+  </comments>
+</alpino_ds>

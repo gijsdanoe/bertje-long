@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="10" end="11" frame="punct(aanhaal_links)" id="2" lcat="--" lemma="‘" pos="punct" postag="LET()" pt="let" rel="--" root="‘" sense="‘" special="aanhaal_links" word="‘"/>
+    <node begin="0" cat="conj" end="20" id="3" rel="--">
+      <node begin="0" cat="smain" end="7" id="4" rel="cnj">
+        <node begin="0" cat="np" end="2" id="5" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" id="6" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="7" lcat="np" lemma="iPhone" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="iPhone" sense="iPhone" word="iPhone"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg3,part_transitive(af))" id="8" infl="sg3" lcat="smain" lemma="af_spelen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="speel_af" sc="part_transitive(af)" sense="speel_af" tense="present" word="speelt" wvorm="pv"/>
+        <node begin="3" cat="conj" end="6" id="9" rel="obj1">
+          <node begin="3" end="4" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="muziek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="muziek" sense="muziek" word="muziek"/>
+          <node begin="4" conjtype="neven" end="5" frame="conj(en)" id="11" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="12" lcat="np" lemma="film" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="film" sense="film" word="films"/>
+        </node>
+        <node begin="6" end="7" frame="particle(af)" id="13" lcat="part" lemma="af" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="af" sense="af" vztype="fin" word="af"/>
+      </node>
+      <node begin="0" cat="smain" end="12" id="14" rel="cnj">
+        <node begin="0" end="2" id="15" index="1" rel="su"/>
+        <node begin="8" end="9" frame="verb(hebben,sg3,transitive)" id="16" infl="sg3" lcat="smain" lemma="tonen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="toon" sc="transitive" sense="toon" tense="present" word="toont" wvorm="pv"/>
+        <node begin="9" cat="np" end="12" id="17" rel="obj1">
+          <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="18" lcat="np" lemma="foto" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="foto" sense="foto" word="foto"/>
+          <node begin="11" end="12" frame="enumeration" id="19" lcat="np" lemma="s" pos="num" postag="SPEC(symb)" pt="spec" rel="app" root="s" sense="s" special="enumeration" spectype="symb" word="s"/>
+        </node>
+      </node>
+      <node begin="12" conjtype="neven" end="13" frame="conj(en)" id="20" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="20" id="21" rel="cnj">
+        <node begin="0" end="2" id="22" index="1" rel="su"/>
+        <node begin="13" end="14" frame="verb('hebben/zijn',modal_not_u,aux(inf))" id="23" infl="modal_not_u" lcat="smain" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present" word="kan" wvorm="pv"/>
+        <node begin="0" cat="inf" end="20" id="24" rel="vc">
+          <node begin="0" end="2" id="25" index="1" rel="su"/>
+          <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="26" lcat="np" lemma="verbinding" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="verbinding" sense="verbinding" word="verbinding"/>
+          <node begin="15" buiging="zonder" end="16" frame="verb(hebben,inf,transitive)" id="27" infl="inf" lcat="inf" lemma="maken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="maak" sc="transitive" sense="maak" word="maken" wvorm="inf"/>
+          <node begin="16" cat="pp" end="20" id="28" rel="mod">
+            <node begin="16" end="17" frame="preposition(met,[mee,[en,al]])" id="29" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="17" cat="np" end="20" id="30" rel="obj1">
+              <node begin="17" end="18" frame="determiner(een)" id="31" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node aform="base" begin="18" buiging="zonder" end="19" frame="adjective(no_e(adv))" graad="basis" id="32" infl="no_e" lcat="ap" lemma="draadloos" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="draadloos" sense="draadloos" vform="adj" word="draadloos"/>
+              <node begin="19" end="20" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="33" lcat="np" lemma="netwerk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="netwerk" sense="netwerk" word="netwerk"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" frame="punct(punt)" id="34" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De iPhone speelt muziek en films af , toont foto ‘ s en kan verbinding maken met een draadloos netwerk .</sentence>
+  <comments>
+    <comment>Q#7|De iPhone speelt muziek en films af , toont foto ‘ s en kan verbinding maken met een draadloos netwerk .|1|1|0.306112321919989</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="3" end="4" frame="punct(dubb_punt)" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="4" end="5" frame="punct(aanhaal_both)" id="2" lcat="--" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" sense="&quot;" special="aanhaal_both" word="&quot;"/>
+    <node begin="0" cat="du" end="11" id="3" rel="--">
+      <node begin="0" cat="np" end="3" id="4" rel="tag">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="5" lcat="np" lemma="econoom" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="econoom" sense="econoom" word="Econoom"/>
+        <node begin="1" cat="mwu" end="3" id="6" mwu_root="Mehmet Altah" mwu_sense="Mehmet Altah" rel="app">
+          <node begin="1" end="2" frame="proper_name(sg,'PER')" id="7" lcat="np" lemma="Mehmet" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Mehmet" sense="Mehmet" spectype="deeleigen" word="Mehmet"/>
+          <node begin="2" end="3" frame="proper_name(sg,'PER')" id="8" lcat="np" lemma="Altah" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Altah" sense="Altah" spectype="deeleigen" word="Altah"/>
+        </node>
+      </node>
+      <node begin="5" cat="smain" end="11" id="9" rel="nucl">
+        <node begin="5" cat="np" end="7" id="10" rel="su">
+          <node begin="5" end="6" frame="determiner(de)" id="11" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="12" lcat="np" lemma="boer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="boer" sense="boer" word="boeren"/>
+        </node>
+        <node begin="7" end="8" frame="verb(unacc,pl,copula)" id="13" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+        <node aform="base" begin="8" buiging="zonder" end="9" frame="adjective(no_e(adv))" graad="basis" id="14" infl="no_e" lcat="ap" lemma="machtig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="machtig" sense="machtig" vform="adj" word="machtig"/>
+        <node begin="9" cat="pp" end="11" id="15" rel="mod">
+          <node begin="9" end="10" frame="preposition(in,[])" id="16" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="10" end="11" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" id="17" lcat="np" lemma="Turkije" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Turkije" sense="Turkije" word="Turkije"/>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" id="18" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Econoom Mehmet Altah : &quot; De boeren zijn machtig in Turkije .</sentence>
+  <comments>
+    <comment>Q#40|Econoom Mehmet Altah : &quot; De boeren zijn machtig in Turkije .|1|1|3.7762079784599965</comment>
+  </comments>
+</alpino_ds>

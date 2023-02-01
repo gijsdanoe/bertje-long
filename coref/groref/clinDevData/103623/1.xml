@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(ligg_streep)" id="1" lcat="--" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="0" cat="smain" end="14" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg)" genus="genus" getal="ev" graad="basis" id="4" lcat="np" lemma="iTunes" naamval="stan" neclass="MISC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="hd" rnum="sg" root="iTunes" sense="iTunes" word="iTunes"/>
+        <node begin="1" cat="pp" end="3" id="5" rel="mod">
+          <node begin="1" end="2" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="6" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="2" end="3" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="7" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,sg3,transitive)" id="8" infl="sg3" lcat="smain" lemma="verslaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="versla" sc="transitive" sense="versla" stype="declarative" tense="present" word="verslaat" wvorm="pv"/>
+      <node begin="4" cat="np" end="7" id="9" rel="obj1">
+        <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="wal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="wal" sense="wal" word="Wal"/>
+        <node begin="6" end="7" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="Mart" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Mart" sense="Mart" word="Mart"/>
+      </node>
+      <node begin="7" cat="cp" end="14" id="12" rel="predm">
+        <node begin="7" end="8" frame="complementizer(als)" id="13" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+        <node begin="8" cat="np" end="14" id="14" rel="body">
+          <node aform="super" begin="8" buiging="met-e" end="9" frame="adjective(ste)" graad="sup" id="15" infl="e" lcat="ap" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="groot" sense="groot" vform="adj" word="grootste"/>
+          <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="16" lcat="np" lemma="muziek_verkoper" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="muziek_verkoper" sense="muziek_verkoper" word="muziekverkoper"/>
+          <node begin="10" cat="pp" end="14" id="17" rel="mod">
+            <node begin="10" end="11" frame="preposition(in,[])" id="18" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="11" cat="np" end="14" id="19" rel="obj1">
+              <node begin="11" end="12" frame="determiner(de)" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="12" cat="mwu" end="14" id="21" mwu_root="V. S." mwu_sense="V. S." rel="hd">
+                <node begin="12" end="13" frame="proper_name(both,'LOC')" id="22" lcat="np" lemma="V." neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="V." sense="V." spectype="deeleigen" word="V."/>
+                <node begin="13" end="14" frame="proper_name(both,'LOC')" id="23" lcat="np" lemma="S." neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="S." sense="S." spectype="deeleigen" word="S."/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>iTunes van Apple verslaat Wal - Mart als grootste muziekverkoper in de V. S.</sentence>
+  <comments>
+    <comment>Q#1|iTunes van Apple verslaat Wal - Mart als grootste muziekverkoper in de V. S.|1|1|3.461748012239995</comment>
+  </comments>
+</alpino_ds>

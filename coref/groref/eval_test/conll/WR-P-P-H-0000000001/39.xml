@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="whq" end="13" id="1" rel="--">
+      <node begin="0" end="1" frame="waar_adverb(van)" id="2" lcat="pp" lemma="vanwaar" pos="pp" postag="BW()" pt="bw" rel="whd" root="vanwaar" sense="vanwaar" special="waar" word="Vanwaar"/>
+      <node begin="1" cat="np" end="13" id="3" rel="body">
+        <node begin="1" buiging="zonder" end="2" frame="determiner(de,nwh,nmod,pro,nparg)" id="4" infl="de" lcat="detp" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" sense="die" vwtype="aanw" wh="nwh" word="die"/>
+        <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" id="5" infl="e" lcat="ap" lemma="gul" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="gul" sense="gul" vform="adj" word="gulle"/>
+        <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="hand" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="hand" sense="hand" word="hand"/>
+        <node begin="4" cat="pp" end="13" id="7" rel="mod">
+          <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="8" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="5" cat="np" end="13" id="9" rel="obj1">
+            <node begin="5" end="6" frame="determiner(een)" id="10" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" id="11" infl="e" lcat="ap" lemma="Turks" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Turks" sense="Turks" vform="adj" word="Turkse"/>
+            <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="overheid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="overheid" sense="overheid" word="overheid"/>
+            <node begin="8" cat="rel" end="13" id="13" rel="mod">
+              <node begin="8" case="no_obl" end="9" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="14" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+              <node begin="8" cat="ssub" end="13" id="15" rel="body">
+                <node begin="8" end="9" id="16" index="1" rel="su"/>
+                <node begin="9" cat="pp" end="12" id="17" rel="ld">
+                  <node begin="9" end="10" frame="preposition(in,[])" id="18" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                  <node begin="10" cat="np" end="12" id="19" rel="obj1">
+                    <node begin="10" end="11" frame="determiner(de)" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                    <node begin="11" end="12" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="21" lcat="np" lemma="schuld" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="schuld" sense="schuld" word="schulden"/>
+                  </node>
+                </node>
+                <node begin="12" end="13" frame="verb('hebben/zijn',sg3,ld_pp)" id="22" infl="sg3" lcat="ssub" lemma="zwemmen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zwem" sc="ld_pp" sense="zwem" tense="present" word="zwemt" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" frame="punct(vraag)" id="23" lcat="punct" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" sense="?" special="vraag" word="?"/>
+  </node>
+  <sentence>Vanwaar die gulle hand van een Turkse overheid die in de schulden zwemt ?</sentence>
+  <comments>
+    <comment>Q#39|Vanwaar die gulle hand van een Turkse overheid die in de schulden zwemt ?|1|1|-4.8265861030399995</comment>
+  </comments>
+</alpino_ds>

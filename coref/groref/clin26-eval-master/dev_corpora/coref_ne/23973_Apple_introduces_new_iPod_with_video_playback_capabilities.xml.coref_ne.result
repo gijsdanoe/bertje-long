@@ -1,0 +1,46 @@
+version: 8.01 /project/rvdgoot/groref/clin26-eval-master/coref_scorer/coref-scorer-v8.01/lib/CorScorer.pm
+====> (23973_Apple_introduces_new_iPod_with_video_playback_capabilities.xml.coref_ne);:
+File (23973_Apple_introduces_new_iPod_with_video_playback_capabilities.xml.coref_ne);:
+Entity 0: (0,0) (16,16) (34,34)
+Entity 1: (3,3) (9,11) (17,19) (67,69) (95,96) (113,114)
+Entity 2: (5,5) (21,21) (104,104)
+Entity 3: (25,27)
+Entity 4: (29,32)
+Entity 5: (36,37) (34,37)
+Entity 6: (49,50)
+Entity 7: (56,58) (95,99) (113,117)
+Entity 8: (64,65)
+Entity 9: (106,109)
+====> (23973_Apple_introduces_new_iPod_with_video_playback_capabilities.xml.coref_ne);:
+File (23973_Apple_introduces_new_iPod_with_video_playback_capabilities.xml.coref_ne);:
+Entity 0: (0,0) (16,16) (34,34)
+Entity 1: (2,3) (4,4) (2,7) (17,19) (20,20) (56,58) (67,69)
+Entity 2: (5,5)
+Entity 3: (21,21)
+Entity 4: (25,27)
+Entity 5: (30,32) (29,32)
+Entity 6: (34,37)
+Entity 7: (36,37)
+Entity 8: (42,42)
+Entity 9: (53,58)
+Entity 10: (64,65)
+Entity 11: (81,81) (87,87)
+:
+Total key mentions: 22
+Total response mentions: 22
+Strictly correct identified mentions: 13
+Partially correct identified mentions: 0
+No identified: 9
+Invented: 9
+
+====== TOTALS =======
+Identification of Mentions: Recall: (13 / 22) 59.09%	Precision: (13 / 22) 59.09%	F1: 59.09%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (4 / 25) 16%	Precision: (4 / 26) 15.38%	F1: 15.68%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (70 / 206) 33.98%	Precision: (70 / 205) 34.14%	F1: 34.06%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.249902912621359 / 1) 24.99%	Precision: (0.24765478424015 / 1) 24.76%	F1: 24.87%
+--------------------------------------------------------------------------

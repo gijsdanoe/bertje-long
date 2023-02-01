@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="2" id="0" rel="top">
+    <node begin="0" cat="du" end="2" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="2" lcat="np" lemma="foto" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="dp" rnum="sg" root="foto" sense="foto" word="FOTO"/>
+      <node begin="1" end="2" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="3" lcat="np" lemma="ABC" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="dp" rnum="sg" root="ABC" sense="ABC" word="ABC"/>
+    </node>
+  </node>
+  <sentence>FOTO ABC</sentence>
+  <comments>
+    <comment>Q#89|FOTO ABC|1|1|1.6101052059199998</comment>
+  </comments>
+</alpino_ds>

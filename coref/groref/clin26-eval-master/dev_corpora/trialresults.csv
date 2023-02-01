@@ -1,0 +1,50 @@
+dev_corpora	trial
+Date	Mon Sep 10 13:00:17 CEST 2018
+
+Nr. of result files	30
+MENTIONS (key mentions=663)
+# response mentions	768
+# missed mentions	229
+# invented mentions	334
+# strictly correct identified mentions	434
+# partially correct identified mentions	0
+ recall	65.46003016591251%
+ precision	56.510416666666664%
+ f1	60.65688329839273%
+
+REFERENCE (BLANC)
+# reference links	7388.0
+# response reference links	9876.0
+# correct reference links	2717.0
+ recall	36.77585273416351%
+ precision	27.511138112596193%
+ f1	31.475903614457835%
+
+COREFERENCE
+# key coreference links	1096.0
+# response coreference links	607.0
+# correct coreference links	210.0
+ recall	19.16058394160584%
+ precision	34.59637561779242%
+ f1	24.662360540223137%
+
+NOREFERENCE
+# key non-coreference links	6292.0
+# response non-coreference links	9269.0
+# correct non-coreference links	2507.0
+ recall	39.84424666242848%
+ precision	27.047146401985113%
+ f1	32.221579590000644%
+
+
+Macro average over all result files reported by the coref scorer:
+Macro average identification of Mentions
+recall	65.74933333333333%
+precision	56.91433333333334%
+f1	60.53433333333333%
+
+Macro average blanc
+recall	30.830333333333336%
+precision	31.877%
+f1	28.045333333333335%
+

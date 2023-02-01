@@ -1,0 +1,50 @@
+version: 8.01 /project/rvdgoot/groref/clin26-eval-master/coref_scorer/coref-scorer-v8.01/lib/CorScorer.pm
+====> (43503_Apple_plans_to_sell.xml.coref_ne);:
+File (43503_Apple_plans_to_sell.xml.coref_ne);:
+Entity 0: (0,0) (10,11) (48,48)
+Entity 1: (4,4) (15,16) (69,69)
+Entity 2: (8,8) (21,25) (88,88) (91,97)
+Entity 3: (30,31)
+Entity 4: (39,41)
+Entity 5: (45,46) (45,48)
+Entity 6: (51,53) (77,80)
+Entity 7: (60,61)
+Entity 8: (108,108) (114,115) (129,130)
+====> (43503_Apple_plans_to_sell.xml.coref_ne);:
+File (43503_Apple_plans_to_sell.xml.coref_ne);:
+Entity 0: (0,0) (48,48)
+Entity 1: (4,4) (69,69)
+Entity 2: (8,8) (88,88)
+Entity 3: (10,11)
+Entity 4: (15,16)
+Entity 5: (22,25) (21,25)
+Entity 6: (30,31)
+Entity 7: (39,41)
+Entity 8: (41,41)
+Entity 9: (45,48)
+Entity 10: (55,56)
+Entity 11: (60,61)
+Entity 12: (67,67)
+Entity 13: (77,77)
+Entity 14: (83,85)
+Entity 15: (100,101)
+Entity 16: (106,108)
+:
+Total key mentions: 20
+Total response mentions: 21
+Strictly correct identified mentions: 13
+Partially correct identified mentions: 0
+No identified: 7
+Invented: 8
+
+====== TOTALS =======
+Identification of Mentions: Recall: (13 / 20) 65%	Precision: (13 / 21) 61.9%	F1: 63.41%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (3 / 17) 17.64%	Precision: (3 / 4) 75%	F1: 28.57%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (69 / 173) 39.88%	Precision: (69 / 206) 33.49%	F1: 36.41%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.287657259435566 / 1) 28.76%	Precision: (0.54247572815534 / 1) 54.24%	F1: 32.49%
+--------------------------------------------------------------------------

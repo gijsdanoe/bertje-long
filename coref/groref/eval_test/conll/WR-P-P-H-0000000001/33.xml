@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="15" id="2" rel="--">
+      <node begin="0" cat="np" end="7" id="3" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" id="5" infl="e" lcat="ap" lemma="slecht" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="slecht" sense="slecht" vform="adj" word="slechte"/>
+        <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="6" lcat="np" lemma="omstandigheid" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="omstandigheid" sense="omstandigheid" word="omstandigheden"/>
+        <node begin="3" cat="rel" end="7" id="7" rel="mod">
+          <node begin="3" end="4" frame="waar_adverb(in)" id="8" index="2" lcat="pp" lemma="waarin" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarin" sense="waarin" special="waar" word="waarin"/>
+          <node begin="3" cat="ssub" end="7" id="9" rel="body">
+            <node begin="3" end="4" id="10" index="2" rel="ld"/>
+            <node begin="4" cat="np" end="6" id="11" rel="su">
+              <node begin="4" end="5" frame="determiner(de)" id="12" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="13" lcat="np" lemma="boer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="boer" sense="boer" word="boeren"/>
+            </node>
+            <node begin="6" end="7" frame="verb(hebben,pl,ld_pp)" id="14" infl="pl" lcat="ssub" lemma="verkeren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="verkeer" sc="ld_pp" sense="verkeer" tense="present" word="verkeren" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" end="9" frame="verb(unacc,pl,te_passive)" id="15" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="te_passive" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="0" cat="ti" end="15" id="16" rel="vc">
+        <node begin="10" end="11" frame="complementizer(te)" id="17" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="15" id="18" rel="body">
+          <node begin="0" end="7" id="19" index="1" rel="obj1"/>
+          <node begin="9" end="10" frame="adverb" id="20" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+          <node begin="11" buiging="zonder" end="12" frame="verb(hebben,inf,np_pc_pp(aan))" id="21" infl="inf" lcat="inf" lemma="wijten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="wijt" sc="np_pc_pp(aan)" sense="wijt-aan" word="wijten" wvorm="inf"/>
+          <node begin="12" cat="pp" end="15" id="22" rel="pc">
+            <node begin="12" end="13" frame="preposition(aan,[vooraf])" id="23" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+            <node begin="13" cat="np" end="15" id="24" rel="obj1">
+              <node begin="13" buiging="zonder" end="14" frame="determiner(de,nwh,nmod,pro,nparg)" id="25" infl="de" lcat="detp" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" sense="die" vwtype="aanw" wh="nwh" word="die"/>
+              <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="26" lcat="np" lemma="prijs" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="prijs" sense="prijs" word="prijzen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" id="27" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De slechte omstandigheden waarin de boeren verkeren , zijn niet te wijten aan die prijzen .</sentence>
+  <comments>
+    <comment>Q#33|De slechte omstandigheden waarin de boeren verkeren , zijn niet te wijten aan die prijzen .|1|1|-5.205047875340003</comment>
+  </comments>
+</alpino_ds>

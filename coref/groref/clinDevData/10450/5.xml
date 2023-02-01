@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="du" end="13" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="2" lcat="np" lemma="job" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="dp" rnum="pl" root="job" sense="job" word="Jobs"/>
+      <node begin="1" cat="conj" end="13" id="3" rel="dp">
+        <node begin="1" cat="sv1" end="6" id="4" rel="cnj">
+          <node begin="1" end="2" frame="verb(hebben,past(sg),transitive)" id="5" infl="sg" lcat="sv1" lemma="verwelkomen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verwelkom" sc="transitive" sense="verwelkom" tense="past" word="verwelkomde" wvorm="pv"/>
+          <node begin="2" case="both" def="def" end="3" frame="pronoun(nwh,thi,sg,de,both,def,strpro)" gen="de" getal="ev" id="6" lcat="np" lemma="iedereen" naamval="stan" num="sg" pdtype="pron" per="thi" persoon="3p" pos="pron" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="obj1" rnum="sg" root="iedereen" sense="iedereen" special="strpro" status="vol" vwtype="onbep" wh="nwh" word="iedereen"/>
+          <node begin="3" cat="pp" end="6" id="7" rel="mod">
+            <node begin="3" end="4" frame="preposition(bij,[vandaan])" id="8" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+            <node begin="4" cat="np" end="6" id="9" rel="obj1">
+              <node begin="4" end="5" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="10" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="11" lcat="np" lemma="evenement" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="evenement" sense="evenement" word="evenement"/>
+            </node>
+          </node>
+        </node>
+        <node begin="6" conjtype="neven" end="7" frame="conj(en)" id="12" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="7" cat="sv1" end="13" id="13" rel="cnj">
+          <node begin="7" end="8" frame="verb(hebben,past(sg),tr_sbar)" id="14" infl="sg" lcat="sv1" lemma="zeggen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" tense="past" word="zei" wvorm="pv"/>
+          <node begin="8" cat="cp" end="13" id="15" rel="vc">
+            <node begin="8" conjtype="onder" end="9" frame="complementizer(dat)" id="16" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+            <node begin="9" cat="ssub" end="13" id="17" rel="body">
+              <node begin="9" end="10" frame="er_vp_adverb" getal="getal" id="18" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+              <node begin="10" cat="np" end="12" id="19" rel="su">
+                <node begin="10" end="11" frame="number(hoofd(pl_num))" id="20" infl="pl_num" lcat="detp" lemma="3.800" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="3.800" sense="3.800" special="hoofd" word="3.800"/>
+                <node begin="11" end="12" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="21" lcat="np" lemma="deelnemer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="deelnemer" sense="deelnemer" word="deelnemers"/>
+              </node>
+              <node begin="12" end="13" frame="verb(unacc,past(pl),intransitive)" id="22" infl="pl" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" sc="intransitive" sense="ben" tense="past" word="waren" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" frame="punct(punt)" id="23" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Jobs verwelkomde iedereen bij het evenement en zei dat er 3.800 deelnemers waren .</sentence>
+  <comments>
+    <comment>Q#5|Jobs verwelkomde iedereen bij het evenement en zei dat er 3.800 deelnemers waren .|1|2|8.152772420839995</comment>
+  </comments>
+</alpino_ds>

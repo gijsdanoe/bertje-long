@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="33" id="0" rel="top">
+    <node begin="17" end="18" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="25" end="26" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="28" end="29" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="32" id="4" rel="--">
+      <node begin="6" end="7" frame="verb(unacc,sg3,passive)" id="5" infl="sg3" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="present" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="32" id="6" rel="vc">
+        <node begin="0" cat="conj" end="6" id="7" rel="mod">
+          <node begin="0" cat="pp" end="2" id="8" rel="cnj">
+            <node begin="0" end="1" frame="preposition(in,[])" id="9" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+            <node begin="1" end="2" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="chatrooms" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="chatrooms" sense="chatrooms" word="chatrooms"/>
+          </node>
+          <node begin="2" conjtype="neven" end="3" frame="conj(en)" id="11" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="3" cat="pp" end="6" id="12" rel="cnj">
+            <node begin="3" end="4" frame="preposition(op,[af,na])" id="13" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+            <node begin="4" cat="mwu" end="6" id="14" mwu_root="bulletin board" mwu_sense="bulletin board" rel="obj1">
+              <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="15" lcat="np" lemma="bulletin" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mwp" rnum="pl" root="bulletin" sense="bulletin" word="bulletin"/>
+              <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="16" lcat="np" lemma="board" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mwp" rnum="pl" root="board" sense="board" word="boards"/>
+            </node>
+          </node>
+        </node>
+        <node begin="7" cat="pp" end="11" id="17" rel="mod">
+          <node begin="7" end="8" frame="preposition(door,[heen])" id="18" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+          <node begin="8" cat="conj" end="11" id="19" rel="obj1">
+            <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="20" lcat="np" lemma="gebruiker" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="gebruiker" sense="gebruiker" word="gebruikers"/>
+            <node begin="9" conjtype="neven" end="10" frame="conj(en)" id="21" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="22" lcat="np" lemma="fan" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="fan" sense="fan" word="fans"/>
+          </node>
+        </node>
+        <node begin="11" cat="pp" end="13" id="23" rel="mod">
+          <node begin="11" end="12" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="24" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="12" end="13" frame="proper_name(sg)" genus="genus" getal="ev" graad="basis" id="25" lcat="np" lemma="Macintosh" naamval="stan" neclass="MISC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="obj1" rnum="sg" root="Macintosh" sense="Macintosh" word="Macintosh"/>
+        </node>
+        <node aform="base" begin="13" buiging="zonder" end="14" frame="adjective(no_e(odet_adv))" graad="basis" id="26" infl="no_e" lcat="ap" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,basis)" pt="vnw" rel="mod" root="veel" sense="veel" vform="adj" vwtype="onbep" word="veel"/>
+        <node begin="14" buiging="zonder" end="15" frame="verb(hebben,psp,pc_pp(over))" id="27" infl="psp" lcat="ppart" lemma="praten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="praat" sc="pc_pp(over)" sense="praat-over" word="gepraat" wvorm="vd"/>
+        <node begin="15" cat="pp" end="32" id="28" rel="pc">
+          <node begin="15" end="16" frame="preposition(over,[heen])" id="29" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+          <node begin="16" cat="np" end="32" id="30" rel="obj1">
+            <node begin="16" end="17" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="31" lcat="np" lemma="Tiger" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Tiger" sense="Tiger" word="Tiger"/>
+            <node begin="18" cat="np" end="32" id="32" rel="app">
+              <node begin="18" end="19" frame="determiner(de)" id="33" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node aform="super" begin="19" buiging="met-e" end="20" frame="adjective(ste)" graad="sup" id="34" infl="e" lcat="ap" lemma="jong" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="jong" sense="jong" vform="adj" word="jongste"/>
+              <node begin="20" end="21" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="35" lcat="np" lemma="versie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="versie" sense="versie" word="versie"/>
+              <node begin="21" cat="pp" end="28" id="36" rel="mod">
+                <node begin="21" end="22" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="37" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="22" cat="np" end="28" id="38" rel="obj1">
+                  <node begin="22" cat="mwu" end="25" id="39" mwu_root="Mac OS X" mwu_sense="Mac OS X" rel="hd">
+                    <node begin="22" end="23" frame="proper_name(sg,'PER')" id="40" lcat="np" lemma="Mac" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Mac" sense="Mac" spectype="deeleigen" word="Mac"/>
+                    <node begin="23" end="24" frame="proper_name(sg,'PER')" id="41" lcat="np" lemma="OS" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="OS" sense="OS" spectype="deeleigen" word="OS"/>
+                    <node begin="24" end="25" frame="proper_name(sg,'PER')" id="42" lcat="np" lemma="X" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="X" sense="X" spectype="deeleigen" word="X"/>
+                  </node>
+                  <node begin="26" cat="np" end="28" id="43" rel="app">
+                    <node begin="26" end="27" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="44" lcat="np" lemma="versie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="versie" sense="versie" word="versie"/>
+                    <node begin="27" end="28" frame="number(hoofd(pl_num))" id="45" infl="pl_num" lcat="detp" lemma="10.4" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="10.4" sense="10.4" special="hoofd" word="10.4"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="29" cat="pp" end="32" id="46" rel="mod">
+                <node begin="29" end="30" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="47" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="30" cat="mwu" end="32" id="48" mwu_root="Apple Computer" mwu_sense="Apple Computer" rel="obj1">
+                  <node begin="30" end="31" frame="proper_name(sg,'PER')" id="49" lcat="np" lemma="Apple" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Apple" sense="Apple" spectype="deeleigen" word="Apple"/>
+                  <node begin="31" end="32" frame="proper_name(sg,'PER')" id="50" lcat="np" lemma="Computer" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Computer" sense="Computer" spectype="deeleigen" word="Computer"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="32" end="33" frame="punct(punt)" id="51" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>In chatrooms en op bulletin boards wordt door gebruikers en fans van Macintosh veel gepraat over Tiger , de jongste versie van Mac OS X , versie 10.4 , van Apple Computer .</sentence>
+  <comments>
+    <comment>Q#3|In chatrooms en op bulletin boards wordt door gebruikers en fans van Macintosh veel gepraat over Tiger , de jongste versie van Mac OS X , versie 10.4 , van Apple Computer .|1|1|6.250042266759978</comment>
+  </comments>
+</alpino_ds>

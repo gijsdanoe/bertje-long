@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="17" end="18" frame="punct(ligg_streep)" id="2" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="26" end="27" frame="punct(komma)" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="31" id="4" rel="--">
+      <node begin="0" cat="conj" end="17" id="5" rel="dp">
+        <node begin="0" cat="smain" end="7" id="6" rel="cnj">
+          <node begin="0" case="nom" def="def" end="1" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="7" index="1" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="Hij"/>
+          <node begin="1" end="2" frame="verb('hebben/zijn',modal_not_u,aux(inf))" id="8" infl="modal_not_u" lcat="smain" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" sc="aux(inf)" sense="kan" stype="declarative" tense="present" word="kan" wvorm="pv"/>
+          <node begin="0" cat="inf" end="7" id="9" rel="vc">
+            <node begin="0" end="1" id="10" index="1" rel="su"/>
+            <node begin="2" end="3" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" id="11" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="dat"/>
+            <node begin="3" cat="pp" end="6" id="12" rel="mod">
+              <node begin="3" end="4" frame="preposition(bij,[vandaan])" id="13" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+              <node begin="4" cat="np" end="6" id="14" rel="obj1">
+                <node begin="4" end="5" frame="determiner(de)" id="15" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="16" lcat="np" lemma="stemming" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="stemming" sense="stemming" word="stemming"/>
+              </node>
+            </node>
+            <node begin="6" buiging="zonder" end="7" frame="verb(hebben,inf,transitive)" id="17" infl="inf" lcat="inf" lemma="melden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="meld" sc="transitive" sense="meld" word="melden" wvorm="inf"/>
+          </node>
+        </node>
+        <node begin="8" conjtype="neven" end="9" frame="conj(en)" id="18" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="9" cat="smain" end="17" id="19" rel="cnj">
+          <node begin="10" end="11" frame="verb(unacc,sg3,passive)" id="20" infl="sg3" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="present" word="wordt" wvorm="pv"/>
+          <node begin="11" end="12" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" id="21" index="2" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="dat"/>
+          <node begin="9" cat="ppart" end="17" id="22" rel="vc">
+            <node aform="base" begin="9" buiging="zonder" end="10" frame="adjective(no_e(adv))" graad="basis" id="23" infl="no_e" lcat="ap" lemma="officieus" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="officieus" sense="officieus" vform="adj" word="officieus"/>
+            <node begin="11" end="12" id="24" index="2" rel="obj1"/>
+            <node begin="12" end="13" frame="tmp_adverb" id="25" lcat="advp" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" sense="dan" special="tmp" word="dan"/>
+            <node begin="13" buiging="zonder" end="14" frame="verb(hebben,psp,ninv(pred_np,part_pred_np(uit)))" id="26" infl="psp" lcat="ppart" lemma="uit_leggen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="leg_uit" sc="part_pred_np(uit)" sense="leg_uit" word="uitgelegd" wvorm="vd"/>
+            <node begin="14" cat="cp" end="17" id="27" rel="predc">
+              <node begin="14" end="15" frame="complementizer(als)" id="28" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+              <node begin="15" cat="np" end="17" id="29" rel="body">
+                <node begin="15" end="16" frame="determiner(een)" id="30" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="31" lcat="np" lemma="tegen_stem" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="tegen_stem" sense="tegen_stem" word="tegenstem"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="18" cat="conj" end="31" id="32" rel="dp">
+        <node begin="18" cat="cp" end="26" id="33" rel="cnj">
+          <node begin="18" conjtype="onder" end="19" frame="complementizer" id="34" lcat="cp" lemma="hoewel" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="hoewel" sense="hoewel" word="hoewel"/>
+          <node begin="19" cat="ssub" end="26" id="35" rel="body">
+            <node begin="19" cat="np" end="21" id="36" index="3" rel="su">
+              <node begin="19" end="20" frame="determiner(de)" id="37" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="20" end="21" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="38" lcat="np" lemma="SP" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="SP" sense="SP" word="SP"/>
+            </node>
+            <node begin="23" end="24" frame="verb(hebben,past(sg),aux(inf))" id="39" infl="sg" lcat="ssub" lemma="zullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past" word="zou" wvorm="pv"/>
+            <node begin="19" cat="inf" end="26" id="40" rel="vc">
+              <node begin="19" end="21" id="41" index="3" rel="su"/>
+              <node begin="24" buiging="zonder" end="25" frame="verb(hebben,inf,modifier(aux(inf)))" id="42" infl="inf" lcat="inf" lemma="willen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" word="willen" wvorm="inf"/>
+              <node begin="19" cat="inf" end="26" id="43" rel="vc">
+                <node begin="19" end="21" id="44" index="3" rel="su"/>
+                <node aform="compar" begin="21" end="22" frame="adjective(er(adv))" id="45" infl="no_e" lcat="ap" lemma="lief" pos="adj" postag="BW()" pt="bw" rel="mod" root="lief" sense="lief" vform="adj" word="liever"/>
+                <node aform="base" begin="22" buiging="zonder" end="23" frame="adjective(both(adv))" graad="basis" id="46" infl="both" lcat="ap" lemma="blanco" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="blanco" sense="blanco" vform="adj" word="blanco"/>
+                <node begin="25" buiging="zonder" end="26" frame="verb(hebben,inf,intransitive)" id="47" infl="inf" lcat="inf" lemma="stemmen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="stem" sc="intransitive" sense="stem" word="stemmen" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="27" conjtype="neven" end="28" frame="conj(maar)" id="48" lcat="vg" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" sense="maar" word="maar"/>
+        <node begin="28" cat="smain" end="31" id="49" rel="cnj">
+          <node begin="28" end="29" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" id="50" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="dat"/>
+          <node begin="29" end="30" frame="verb(hebben,modal_not_u,intransitive)" id="51" infl="modal_not_u" lcat="smain" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" sc="intransitive" sense="kan" stype="declarative" tense="present" word="kan" wvorm="pv"/>
+          <node begin="30" end="31" frame="adverb" id="52" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" frame="punct(punt)" id="53" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Hij kan dat bij de stemming melden , en officieus wordt dat dan uitgelegd als een tegenstem - hoewel de SP liever blanco zou willen stemmen , maar dat kan niet .</sentence>
+  <comments>
+    <comment>Q#13|Hij kan dat bij de stemming melden , en officieus wordt dat dan uitgelegd als een tegenstem - hoewel de SP liever blanco zou willen stemmen , maar dat kan niet .|1|1|-10.094184864400004</comment>
+  </comments>
+</alpino_ds>

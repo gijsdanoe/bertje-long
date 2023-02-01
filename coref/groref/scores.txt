@@ -1,0 +1,53 @@
+SCORES OVER TIME
+DATE/SYSTEM		MENTION DETECTION R/P/F1	MUC R/P/F1			CONLL F1	Comment
+Baseline:		xx.xx/xx.xx/xx.xx			xx.xx/xx.xx/xx.xx	xx.xx	
+22/10/2015		68.00/52.93/59.52			26.39/46.57/33.69	35.96		Only relaxed head matching sieve
+23/10/2015		68.00/52.93/59.52			26.39/47.03/33.81	36.12		With 3 head-matching sieves
+30/10/2015		69.60/52.92/60.12			26.94/44.70/33.62	36.34		With relaxed and exact string match, improved Alpino handling of iXxxx, improved head-matching
+30/10/2015		69.60/52.92/60.12			27.50/45.21/34.20	36.62		Relaxed string match is now case-insensitive
+30/10/2015		69.60/52.92/60.12			27.50/45.00/34.14	36.64		Improved head-word extraction for NEs
+02/11/2015		69.60/52.92/60.12			29.17/45.45/35.53	37.35		With pronoun resolution that ignores unknowns
+02/11/2015		69.60/52.92/60.12			32.22/41.28/36.19	37.97		Pronoun resolution matches unknown pronoun attribs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FAILED IMPROVEMENTS
+30/10/2015		69.60/52.92/60.12			27.50/45.00/34.14	36.59		Relaxed string match now works with lemmata instead of lower-case tokens
+Same on DCOI/conll:
+With: 71.48/82.48/76.59	36.87/36.55/36.71	52.39/65.64/58.27	49.93/58.28/53.78	51.05/64.07/56.82	36.28/53.13/43.12	50.60
+Without: 71.48/82.48/76.59	36.77/36.59/36.68	52.38/65.76/58.31	49.96/58.31/53.81	51.12/64.04/56.86	36.26/53.14/43.11	50.62
+
+02/11/2015		69.60/52.92/60.12			32.22/41.28/36.19	37.95		With pronoun resolution that matches unknown antecedent attributes
+No difference on DCOI/conll
+
+
+
+
+
+
+
+
+
+DCOI SCORES
+02/11, without pronoun resolution:
+71.48/82.48/76.59	36.77/36.54/36.66	52.38/65.74/58.30	49.94/58.29/53.79	51.09/64.04/56.84	36.26/52.90/43.03	50.60 
+02/11, with pronoun resolution:
+??
+02/11, with unknown pronoun attribs:
+71.48/82.48/76.59	43.16/36.03/39.27	54.53/60.77/57.48	50.16/58.54/54.02	48.45/67.11/56.27	39.61/50.55/44.41	51.01
+02/11 with unknown everything: 
+71.48/82.48/76.59	43.16/36.03/39.27	54.53/60.77/57.48	50.16/58.54/54.02	48.45/67.11/56.27	39.61/50.55/44.41	51.01
+
+

@@ -1,0 +1,58 @@
+version: 8.01 /project/rvdgoot/groref/clin26-eval-master/coref_scorer/coref-scorer-v8.01/lib/CorScorer.pm
+====> (195869_Apple_to_give_free_cases.xml.coref_ne);:
+File (195869_Apple_to_give_free_cases.xml.coref_ne);:
+Entity 0: (0,0) (13,14) (19,19) (90,90)
+Entity 1: (2,3) (26,28)
+Entity 2: (10,11) (20,25)
+Entity 3: (24,25) (42,43) (48,50) (60,61) (70,71) (126,127) (143,145)
+Entity 4: (39,40) (45,50) (52,54) (55,55) (121,122)
+Entity 5: (77,78)
+Entity 6: (98,100) (124,124)
+Entity 7: (104,104)
+Entity 8: (106,107)
+Entity 9: (111,111)
+====> (195869_Apple_to_give_free_cases.xml.coref_ne);:
+File (195869_Apple_to_give_free_cases.xml.coref_ne);:
+Entity 0: (0,0) (90,90)
+Entity 1: (3,3)
+Entity 2: (7,7)
+Entity 3: (10,11)
+Entity 4: (13,14)
+Entity 5: (19,19)
+Entity 6: (39,43) (121,122)
+Entity 7: (42,43) (60,61) (70,71)
+Entity 8: (49,50) (48,50)
+Entity 9: (52,54) (55,55) (113,113)
+Entity 10: (57,61)
+Entity 11: (66,66)
+Entity 12: (73,75)
+Entity 13: (77,78)
+Entity 14: (82,82)
+Entity 15: (86,90)
+Entity 16: (92,92)
+Entity 17: (95,96)
+Entity 18: (99,100)
+Entity 19: (102,104)
+Entity 20: (104,104)
+Entity 21: (109,111)
+Entity 22: (111,111)
+Entity 23: (118,122)
+:
+Total key mentions: 26
+Total response mentions: 31
+Strictly correct identified mentions: 15
+Partially correct identified mentions: 0
+No identified: 11
+Invented: 16
+
+====== TOTALS =======
+Identification of Mentions: Recall: (15 / 26) 57.69%	Precision: (15 / 31) 48.38%	F1: 52.63%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (5 / 40) 12.5%	Precision: (5 / 9) 55.55%	F1: 20.4%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (90 / 285) 31.57%	Precision: (90 / 456) 19.73%	F1: 24.29%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.220394736842105 / 1) 22.03%	Precision: (0.376461988304094 / 1) 37.64%	F1: 22.34%
+--------------------------------------------------------------------------

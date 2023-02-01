@@ -1,0 +1,51 @@
+version: 8.01 /project/rvdgoot/groref/clin26-eval-master/coref_scorer/coref-scorer-v8.01/lib/CorScorer.pm
+====> (101354_Apple_releases_iPhone_SDK,_announces_upcoming_update.xml.coref_ne);:
+File (101354_Apple_releases_iPhone_SDK,_announces_upcoming_update.xml.coref_ne);:
+Entity 0: (0,0) (18,18)
+Entity 1: (2,3) (19,27) (43,44)
+Entity 2: (13,16)
+Entity 3: (16,16)
+Entity 4: (31,35) (57,60) (74,75)
+Entity 5: (37,40) (66,69) (78,79)
+Entity 6: (38,38) (52,52)
+Entity 7: (46,47)
+Entity 8: (64,69) (90,90)
+Entity 9: (72,72) (95,96) (99,99)
+Entity 10: (92,96)
+====> (101354_Apple_releases_iPhone_SDK,_announces_upcoming_update.xml.coref_ne);:
+File (101354_Apple_releases_iPhone_SDK,_announces_upcoming_update.xml.coref_ne);:
+Entity 0: (0,0) (18,18)
+Entity 1: (2,3) (26,26) (43,44) (99,99)
+Entity 2: (6,6)
+Entity 3: (13,16)
+Entity 4: (16,16)
+Entity 5: (21,24)
+Entity 6: (31,33) (29,33) (74,75)
+Entity 7: (38,40) (37,40) (51,52) (67,69) (66,69)
+Entity 8: (46,47)
+Entity 9: (48,48)
+Entity 10: (58,60) (57,60)
+Entity 11: (63,69)
+Entity 12: (78,79)
+Entity 13: (90,90)
+Entity 14: (92,96)
+Entity 15: (95,96)
+:
+Total key mentions: 22
+Total response mentions: 27
+Strictly correct identified mentions: 16
+Partially correct identified mentions: 0
+No identified: 6
+Invented: 11
+
+====== TOTALS =======
+Identification of Mentions: Recall: (16 / 22) 72.72%	Precision: (16 / 27) 59.25%	F1: 65.3%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (3 / 15) 20%	Precision: (3 / 21) 14.28%	F1: 16.66%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (111 / 216) 51.38%	Precision: (111 / 330) 33.63%	F1: 40.65%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.356944444444444 / 1) 35.69%	Precision: (0.23961038961039 / 1) 23.96%	F1: 28.66%
+--------------------------------------------------------------------------

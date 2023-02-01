@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="0" cat="conj" end="27" id="1" rel="--">
+      <node begin="0" cat="smain" end="14" id="2" rel="cnj">
+        <node begin="0" cat="np" end="3" id="3" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" id="5" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+          <node begin="2" end="3" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="hardware" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="hardware" sense="hardware" word="hardware"/>
+        </node>
+        <node begin="3" end="4" frame="verb(unacc,past(sg),passive)" id="7" infl="sg" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" tense="past" word="werd" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="14" id="8" rel="vc">
+          <node begin="0" end="3" id="9" index="1" rel="obj1"/>
+          <node begin="4" buiging="zonder" end="5" frame="verb(hebben,psp,transitive)" id="10" infl="psp" lcat="ppart" lemma="onthullen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="onthul" sc="transitive" sense="onthul" word="onthuld" wvorm="vd"/>
+          <node begin="5" cat="pp" end="14" id="11" rel="mod">
+            <node begin="5" end="6" frame="preposition(tijdens,[])" id="12" lcat="pp" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" sense="tijdens" vztype="init" word="tijdens"/>
+            <node begin="6" cat="np" end="14" id="13" rel="obj1">
+              <node begin="6" end="7" frame="determiner(de)" id="14" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node aform="base" begin="7" buiging="met-e" end="8" frame="adjective(e)" graad="basis" id="15" infl="e" lcat="ap" lemma="jaarlijks" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="jaarlijks" sense="jaarlijks" vform="adj" word="jaarlijkse"/>
+              <node begin="8" cat="mwu" end="11" id="16" mwu_root="Worldwide Developers Conference" mwu_sense="Worldwide Developers Conference" rel="hd">
+                <node begin="8" end="9" frame="proper_name(both)" id="17" lcat="np" lemma="Worldwide" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Worldwide" sense="Worldwide" spectype="deeleigen" word="Worldwide"/>
+                <node begin="9" end="10" frame="proper_name(both)" id="18" lcat="np" lemma="Developers" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Developers" sense="Developers" spectype="deeleigen" word="Developers"/>
+                <node begin="10" end="11" frame="proper_name(both)" id="19" lcat="np" lemma="Conference" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Conference" sense="Conference" spectype="deeleigen" word="Conference"/>
+              </node>
+              <node begin="11" cat="pp" end="14" id="20" rel="mod">
+                <node begin="11" end="12" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="21" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="12" cat="np" end="14" id="22" rel="obj1">
+                  <node begin="12" end="13" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="23" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                  <node begin="13" end="14" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="24" lcat="np" lemma="bedrijf" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bedrijf" sense="bedrijf" word="bedrijf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="14" conjtype="neven" end="15" frame="conj(en)" id="25" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="27" id="26" rel="cnj">
+        <node begin="0" end="3" id="27" index="1" rel="su"/>
+        <node begin="15" end="16" frame="verb(hebben,past(sg),transitive)" id="28" infl="sg" lcat="smain" lemma="trekken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="trek" sc="transitive" sense="trek" tense="past" word="trok" wvorm="pv"/>
+        <node begin="16" cat="np" end="27" id="29" rel="obj1">
+          <node begin="16" end="17" frame="determiner(de)" id="30" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="17" end="18" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="31" lcat="np" lemma="aandacht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="aandacht" sense="aandacht" word="aandacht"/>
+          <node begin="18" cat="pp" end="27" id="32" rel="mod">
+            <node begin="18" end="19" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="33" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="19" cat="conj" end="27" id="34" rel="obj1">
+              <node begin="19" end="20" frame="left_conj(als)" id="35" lcat="vg" lemma="zowel" pos="vg" postag="BW()" pt="bw" rel="crd" root="zowel" sense="zowel" special="left" word="zowel"/>
+              <node begin="20" cat="np" end="22" id="36" rel="cnj">
+                <node begin="20" end="21" frame="determiner(de)" id="37" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="21" end="22" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="38" lcat="np" lemma="medium" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="medium" sense="medium" word="media"/>
+              </node>
+              <node begin="22" conjtype="onder" end="23" frame="right_conj(als)" id="39" lcat="vg" lemma="als" pos="vg" postag="VG(onder)" pt="vg" rel="crd" root="als" sense="als" special="right" word="als"/>
+              <node begin="23" cat="np" end="27" id="40" rel="cnj">
+                <node begin="23" end="24" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="41" lcat="np" lemma="eigenaar" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="eigenaar" sense="eigenaar" word="eigenaren"/>
+                <node begin="24" cat="pp" end="27" id="42" rel="mod">
+                  <node begin="24" end="25" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="43" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                  <node begin="25" cat="np" end="27" id="44" rel="obj1">
+                    <node begin="25" end="26" frame="determiner(een)" id="45" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                    <node begin="26" end="27" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="46" lcat="np" lemma="iPhone" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="iPhone" sense="iPhone" word="iPhone"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" frame="punct(punt)" id="47" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De nieuwe hardware werd onthuld tijdens de jaarlijkse Worldwide Developers Conference van het bedrijf en trok de aandacht van zowel de media als eigenaren van een iPhone .</sentence>
+  <comments>
+    <comment>Q#4|De nieuwe hardware werd onthuld tijdens de jaarlijkse Worldwide Developers Conference van het bedrijf en trok de aandacht van zowel de media als eigenaren van een iPhone .|1|1|-2.7405981969600095</comment>
+  </comments>
+</alpino_ds>

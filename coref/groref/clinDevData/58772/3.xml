@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="2" index="1" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+      <node begin="1" end="2" frame="verb(hebben,sg_heeft,aux_psp_hebben)" id="3" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="0" cat="inf" end="19" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="2" cat="np" end="4" id="6" index="2" rel="obj1">
+          <node begin="2" buiging="zonder" end="3" frame="determiner(pron)" getal="ev" id="7" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+          <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="8" lcat="np" lemma="winst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="winst" sense="winst" word="winst"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" frame="verb(hebben,inf(no_e),aci)" id="9" infl="inf(no_e)" lcat="inf" lemma="zien" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zie" sc="aci" sense="zie" word="zien" wvorm="inf"/>
+        <node begin="2" cat="inf" end="19" id="10" rel="vc">
+          <node begin="2" end="4" id="11" index="2" rel="su"/>
+          <node begin="4" cat="pp" end="7" id="12" rel="mod">
+            <node begin="4" end="5" frame="preposition(met,[mee,[en,al]])" id="13" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="5" cat="np" end="7" id="14" rel="obj1">
+              <node begin="5" end="6" frame="number(hoofd(pl_num))" id="15" infl="pl_num" lcat="detp" lemma="78" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="78" sense="78" special="hoofd" word="78"/>
+              <node begin="6" end="7" frame="meas_mod_noun(both,count,meas)" gen="both" genus="onz" getal="ev" graad="basis" id="16" lcat="np" lemma="procent" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="procent" sense="procent" special="meas_mod" word="procent"/>
+            </node>
+          </node>
+          <node begin="8" buiging="zonder" end="9" frame="verb(zijn,inf,intransitive)" id="17" infl="inf" lcat="inf" lemma="stijgen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="stijg" sc="intransitive" sense="stijg" word="stijgen" wvorm="inf"/>
+          <node begin="9" cat="pp" end="19" id="18" rel="mod">
+            <node begin="9" end="10" frame="preposition(in,[])" id="19" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="10" cat="np" end="19" id="20" rel="obj1">
+              <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="21" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node aform="base" begin="11" buiging="zonder" end="12" frame="adjective(ge_both(adv))" id="22" infl="both" lcat="ppart" lemma="afgelopen" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="afgelopen" sense="afgelopen" vform="psp" word="afgelopen" wvorm="vd"/>
+              <node begin="12" end="13" frame="tmp_noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="23" lcat="np" lemma="kwartaal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="kwartaal" sense="kwartaal" special="tmp" word="kwartaal"/>
+              <node begin="13" cat="rel" end="19" id="24" rel="mod">
+                <node begin="13" case="no_obl" end="14" frame="rel_pronoun(het,no_obl)" gen="het" getal="ev" id="25" index="3" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" rnum="sg" root="dat" sense="dat" status="vol" vwtype="betr" wh="rel" word="dat"/>
+                <node begin="13" cat="ssub" end="19" id="26" rel="body">
+                  <node begin="13" end="14" id="27" index="3" rel="su"/>
+                  <node begin="14" end="15" frame="verb(zijn,past(sg),pc_pp(op))" id="28" infl="sg" lcat="ssub" lemma="eindigen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="eindig" sc="pc_pp(op)" sense="eindig-op" tense="past" word="eindigde" wvorm="pv"/>
+                  <node begin="15" cat="pp" end="19" id="29" rel="pc">
+                    <node begin="15" end="16" frame="preposition(op,[af,na])" id="30" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                    <node begin="16" cat="mwu" end="19" id="31" mwu_root="30 december 2006" mwu_sense="30 december 2006" rel="obj1">
+                      <node begin="16" end="17" frame="tmp_np" id="32" lcat="np" lemma="30" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" rnum="sg" root="30" sense="30" special="tmp" word="30"/>
+                      <node begin="17" end="18" frame="tmp_np" id="33" lcat="np" lemma="december" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" rnum="sg" root="december" sense="december" special="tmp" word="december"/>
+                      <node begin="18" end="19" frame="tmp_np" id="34" lcat="np" lemma="2006" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" rnum="sg" root="2006" sense="2006" special="tmp" word="2006"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" id="35" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Apple heeft zijn winst met 78 procent zien stijgen in het afgelopen kwartaal dat eindigde op 30 december 2006 .</sentence>
+  <comments>
+    <comment>Q#3|Apple heeft zijn winst met 78 procent zien stijgen in het afgelopen kwartaal dat eindigde op 30 december 2006 .|1|1|-8.203417171059995</comment>
+  </comments>
+</alpino_ds>

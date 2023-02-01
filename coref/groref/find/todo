@@ -1,0 +1,11 @@
+- woord 'die'
+- woord 'en' > meerdere mentions?
+- woord 'van', of miss lcat=pp?/pos=prep, beide zoon van pp, zie 10450/4.xml
+- `` worden vaak fout geparsed
+- det n, det name ?
+- opeenvolgende woorden met hoofdletters
+- tfidf
+- iTunes enzo fixen in de parse
+- if np starts with adv, remove it
+- commas boom positie
+- commas in np (hoe te splitsen)

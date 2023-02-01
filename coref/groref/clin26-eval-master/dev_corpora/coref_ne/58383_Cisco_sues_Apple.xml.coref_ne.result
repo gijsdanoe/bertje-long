@@ -1,0 +1,39 @@
+version: 8.01 /project/rvdgoot/groref/clin26-eval-master/coref_scorer/coref-scorer-v8.01/lib/CorScorer.pm
+====> (58383_Cisco_sues_Apple.xml.coref_ne);:
+File (58383_Cisco_sues_Apple.xml.coref_ne);:
+Entity 0: (0,0) (52,52) (54,63) (65,66) (68,68) (86,86) (91,91)
+Entity 1: (2,2) (27,28) (99,100) (102,102)
+Entity 2: (5,6) (72,75) (81,82)
+Entity 3: (6,6) (8,9) (16,16) (34,34) (36,36) (75,75) (79,79) (102,103)
+Entity 4: (49,50)
+Entity 5: (84,87)
+====> (58383_Cisco_sues_Apple.xml.coref_ne);:
+File (58383_Cisco_sues_Apple.xml.coref_ne);:
+Entity 0: (0,0) (52,52) (47,52) (91,91)
+Entity 1: (2,2)
+Entity 2: (5,5) (72,75)
+Entity 3: (8,9) (75,75)
+Entity 4: (23,24) (36,36)
+Entity 5: (27,28) (99,100) (102,102)
+Entity 6: (49,50)
+Entity 7: (65,66) (86,86)
+Entity 8: (105,106)
+:
+Total key mentions: 24
+Total response mentions: 18
+Strictly correct identified mentions: 14
+Partially correct identified mentions: 0
+No identified: 10
+Invented: 4
+
+====== TOTALS =======
+Identification of Mentions: Recall: (14 / 24) 58.33%	Precision: (14 / 18) 77.77%	F1: 66.66%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (8 / 58) 13.79%	Precision: (8 / 13) 61.53%	F1: 22.53%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (72 / 218) 33.02%	Precision: (72 / 140) 51.42%	F1: 40.22%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.234103131920278 / 1) 23.41%	Precision: (0.564835164835165 / 1) 56.48%	F1: 31.37%
+--------------------------------------------------------------------------

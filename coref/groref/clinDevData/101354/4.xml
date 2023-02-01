@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="3" end="4" frame="verb('hebben/zijn',pl,aux(inf))" id="2" infl="pl" lcat="smain" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present" word="kunnen" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="3" index="2" rel="su">
+        <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" id="4" infl="e" lcat="ap" lemma="extern" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="extern" sense="extern" vform="adj" word="externe"/>
+        <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="5" lcat="np" lemma="software_ontwikkelaar" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="software_ontwikkelaar" sense="software_ontwikkelaar" word="softwareontwikkelaars"/>
+      </node>
+      <node begin="0" cat="conj" end="19" id="6" rel="vc">
+        <node begin="0" cat="inf" end="11" id="7" rel="cnj">
+          <node begin="0" cat="pp" end="3" id="8" index="3" rel="mod">
+            <node begin="0" end="1" frame="preposition(met,[mee,[en,al]])" id="9" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="Met"/>
+            <node begin="1" cat="np" end="3" id="10" rel="obj1">
+              <node begin="1" end="2" frame="determiner(de)" id="11" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="2" end="3" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="12" lcat="np" lemma="sdk" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="sdk" sense="sdk" word="SDK"/>
+            </node>
+          </node>
+          <node begin="4" end="6" id="13" index="2" rel="su"/>
+          <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="14" lcat="np" lemma="toepassing" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="toepassing" sense="toepassing" word="toepassingen"/>
+          <node begin="7" buiging="zonder" end="8" frame="verb(hebben,inf,transitive)" id="15" infl="inf" lcat="inf" lemma="maken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="maak" sc="transitive" sense="maak" word="maken" wvorm="inf"/>
+          <node begin="8" cat="pp" end="11" id="16" rel="mod">
+            <node begin="8" end="9" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="17" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+            <node begin="9" cat="np" end="11" id="18" rel="obj1">
+              <node begin="9" end="10" frame="determiner(de)" id="19" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="20" lcat="np" lemma="iPhone" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="iPhone" sense="iPhone" word="iPhone"/>
+            </node>
+          </node>
+        </node>
+        <node begin="11" conjtype="neven" end="12" frame="conj(en)" id="21" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="0" cat="inf" end="19" id="22" rel="cnj">
+          <node begin="0" end="3" id="23" index="3" rel="mod"/>
+          <node begin="4" end="6" id="24" index="2" rel="su"/>
+          <node begin="12" buiging="met-e" end="13" frame="determiner(de,nwh,nmod,pro,nparg)" getal-n="zonder-n" id="25" infl="de" lcat="np" lemma="deze" naamval="stan" pdtype="det" pos="det" positie="nom" postag="VNW(aanw,det,stan,nom,met-e,zonder-n)" pt="vnw" rel="obj1" rnum="sg" root="deze" sense="deze" vwtype="aanw" wh="nwh" word="deze"/>
+          <node begin="13" buiging="zonder" end="14" frame="verb(hebben,inf,transitive)" id="26" infl="inf" lcat="inf" lemma="distribueren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="distribueer" sc="transitive" sense="distribueer" word="distribueren" wvorm="inf"/>
+          <node begin="14" cat="pp" end="19" id="27" rel="mod">
+            <node begin="14" end="15" frame="preposition(via,[])" id="28" lcat="pp" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" sense="via" vztype="init" word="via"/>
+            <node begin="15" cat="np" end="19" id="29" rel="obj1">
+              <node begin="15" end="16" frame="determiner(de)" id="30" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="16" cat="mwu" end="19" id="31" mwu_root="iTunes Apps Stores" mwu_sense="iTunes Apps Stores" rel="hd">
+                <node begin="16" end="17" frame="proper_name(both)" id="32" lcat="np" lemma="iTunes" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="iTunes" sense="iTunes" spectype="deeleigen" word="iTunes"/>
+                <node begin="17" end="18" frame="proper_name(both)" id="33" lcat="np" lemma="Apps" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Apps" sense="Apps" spectype="deeleigen" word="Apps"/>
+                <node begin="18" end="19" frame="proper_name(both)" id="34" lcat="np" lemma="Stores" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Stores" sense="Stores" spectype="deeleigen" word="Stores"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" id="35" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Met de SDK kunnen externe softwareontwikkelaars toepassingen maken voor de iPhone en deze distribueren via de iTunes Apps Stores .</sentence>
+  <comments>
+    <comment>Q#4|Met de SDK kunnen externe softwareontwikkelaars toepassingen maken voor de iPhone en deze distribueren via de iTunes Apps Stores .|1|1|-1.00611730326</comment>
+  </comments>
+</alpino_ds>

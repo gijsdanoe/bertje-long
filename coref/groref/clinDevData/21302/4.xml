@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="0" cat="smain" end="22" id="1" rel="--">
+      <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" id="2" index="1" infl="het" lcat="np" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" rnum="sg" root="dit" sense="dit" status="vol" vwtype="aanw" wh="nwh" word="Dit"/>
+      <node begin="1" end="2" frame="verb(unacc,past(sg),passive)" id="3" infl="sg" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="past" word="werd" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="22" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="obj1"/>
+        <node begin="2" end="3" frame="tmp_adverb" id="6" lcat="advp" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="mod" root="vandaag" sense="vandaag" special="tmp" word="vandaag"/>
+        <node begin="3" buiging="zonder" end="4" frame="verb(hebben,psp,ninv(transitive,part_transitive(aan)))" id="7" infl="psp" lcat="ppart" lemma="aan_kondigen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="kondig_aan" sc="part_transitive(aan)" sense="kondig_aan" word="aangekondigd" wvorm="vd"/>
+        <node begin="4" cat="pp" end="22" id="8" rel="mod">
+          <node begin="4" end="5" frame="preposition(tijdens,[])" id="9" lcat="pp" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" sense="tijdens" vztype="init" word="tijdens"/>
+          <node begin="5" cat="np" end="22" id="10" rel="obj1">
+            <node begin="5" end="6" frame="determiner(een)" id="11" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(no_e(adv))" graad="basis" id="12" infl="no_e" lcat="ap" lemma="speciaal" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="speciaal" sense="speciaal" vform="adj" word="speciaal"/>
+            <node begin="7" end="8" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="13" lcat="np" lemma="muziek_evenement" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="muziek_evenement" sense="muziek_evenement" word="muziekevenement"/>
+            <node begin="8" cat="rel" end="22" id="14" rel="mod">
+              <node begin="8" case="no_obl" end="9" frame="rel_pronoun(het,no_obl)" gen="het" getal="ev" id="15" index="2" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" rnum="sg" root="dat" sense="dat" status="vol" vwtype="betr" wh="rel" word="dat"/>
+              <node begin="8" cat="ssub" end="22" id="16" rel="body">
+                <node begin="8" end="9" id="17" index="2" rel="su"/>
+                <node begin="20" end="21" frame="verb(unacc,past(sg),passive)" id="18" infl="sg" lcat="ssub" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" tense="past" word="werd" wvorm="pv"/>
+                <node begin="8" cat="ppart" end="22" id="19" rel="vc">
+                  <node begin="8" end="9" id="20" index="2" rel="obj1"/>
+                  <node begin="9" cat="pp" end="11" id="21" rel="mod">
+                    <node begin="9" end="10" frame="preposition(door,[heen])" id="22" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+                    <node begin="10" end="11" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="23" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+                  </node>
+                  <node begin="11" cat="pp" end="20" id="24" rel="mod">
+                    <node begin="11" end="12" frame="preposition(in,[])" id="25" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                    <node begin="12" cat="np" end="20" id="26" rel="obj1">
+                      <node begin="12" end="13" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="27" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                      <node begin="13" cat="mwu" end="17" id="28" mwu_root="Moscone West Convention Center" mwu_sense="Moscone West Convention Center" rel="hd">
+                        <node begin="13" end="14" frame="proper_name(both,'LOC')" id="29" lcat="np" lemma="Moscone" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Moscone" sense="Moscone" spectype="deeleigen" word="Moscone"/>
+                        <node begin="14" end="15" frame="proper_name(both,'LOC')" id="30" lcat="np" lemma="West" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="West" sense="West" spectype="deeleigen" word="West"/>
+                        <node begin="15" end="16" frame="proper_name(both,'LOC')" id="31" lcat="np" lemma="Convention" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Convention" sense="Convention" spectype="deeleigen" word="Convention"/>
+                        <node begin="16" end="17" frame="proper_name(both,'LOC')" id="32" lcat="np" lemma="Center" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Center" sense="Center" spectype="deeleigen" word="Center"/>
+                      </node>
+                      <node begin="17" cat="pp" end="20" id="33" rel="mod">
+                        <node begin="17" end="18" frame="preposition(in,[])" id="34" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                        <node begin="18" cat="mwu" end="20" id="35" mwu_root="San Francisco" mwu_sense="San Francisco" rel="obj1">
+                          <node begin="18" end="19" frame="proper_name(sg,'LOC')" id="36" lcat="np" lemma="San" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="San" sense="San" spectype="deeleigen" word="San"/>
+                          <node begin="19" end="20" frame="proper_name(sg,'LOC')" id="37" lcat="np" lemma="Francisco" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Francisco" sense="Francisco" spectype="deeleigen" word="Francisco"/>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node begin="21" buiging="zonder" end="22" frame="verb(hebben,psp,transitive)" id="38" infl="psp" lcat="ppart" lemma="organiseren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="organiseer" sc="transitive" sense="organiseer" word="georganiseerd" wvorm="vd"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" frame="punct(punt)" id="39" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Dit werd vandaag aangekondigd tijdens een speciaal muziekevenement dat door Apple in het Moscone West Convention Center in San Francisco werd georganiseerd .</sentence>
+  <comments>
+    <comment>Q#4|Dit werd vandaag aangekondigd tijdens een speciaal muziekevenement dat door Apple in het Moscone West Convention Center in San Francisco werd georganiseerd .|1|1|-13.70916755896</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,48 @@
+version: 8.01 /project/rvdgoot/groref/clin26-eval-master/coref_scorer/coref-scorer-v8.01/lib/CorScorer.pm
+====> (40986_Apple_releases_Macbook.xml.coref_ne);:
+File (40986_Apple_releases_Macbook.xml.coref_ne);:
+Entity 0: (0,0) (4,5)
+Entity 1: (2,2) (8,10) (12,12) (14,14) (43,44)
+Entity 2: (16,17) (55,56) (70,71)
+Entity 3: (25,26)
+Entity 4: (28,30)
+Entity 5: (35,36)
+Entity 6: (48,53)
+Entity 7: (60,68)
+Entity 8: (60,65)
+Entity 9: (81,84)
+Entity 10: (89,92)
+====> (40986_Apple_releases_Macbook.xml.coref_ne);:
+File (40986_Apple_releases_Macbook.xml.coref_ne);:
+Entity 0: (0,0)
+Entity 1: (2,2) (44,44)
+Entity 2: (4,5) (12,12)
+Entity 3: (14,17) (13,17) (43,44) (56,56) (55,56)
+Entity 4: (20,20)
+Entity 5: (22,23)
+Entity 6: (26,26)
+Entity 7: (28,30)
+Entity 8: (52,53)
+Entity 9: (71,71) (70,71)
+Entity 10: (78,78)
+Entity 11: (84,84) (92,92)
+Entity 12: (87,87)
+:
+Total key mentions: 18
+Total response mentions: 21
+Strictly correct identified mentions: 8
+Partially correct identified mentions: 0
+No identified: 10
+Invented: 13
+
+====== TOTALS =======
+Identification of Mentions: Recall: (8 / 18) 44.44%	Precision: (8 / 21) 38.09%	F1: 41.02%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (0 / 14) 0%	Precision: (0 / 14) 0%	F1: 0%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (21 / 139) 15.1%	Precision: (21 / 196) 10.71%	F1: 12.53%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.0755395683453237 / 1) 7.55%	Precision: (0.0535714285714286 / 1) 5.35%	F1: 6.26%
+--------------------------------------------------------------------------

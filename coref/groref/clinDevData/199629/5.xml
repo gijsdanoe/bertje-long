@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(haak_open)" id="1" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="6" end="7" frame="punct(haak_sluit)" id="2" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="conj" end="24" id="3" rel="--">
+      <node begin="0" cat="smain" end="11" id="4" rel="cnj">
+        <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="5" index="1" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+        <node begin="1" end="2" frame="verb(hebben,past(sg),sbar)" id="6" infl="sg" lcat="smain" lemma="bevestigen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="bevestig" sc="sbar" sense="bevestig" tense="past" word="bevestigde" wvorm="pv"/>
+        <node begin="2" cat="cp" end="11" id="7" rel="vc">
+          <node begin="2" conjtype="onder" end="3" frame="complementizer(dat)" id="8" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+          <node begin="3" cat="ssub" end="11" id="9" rel="body">
+            <node begin="3" cat="np" end="6" id="10" index="2" rel="su">
+              <node begin="3" end="4" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" id="11" lcat="np" lemma="Papermaster" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Papermaster" sense="Papermaster" word="Papermaster"/>
+              <node begin="5" end="6" frame="number(hoofd(pl_num))" id="12" infl="pl_num" lcat="np" lemma="49" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" rnum="pl" root="49" sense="49" special="hoofd" word="49"/>
+            </node>
+            <node begin="9" end="10" frame="verb(hebben,past(sg),aux_psp_hebben)" id="13" infl="sg" lcat="ssub" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="past" word="had" wvorm="pv"/>
+            <node begin="3" cat="ppart" end="11" id="14" rel="vc">
+              <node begin="3" end="6" id="15" index="2" rel="su"/>
+              <node begin="7" cat="np" end="9" id="16" rel="obj1">
+                <node begin="7" end="8" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="17" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="8" end="9" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="18" lcat="np" lemma="bedrijf" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bedrijf" sense="bedrijf" word="bedrijf"/>
+              </node>
+              <node begin="10" buiging="zonder" end="11" frame="verb(hebben,psp,transitive)" id="19" infl="psp" lcat="ppart" lemma="verlaten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verlaat" sc="transitive" sense="verlaat" word="verlaten" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" conjtype="neven" end="12" frame="conj(maar)" id="20" lcat="vg" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" sense="maar" word="maar"/>
+      <node begin="0" cat="smain" end="24" id="21" rel="cnj">
+        <node begin="0" end="1" id="22" index="1" rel="su"/>
+        <node begin="12" end="13" frame="verb(hebben,past(sg),modifier(aux(inf)))" id="23" infl="sg" lcat="smain" lemma="willen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="past" word="wilde" wvorm="pv"/>
+        <node begin="0" cat="inf" end="24" id="24" rel="vc">
+          <node begin="0" end="1" id="25" index="1" rel="su"/>
+          <node begin="13" end="14" frame="adverb" id="26" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+          <node begin="14" buiging="zonder" end="15" frame="verb(hebben,inf,tr_sbar)" id="27" infl="inf" lcat="inf" lemma="zeggen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" word="zeggen" wvorm="inf"/>
+          <node begin="15" cat="cp" end="24" id="28" rel="vc">
+            <node begin="15" conjtype="onder" end="16" frame="complementizer(of)" id="29" lcat="cp" lemma="of" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="of" sc="of" sense="of" word="of"/>
+            <node begin="16" cat="conj" end="24" id="30" rel="body">
+              <node begin="16" cat="ssub" end="21" id="31" rel="cnj">
+                <node begin="16" case="nom" def="def" end="17" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" id="32" index="3" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+                <node begin="17" cat="pp" end="20" id="33" rel="ld">
+                  <node begin="17" end="18" frame="preposition(uit,[vandaan])" id="34" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+                  <node begin="18" cat="np" end="20" id="35" rel="obj1">
+                    <node aform="base" begin="18" buiging="zonder" end="19" frame="adjective(both(nonadv))" graad="basis" id="36" infl="both" lcat="ap" lemma="eigen" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="eigen" sense="eigen" vform="adj" word="eigen"/>
+                    <node begin="19" end="20" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="37" lcat="np" lemma="beweging" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="beweging" sense="beweging" word="beweging"/>
+                  </node>
+                </node>
+                <node begin="20" end="21" frame="verb(zijn,past(sg),ninv(ld_pp,part_ld_pp(weg)))" id="38" infl="sg" lcat="ssub" lemma="weg_gaan" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ga_weg" sc="part_ld_pp(weg)" sense="ga_weg" tense="past" word="wegging" wvorm="pv"/>
+              </node>
+              <node begin="21" conjtype="neven" end="22" frame="conj(of)" id="39" lcat="vg" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" sense="of" word="of"/>
+              <node begin="16" cat="ssub" end="24" id="40" rel="cnj">
+                <node begin="16" end="17" id="41" index="3" rel="su"/>
+                <node begin="22" end="23" frame="verb(unacc,past(sg),passive)" id="42" infl="sg" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="passive" sense="ben" tense="past" word="was" wvorm="pv"/>
+                <node begin="16" cat="ppart" end="24" id="43" rel="vc">
+                  <node begin="16" end="17" id="44" index="3" rel="obj1"/>
+                  <node begin="23" buiging="zonder" end="24" frame="verb(hebben,psp,transitive)" id="45" infl="psp" lcat="ppart" lemma="ontslaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ontsla" sc="transitive" sense="ontsla" word="ontslagen" wvorm="vd"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" frame="punct(punt)" id="46" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Apple bevestigde dat Papermaster ( 49 ) het bedrijf had verlaten maar wilde niet zeggen of hij uit eigen beweging wegging of was ontslagen .</sentence>
+  <comments>
+    <comment>Q#5|Apple bevestigde dat Papermaster ( 49 ) het bedrijf had verlaten maar wilde niet zeggen of hij uit eigen beweging wegging of was ontslagen .|1|1|-11.402039796800004</comment>
+  </comments>
+</alpino_ds>

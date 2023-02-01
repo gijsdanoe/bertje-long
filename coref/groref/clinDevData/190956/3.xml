@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(haak_open)" id="1" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="8" end="9" frame="punct(haak_sluit)" id="2" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="du" end="27" id="3" rel="--">
+      <node begin="0" cat="smain" end="25" id="4" rel="dp">
+        <node begin="0" cat="pp" end="8" id="5" rel="mod">
+          <node begin="0" end="1" frame="preposition(tijdens,[])" id="6" lcat="pp" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" sense="tijdens" vztype="init" word="Tijdens"/>
+          <node begin="1" cat="np" end="8" id="7" rel="obj1">
+            <node begin="1" end="2" frame="determiner(de)" id="8" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="2" cat="mwu" end="6" id="9" mwu_root="Apple Worldwide Developers Conference" mwu_sense="Apple Worldwide Developers Conference" rel="hd">
+              <node begin="2" end="3" frame="proper_name(both)" id="10" lcat="np" lemma="Apple" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Apple" sense="Apple" spectype="deeleigen" word="Apple"/>
+              <node begin="3" end="4" frame="proper_name(both)" id="11" lcat="np" lemma="Worldwide" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Worldwide" sense="Worldwide" spectype="deeleigen" word="Worldwide"/>
+              <node begin="4" end="5" frame="proper_name(both)" id="12" lcat="np" lemma="Developers" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Developers" sense="Developers" spectype="deeleigen" word="Developers"/>
+              <node begin="5" end="6" frame="proper_name(both)" id="13" lcat="np" lemma="Conference" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Conference" sense="Conference" spectype="deeleigen" word="Conference"/>
+            </node>
+            <node begin="7" end="8" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" id="14" lcat="np" lemma="WWDC" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="WWDC" sense="WWDC" word="WWDC"/>
+          </node>
+        </node>
+        <node begin="9" end="10" frame="verb(hebben,past(sg),transitive)" id="15" infl="sg" lcat="smain" lemma="onthullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="onthul" sc="transitive" sense="onthul" stype="declarative" tense="past" word="onthulde" wvorm="pv"/>
+        <node begin="10" cat="np" end="13" id="16" rel="su">
+          <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="17" lcat="np" lemma="CEO" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="CEO" sense="CEO" word="CEO"/>
+          <node begin="11" cat="mwu" end="13" id="18" mwu_root="Steve Jobs" mwu_sense="Steve Jobs" rel="app">
+            <node begin="11" end="12" frame="proper_name(sg,'PER')" id="19" lcat="np" lemma="Steve" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Steve" sense="Steve" spectype="deeleigen" word="Steve"/>
+            <node begin="12" end="13" frame="proper_name(sg,'PER')" id="20" lcat="np" lemma="Jobs" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Jobs" sense="Jobs" spectype="deeleigen" word="Jobs"/>
+          </node>
+        </node>
+        <node begin="13" end="14" frame="tmp_adverb" id="21" lcat="advp" lemma="gisteren" pos="adv" postag="BW()" pt="bw" rel="mod" root="gisteren" sense="gisteren" special="tmp" word="gisteren"/>
+        <node begin="14" cat="conj" end="25" id="22" rel="obj1">
+          <node begin="14" cat="np" end="17" id="23" rel="cnj">
+            <node begin="14" end="15" frame="determiner(de)" id="24" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="15" cat="mwu" end="17" id="25" mwu_root="iPhone 4" mwu_sense="iPhone 4" rel="hd">
+              <node begin="15" end="16" frame="proper_name(both)" id="26" lcat="np" lemma="iPhone" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="iPhone" sense="iPhone" spectype="deeleigen" word="iPhone"/>
+              <node begin="16" end="17" frame="proper_name(both)" id="27" lcat="np" lemma="4" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="4" sense="4" spectype="deeleigen" word="4"/>
+            </node>
+          </node>
+          <node begin="17" conjtype="neven" end="18" frame="conj(en)" id="28" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="18" cat="np" end="25" id="29" rel="cnj">
+            <node begin="18" end="19" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" id="30" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node aform="base" begin="19" buiging="met-e" end="20" frame="adjective(e)" graad="basis" id="31" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+            <node begin="20" cat="mwu" end="22" id="32" mwu_root="iOS 4" mwu_sense="iOS 4" rel="mod">
+              <node begin="20" end="21" frame="proper_name(both)" id="33" lcat="np" lemma="iOS" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="iOS" sense="iOS" spectype="deeleigen" word="iOS"/>
+              <node begin="21" end="22" frame="proper_name(both)" id="34" lcat="np" lemma="4" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="4" sense="4" spectype="deeleigen" word="4"/>
+            </node>
+            <node begin="22" end="23" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="35" lcat="np" lemma="besturing_systeem" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="besturing_systeem" sense="besturing_systeem" word="besturingssysteem"/>
+            <node begin="23" cat="pp" end="25" id="36" rel="mod">
+              <node begin="23" end="24" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="37" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+              <node begin="24" end="25" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="38" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="25" cat="np" end="27" id="39" rel="dp">
+        <node aform="base" begin="25" buiging="met-e" end="26" frame="adjective(e)" graad="basis" id="40" infl="e" lcat="ap" lemma="mobiel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="mobiel" sense="mobiel" vform="adj" word="mobiele"/>
+        <node begin="26" end="27" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="41" lcat="np" lemma="apparaat" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="apparaat" sense="apparaat" word="apparaten"/>
+      </node>
+    </node>
+    <node begin="27" end="28" frame="punct(punt)" id="42" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Tijdens de Apple Worldwide Developers Conference ( WWDC ) onthulde CEO Steve Jobs gisteren de iPhone 4 en het nieuwe iOS 4 besturingssysteem voor Apple mobiele apparaten .</sentence>
+  <comments>
+    <comment>Q#3|Tijdens de Apple Worldwide Developers Conference ( WWDC ) onthulde CEO Steve Jobs gisteren de iPhone 4 en het nieuwe iOS 4 besturingssysteem voor Apple mobiele apparaten .|1|2|3.309543222219994</comment>
+  </comments>
+</alpino_ds>

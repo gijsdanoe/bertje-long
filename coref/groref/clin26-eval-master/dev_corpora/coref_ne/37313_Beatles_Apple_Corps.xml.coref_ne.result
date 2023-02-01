@@ -1,0 +1,50 @@
+version: 8.01 /project/rvdgoot/groref/clin26-eval-master/coref_scorer/coref-scorer-v8.01/lib/CorScorer.pm
+====> (37313_Beatles_Apple_Corps.xml.coref_ne);:
+File (37313_Beatles_Apple_Corps.xml.coref_ne);:
+Entity 0: (0,0) (14,15)
+Entity 1: (0,3) (11,15) (43,45) (132,134)
+Entity 2: (8,9) (25,30) (40,41) (53,54) (58,60) (67,68) (118,119)
+Entity 3: (20,20) (101,101)
+Entity 4: (48,51) (48,54) (127,130)
+Entity 5: (71,77)
+Entity 6: (79,80)
+Entity 7: (82,83)
+Entity 8: (94,101)
+Entity 9: (104,105) (103,105) (109,109)
+Entity 10: (110,113)
+====> (37313_Beatles_Apple_Corps.xml.coref_ne);:
+File (37313_Beatles_Apple_Corps.xml.coref_ne);:
+Entity 0: (0,0) (14,15)
+Entity 1: (2,3) (11,12) (44,45)
+Entity 2: (5,5) (21,22)
+Entity 3: (8,9) (28,30) (53,54) (67,68) (66,68) (118,119)
+Entity 4: (11,15) (74,74)
+Entity 5: (20,20) (101,101)
+Entity 6: (36,41)
+Entity 7: (40,41)
+Entity 8: (49,51) (48,51) (128,130) (127,130)
+Entity 9: (79,83)
+Entity 10: (82,83)
+Entity 11: (88,89)
+Entity 12: (98,101)
+Entity 13: (104,105) (109,109) (116,116)
+Entity 14: (125,130)
+:
+Total key mentions: 26
+Total response mentions: 31
+Strictly correct identified mentions: 15
+Partially correct identified mentions: 0
+No identified: 11
+Invented: 16
+
+====== TOTALS =======
+Identification of Mentions: Recall: (15 / 26) 57.69%	Precision: (15 / 31) 48.38%	F1: 52.63%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (10 / 35) 28.57%	Precision: (10 / 31) 32.25%	F1: 30.3%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (91 / 290) 31.37%	Precision: (91 / 434) 20.96%	F1: 25.13%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.299753694581281 / 1) 29.97%	Precision: (0.266129032258065 / 1) 26.61%	F1: 27.72%
+--------------------------------------------------------------------------

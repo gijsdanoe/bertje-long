@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="conj" end="5" id="2" rel="su">
+        <node begin="0" cat="mwu" end="2" id="3" mwu_root="Apple Inc." mwu_sense="Apple Inc." rel="cnj">
+          <node begin="0" end="1" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="Apple" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Apple" sense="Apple" spectype="deeleigen" word="Apple"/>
+          <node begin="1" end="2" frame="proper_name(sg,'PER')" id="5" lcat="np" lemma="Inc." neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Inc." sense="Inc." spectype="deeleigen" word="Inc."/>
+        </node>
+        <node begin="2" conjtype="neven" end="3" frame="conj(en)" id="6" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="3" cat="mwu" end="5" id="7" mwu_root="Apple Corps" mwu_sense="Apple Corps" rel="cnj">
+          <node begin="3" end="4" frame="proper_name(both,'ORG')" id="8" lcat="np" lemma="Apple" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Apple" sense="Apple" spectype="deeleigen" word="Apple"/>
+          <node begin="4" end="5" frame="proper_name(both,'ORG')" id="9" lcat="np" lemma="Corps" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Corps" sense="Corps" spectype="deeleigen" word="Corps"/>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(hebben,pl,part_transitive(op))" id="10" infl="pl" lcat="smain" lemma="op_lossen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="los_op" sc="part_transitive(op)" sense="los_op" stype="declarative" tense="present" word="lossen" wvorm="pv"/>
+      <node begin="6" end="7" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="11" lcat="np" lemma="handelsmerk_conflict" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="handelsmerk_conflict" sense="handelsmerk_conflict" word="handelsmerkconflict"/>
+      <node begin="7" end="8" frame="particle(op)" id="12" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+    </node>
+  </node>
+  <sentence>Apple Inc. en Apple Corps lossen handelsmerkconflict op</sentence>
+  <comments>
+    <comment>Q#1|Apple Inc. en Apple Corps lossen handelsmerkconflict op|1|1|-3.2435329933400006</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="2" lcat="np" lemma="Apple" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Apple" sense="Apple" word="Apple"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,transitive)" id="3" infl="sg3" lcat="smain" lemma="onthullen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="onthul" sc="transitive" sense="onthul" stype="declarative" tense="present" word="onthult" wvorm="pv"/>
+      <node begin="2" cat="conj" end="7" id="4" rel="obj1">
+        <node begin="2" cat="mwu" end="4" id="5" mwu_root="iPhone 4" mwu_sense="iPhone 4" rel="cnj">
+          <node begin="2" end="3" frame="proper_name(both)" id="6" lcat="np" lemma="iPhone" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="iPhone" sense="iPhone" spectype="deeleigen" word="iPhone"/>
+          <node begin="3" end="4" frame="proper_name(both)" id="7" lcat="np" lemma="4" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="4" sense="4" spectype="deeleigen" word="4"/>
+        </node>
+        <node begin="4" conjtype="neven" end="5" frame="conj(en)" id="8" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="5" cat="mwu" end="7" id="9" mwu_root="iOS 4" mwu_sense="iOS 4" rel="cnj">
+          <node begin="5" end="6" frame="proper_name(both,'ORG')" id="10" lcat="np" lemma="iOS" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="iOS" sense="iOS" spectype="deeleigen" word="iOS"/>
+          <node begin="6" end="7" frame="proper_name(both,'ORG')" id="11" lcat="np" lemma="4" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="4" sense="4" spectype="deeleigen" word="4"/>
+        </node>
+      </node>
+      <node begin="7" cat="pp" end="12" id="12" rel="mod">
+        <node begin="7" end="8" frame="preposition(tijdens,[])" id="13" lcat="pp" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" sense="tijdens" vztype="init" word="tijdens"/>
+        <node begin="8" cat="mwu" end="12" id="14" mwu_root="Worldwide Developers Conference 2010" mwu_sense="Worldwide Developers Conference 2010" rel="obj1">
+          <node begin="8" end="9" frame="proper_name(both)" id="15" lcat="np" lemma="Worldwide" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Worldwide" sense="Worldwide" spectype="deeleigen" word="Worldwide"/>
+          <node begin="9" end="10" frame="proper_name(both)" id="16" lcat="np" lemma="Developers" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Developers" sense="Developers" spectype="deeleigen" word="Developers"/>
+          <node begin="10" end="11" frame="proper_name(both)" id="17" lcat="np" lemma="Conference" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Conference" sense="Conference" spectype="deeleigen" word="Conference"/>
+          <node begin="11" end="12" frame="proper_name(both)" id="18" lcat="np" lemma="2010" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="2010" sense="2010" spectype="deeleigen" word="2010"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Apple onthult iPhone 4 en iOS 4 tijdens Worldwide Developers Conference 2010</sentence>
+  <comments>
+    <comment>Q#1|Apple onthult iPhone 4 en iOS 4 tijdens Worldwide Developers Conference 2010|1|1|0.3986987046800009</comment>
+  </comments>
+</alpino_ds>

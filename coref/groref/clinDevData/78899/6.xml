@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="conj" end="16" id="1" rel="--">
+      <node begin="0" cat="smain" end="8" id="2" rel="cnj">
+        <node begin="0" cat="np" end="3" id="3" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node begin="1" cat="mwu" end="3" id="5" mwu_root="iPod nano" mwu_sense="iPod nano" rel="hd">
+            <node begin="1" end="2" frame="proper_name(both)" id="6" lcat="np" lemma="iPod" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="iPod" sense="iPod" spectype="deeleigen" word="iPod"/>
+            <node begin="2" end="3" frame="proper_name(both)" id="7" lcat="np" lemma="nano" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="nano" sense="nano" spectype="deeleigen" word="nano"/>
+          </node>
+        </node>
+        <node begin="3" end="4" frame="verb(unacc,sg_heeft,copula)" id="8" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="is" wvorm="pv"/>
+        <node begin="4" end="5" frame="tmp_adverb" id="9" lcat="advp" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" sense="nu" special="tmp" word="nu"/>
+        <node begin="5" cat="conj" end="8" id="10" rel="predc">
+          <node aform="compar" begin="5" buiging="zonder" end="6" frame="adjective(er(adv))" graad="comp" id="11" infl="no_e" lcat="ap" lemma="klein" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="cnj" root="klein" sense="klein" vform="adj" word="kleiner"/>
+          <node begin="6" conjtype="neven" end="7" frame="conj(en)" id="12" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="7" end="8" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="13" lcat="np" lemma="vierkanter" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="vierkanter" sense="vierkanter" word="vierkanter"/>
+        </node>
+      </node>
+      <node begin="8" conjtype="neven" end="9" frame="conj(en)" id="14" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="16" id="15" rel="cnj">
+        <node begin="0" end="3" id="16" index="1" rel="su"/>
+        <node begin="9" end="10" frame="verb('hebben/zijn',modal_not_u,aux(inf))" id="17" infl="modal_not_u" lcat="smain" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present" word="kan" wvorm="pv"/>
+        <node begin="0" cat="inf" end="16" id="18" rel="vc">
+          <node begin="0" end="3" id="19" index="1" rel="su"/>
+          <node begin="10" cat="mwu" end="13" id="20" mwu_root="voor het eerst" mwu_sense="voor het eerst" rel="mod">
+            <node aform="base" begin="10" end="11" frame="adjective(pred(adv))" id="21" infl="pred" lcat="ap" lemma="voor" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="voor" sense="voor" vform="adj" vztype="init" word="voor"/>
+            <node aform="base" begin="11" end="12" frame="adjective(pred(adv))" id="22" infl="pred" lcat="ap" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="adj" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sense="het" vform="adj" word="het"/>
+            <node aform="base" begin="12" end="13" frame="adjective(pred(adv))" getal-n="zonder-n" id="23" infl="pred" lcat="ap" lemma="eerst" numtype="rang" pos="adj" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="mwp" root="eerst" sense="eerst" vform="adj" word="eerst"/>
+          </node>
+          <node begin="13" end="14" frame="sentence_adverb" id="24" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sense="ook" special="sentence" word="ook"/>
+          <node begin="14" end="15" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="25" lcat="np" lemma="video_beeld" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="video_beeld" sense="video_beeld" word="videobeelden"/>
+          <node begin="15" buiging="zonder" end="16" frame="verb(hebben,inf,ninv(transitive,part_transitive(af)))" id="26" infl="inf" lcat="inf" lemma="af_spelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="speel_af" sc="part_transitive(af)" sense="speel_af" word="afspelen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" frame="punct(punt)" id="27" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>De iPod nano is nu kleiner en vierkanter en kan voor het eerst ook videobeelden afspelen .</sentence>
+  <comments>
+    <comment>Q#6|De iPod nano is nu kleiner en vierkanter en kan voor het eerst ook videobeelden afspelen .|1|1|3.4726937551200012</comment>
+  </comments>
+</alpino_ds>

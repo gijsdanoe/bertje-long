@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(komma)" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="5" end="6" frame="punct(komma)" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="15" id="3" rel="--">
+      <node begin="0" cat="np" end="9" id="4" rel="su">
+        <node begin="0" cat="mwu" end="2" id="5" mwu_root="Nedim Acar" mwu_sense="Nedim Acar" rel="hd">
+          <node begin="0" end="1" frame="proper_name(sg,'PER')" id="6" lcat="np" lemma="Nedim" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Nedim" sense="Nedim" spectype="deeleigen" word="Nedim"/>
+          <node begin="1" end="2" frame="proper_name(sg,'PER')" id="7" lcat="np" lemma="Acar" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Acar" sense="Acar" spectype="deeleigen" word="Acar"/>
+        </node>
+        <node begin="3" cat="np" end="9" id="8" rel="app">
+          <node begin="3" end="4" frame="determiner(een)" id="9" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" id="10" infl="e" lcat="ap" lemma="zestig_jarig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="zestig_jarig" sense="zestig_jarig" vform="adj" word="zestigjarige"/>
+          <node begin="6" cat="ppart" end="8" id="11" rel="mod">
+            <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(no_e(adv))" graad="basis" id="12" infl="no_e" lcat="ap" lemma="sterk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="sterk" sense="sterk" vform="adj" word="sterk"/>
+            <node aform="base" begin="7" buiging="met-e" end="8" frame="adjective(ge_e)" id="13" infl="e" lcat="ppart" lemma="gerimpeld" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="gerimpeld" sense="gerimpeld" vform="psp" word="gerimpelde" wvorm="vd"/>
+          </node>
+          <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="14" lcat="np" lemma="akker_bouwer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="akker_bouwer" sense="akker_bouwer" word="akkerbouwer"/>
+        </node>
+      </node>
+      <node begin="9" end="10" frame="verb(hebben,sg_heeft,transitive_ndev)" id="15" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="transitive_ndev" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="10" cat="np" end="15" id="16" rel="obj1">
+        <node begin="10" buiging="zonder" end="11" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" id="17" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="geen"/>
+        <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="18" lcat="np" lemma="boodschap" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="boodschap" sense="boodschap" word="boodschap"/>
+        <node begin="12" cat="pp" end="15" id="19" rel="mod">
+          <node begin="12" end="13" frame="preposition(aan,[vooraf])" id="20" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+          <node begin="13" cat="np" end="15" id="21" rel="obj1">
+            <node begin="13" end="14" frame="determiner(de)" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="23" lcat="np" lemma="statistiek" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="statistiek" sense="statistiek" word="statistieken"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" id="24" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Nedim Acar , een zestigjarige , sterk gerimpelde akkerbouwer heeft geen boodschap aan de statistieken .</sentence>
+  <comments>
+    <comment>Q#15|Nedim Acar , een zestigjarige , sterk gerimpelde akkerbouwer heeft geen boodschap aan de statistieken .|1|1|1.567268064859997</comment>
+  </comments>
+</alpino_ds>

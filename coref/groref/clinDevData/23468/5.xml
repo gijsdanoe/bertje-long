@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(dubb_punt)" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="8" end="9" frame="punct(punt)" id="2" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+    <node begin="9" end="10" frame="punct(hellip)" id="3" lcat="--" lemma=".." pos="punct" postag="LET()" pt="let" rel="--" root=".." sense=".." special="hellip" word=".."/>
+    <node begin="10" end="11" frame="punct(aanhaal_both)" id="4" lcat="--" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="11" end="12" frame="punct(aanhaal_both)" id="5" lcat="--" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="12" end="13" frame="punct(komma)" id="6" lcat="--" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="19" id="7" rel="--">
+      <node begin="0" cat="smain" end="8" id="8" rel="dp">
+        <node begin="0" cat="pp" end="3" id="9" rel="ld">
+          <node begin="0" end="1" frame="preposition(op,[af,na])" id="10" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="Op"/>
+          <node begin="1" cat="np" end="3" id="11" rel="obj1">
+            <node begin="1" end="2" frame="determiner(de)" id="12" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="13" lcat="np" lemma="uitnodiging" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="uitnodiging" sense="uitnodiging" word="uitnodiging"/>
+          </node>
+        </node>
+        <node begin="3" end="4" frame="verb(hebben,sg3,so_np_ld_pp)" id="14" infl="sg3" lcat="smain" lemma="staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta" sc="so_np_ld_pp" sense="sta" stype="declarative" tense="present" word="staat" wvorm="pv"/>
+        <node begin="5" end="6" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" id="15" lcat="np" lemma="``Nog" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="``Nog" sense="``Nog" word="``Nog"/>
+        <node begin="6" cat="np" end="8" id="16" rel="obj2">
+          <node begin="6" end="7" frame="number(hoofd(sg_num))" id="17" infl="sg_num" lcat="detp" lemma="één" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="één" sense="één" special="hoofd" word="één"/>
+          <node begin="7" end="8" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" id="18" lcat="np" lemma="ding" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="ding" sense="ding" word="ding"/>
+        </node>
+      </node>
+      <node begin="13" cat="np" end="19" id="19" rel="dp">
+        <node begin="13" end="14" frame="determiner(de)" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node aform="base" begin="14" buiging="met-e" end="15" frame="adjective(e)" graad="basis" id="21" infl="e" lcat="ap" lemma="plagerig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="plagerig" sense="plagerig" vform="adj" word="plagerige"/>
+        <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="22" lcat="np" lemma="uitdrukking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="uitdrukking" sense="uitdrukking" word="uitdrukking"/>
+        <node begin="16" cat="pp" end="19" id="23" rel="mod">
+          <node begin="16" end="17" frame="preposition(van,[af,uit,vandaan,[af,aan]])" id="24" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="17" cat="mwu" end="19" id="25" mwu_root="Steve Jobs" mwu_sense="Steve Jobs" rel="obj1">
+            <node begin="17" end="18" frame="proper_name(sg,'PER')" id="26" lcat="np" lemma="Steve" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Steve" sense="Steve" spectype="deeleigen" word="Steve"/>
+            <node begin="18" end="19" frame="proper_name(sg,'PER')" id="27" lcat="np" lemma="Jobs" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Jobs" sense="Jobs" spectype="deeleigen" word="Jobs"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" id="28" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence>Op de uitnodiging staat : ``Nog één ding . .. &apos; &apos; , de plagerige uitdrukking van Steve Jobs .</sentence>
+  <comments>
+    <comment>Q#5|Op de uitnodiging staat : ``Nog één ding . .. &apos; &apos; , de plagerige uitdrukking van Steve Jobs .|1|3|18.36792184412001</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="42" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(ligg_streep)" id="1" lcat="punct" lemma="--" pos="punct" postag="LET()" pt="let" rel="--" root="--" sense="--" special="ligg_streep" word="--"/>
+    <node begin="14" end="15" frame="punct(ligg_streep)" id="2" lcat="punct" lemma="--" pos="punct" postag="LET()" pt="let" rel="--" root="--" sense="--" special="ligg_streep" word="--"/>
+    <node begin="26" end="27" frame="punct(haak_open)" id="3" lcat="--" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="27" end="28" frame="preposition(tot,[toe,[aan,toe]])" id="4" lcat="--" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="--" root="tot" sense="tot" vztype="init" word="tot"/>
+    <node begin="0" cat="du" end="41" id="5" rel="--">
+      <node begin="0" cat="smain" end="26" id="6" rel="dp">
+        <node begin="0" cat="conj" end="14" id="7" rel="su">
+          <node begin="0" cat="np" end="2" id="8" rel="cnj">
+            <node begin="0" end="1" frame="determiner(de)" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+            <node begin="1" end="2" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="iMac" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="iMac" sense="iMac" word="iMac"/>
+          </node>
+          <node begin="2" conjtype="neven" end="3" frame="conj(en)" id="11" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="3" cat="np" end="14" id="12" rel="cnj">
+            <node begin="3" end="4" frame="determiner(de)" id="13" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" id="14" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+            <node begin="5" cat="mwu" end="7" id="15" mwu_root="MacBook Pro" mwu_sense="MacBook Pro" rel="hd">
+              <node begin="5" end="6" frame="proper_name(sg,'PER')" id="16" lcat="np" lemma="MacBook" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="MacBook" sense="MacBook" spectype="deeleigen" word="MacBook"/>
+              <node begin="6" end="7" frame="proper_name(sg,'PER')" id="17" lcat="np" lemma="Pro" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Pro" sense="Pro" spectype="deeleigen" word="Pro"/>
+            </node>
+            <node begin="8" cat="np" end="14" id="18" rel="mod">
+              <node begin="8" end="9" frame="determiner(een)" id="19" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="20" lcat="np" lemma="note-book_computer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="note-book_computer" sense="note-book_computer" word="notebookcomputer"/>
+              <node begin="10" cat="rel" end="14" id="21" rel="mod">
+                <node begin="10" case="no_obl" end="11" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" id="22" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+                <node begin="10" cat="ssub" end="14" id="23" rel="body">
+                  <node begin="10" end="11" id="24" index="1" rel="su"/>
+                  <node begin="11" cat="np" end="13" id="25" rel="obj1">
+                    <node begin="11" end="12" frame="determiner(de)" id="26" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                    <node begin="12" end="13" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" id="27" lcat="np" lemma="PowerBook" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="PowerBook" sense="PowerBook" word="PowerBook"/>
+                  </node>
+                  <node begin="13" end="14" frame="verb(hebben,sg3,transitive)" id="28" infl="sg3" lcat="ssub" lemma="vervangen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vervang" sc="transitive" sense="vervang" tense="present" word="vervangt" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="15" end="16" frame="verb(unacc,pl,copula)" id="29" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+        <node begin="16" cat="pp" end="18" id="30" rel="mod">
+          <node begin="16" end="17" frame="preposition(volgens,[])" id="31" lcat="pp" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" sense="volgens" vztype="init" word="volgens"/>
+          <node begin="17" end="18" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="32" lcat="np" lemma="gerucht" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="gerucht" sense="gerucht" word="geruchten"/>
+        </node>
+        <node begin="18" cat="pp" end="21" id="33" rel="mod">
+          <node begin="18" end="19" frame="preposition(tot,[toe,[aan,toe]])" id="34" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+          <node begin="19" cat="np" end="21" id="35" rel="obj1">
+            <node begin="19" end="20" frame="number(hoofd(pl_num))" id="36" infl="pl_num" lcat="detp" lemma="vier" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vier" sense="vier" special="hoofd" word="vier"/>
+            <node begin="20" end="21" frame="tmp_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" id="37" lcat="np" lemma="maal" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="maal" sense="maal" special="tmp" word="maal"/>
+          </node>
+        </node>
+        <node begin="21" cat="ap" end="26" id="38" rel="predc">
+          <node aform="base" begin="22" buiging="zonder" end="23" frame="adjective(no_e(adv))" graad="basis" id="39" infl="no_e" lcat="ap" lemma="snel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="snel" sense="snel" vform="adj" word="snel"/>
+          <node begin="21" cat="advp" end="26" id="40" rel="mod">
+            <node begin="21" comparative="als" end="22" frame="comp_adverb(als)" id="41" lcat="advp" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="hd" root="zo" sense="zo" special="comp" word="zo"/>
+            <node begin="23" cat="cp" end="26" id="42" rel="obcomp">
+              <node begin="23" conjtype="onder" end="24" frame="comparative(als)" id="43" lcat="comparative" lemma="als" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="als" sense="als" word="als"/>
+              <node begin="24" cat="np" end="26" id="44" rel="body">
+                <node begin="24" buiging="zonder" end="25" frame="determiner(pron)" getal="mv" id="45" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+                <node begin="25" end="26" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="46" lcat="np" lemma="voorganger" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="voorganger" sense="voorganger" word="voorgangers"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="28" cat="ap" end="41" id="47" rel="dp">
+        <node begin="28" cat="advp" end="31" id="48" rel="mod">
+          <node begin="28" cat="np" end="30" id="49" rel="me">
+            <node begin="28" end="29" frame="number(hoofd(pl_num))" id="50" infl="pl_num" lcat="detp" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" sense="twee" special="hoofd" word="twee"/>
+            <node begin="29" end="30" frame="tmp_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" id="51" lcat="np" lemma="maal" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="maal" sense="maal" special="tmp" word="maal"/>
+          </node>
+          <node begin="30" end="31" frame="me_intensifier" id="52" lcat="advp" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="hd" root="zo" sense="zo" special="me_intensifier" word="zo"/>
+        </node>
+        <node aform="base" begin="31" buiging="zonder" end="32" frame="adjective(no_e(adv))" graad="basis" id="53" infl="no_e" lcat="ap" lemma="snel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="snel" sense="snel" vform="adj" word="snel"/>
+        <node begin="32" cat="conj" end="41" id="54" rel="mod">
+          <node begin="32" cat="pp" end="35" id="55" rel="cnj">
+            <node begin="32" end="33" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="56" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+            <node begin="33" cat="np" end="35" id="57" rel="obj1">
+              <node begin="33" end="34" frame="determiner(de)" id="58" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="34" end="35" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" id="59" lcat="np" lemma="iMac" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="iMac" sense="iMac" word="iMac"/>
+            </node>
+          </node>
+          <node begin="35" conjtype="neven" end="36" frame="conj(en)" id="60" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="36" cat="pp" end="41" id="61" rel="cnj">
+            <node begin="36" cat="np" end="38" id="62" rel="mod">
+              <node begin="36" end="37" frame="number(hoofd(pl_num))" id="63" infl="pl_num" lcat="detp" lemma="vier" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vier" sense="vier" special="hoofd" word="vier"/>
+              <node begin="37" end="38" frame="tmp_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" id="64" lcat="np" lemma="maal" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="maal" sense="maal" special="tmp" word="maal"/>
+            </node>
+            <node begin="38" end="39" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" id="65" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+            <node begin="39" cat="np" end="41" id="66" rel="obj1">
+              <node begin="39" end="40" frame="determiner(de)" id="67" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="40" end="41" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" id="68" lcat="np" lemma="MacBook." naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="MacBook." sense="MacBook." word="MacBook."/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="41" end="42" frame="punct(haak_sluit)" id="69" lcat="--" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+  </node>
+  <sentence>De iMac en de nieuwe MacBook Pro -- een notebookcomputer die de PowerBook vervangt -- zijn volgens geruchten tot vier maal zo snel als hun voorgangers ( tot twee maal zo snel voor de iMac en vier maal voor de MacBook. )</sentence>
+  <comments>
+    <comment>Q#4|De iMac en de nieuwe MacBook Pro -- een notebookcomputer die de PowerBook vervangt -- zijn volgens geruchten tot vier maal zo snel als hun voorgangers ( tot twee maal zo snel voor de iMac en vier maal voor de MacBook. )|1|3|3.7983512238199966</comment>
+  </comments>
+</alpino_ds>
