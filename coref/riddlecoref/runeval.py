@@ -18,7 +18,9 @@ Models available:
 
 Context:
 - sent (per sentence)
+- 128
 - 512
+- 1024
 - 2048
 
 To get quote attribution accuracy for the dev set used in CLINjournal (2019):
