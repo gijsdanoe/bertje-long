@@ -1,5 +1,5 @@
 ## Coreference resolution
-For the full set-up, see: https://github.com/andreasvc/dutchcoref/. The RiddleCoref data is copyrighted
+For the full set-up, see: https://github.com/andreasvc/dutchcoref/. The RiddleCoref data is copyrighted and can not be distributed.
 
 How to run:
 1. First, for each model and context, all three classifiers need to be trained:
