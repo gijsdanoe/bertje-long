@@ -135,10 +135,11 @@ def get_prediction(text, max_length, tokenizer, model):
 def main():
 
     name = sys.argv[1]
+    token_length = sys.argv[2]
 
     tokenizer, model = loadmodel(name)
     
-    max_length = 2048
+    max_length = token_length
 
     X_train, Y_train, X_test, Y_test = train_test()
 
