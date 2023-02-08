@@ -1,7 +1,7 @@
 ## Sentiment analysis
 How to run:
 
-1. Unzip 'data.zip' in '/data'.
+1. Unzip 'data.zip' in '/data'. 'data.py' is a file for splitting into train/test, however this split is already done in the zip file.
 2. Run:
 
   ```
