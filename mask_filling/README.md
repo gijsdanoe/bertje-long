@@ -8,9 +8,9 @@ How to run:
   ```
   This will create 5 files:
   - text_short_bert, the short text with `[MASK]`
-  - text_short_roberta, the short text with ``<mask>``
-  - text_long_bert, the full text with [MASK]
-  - text_short_roberta, the full text with <mask>
+  - text_short_roberta, the short text with `<mask>`
+  - text_long_bert, the full text with `[MASK]`
+  - text_long_roberta, the full text with `<mask>`
   - gold, all the words that are masked
   
 3. Run: 
