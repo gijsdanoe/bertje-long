@@ -7,7 +7,7 @@ How to run:
   python3 mask_text.py
   ```
   This will create 5 files:
-  - text_short_bert, the short text with [MASK]
+  - text_short_bert, the short text with `[MASK]`
   - text_short_roberta, the short text with ``<mask>``
   - text_long_bert, the full text with [MASK]
   - text_short_roberta, the full text with <mask>
